@@ -4,13 +4,22 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2017-08-21T13:53:31+08:00</updated>
+	<updated>2017-08-21T14:12:37+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
 		<email>lorenzo.stamaria@gmail.com</email>
 	</author>
 
+	
+		<entry>
+			<title>Pomodoro Technique</title>
+			<link href="http://enz0s.github.io/blog/2017/08/21/pomodoro"/>
+			<updated>2017-08-21T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2017/08/21/pomodoro</id>
+			<content type="html">&lt;p&gt;I am reliving my habit of Pomodoro technique. I used to apply to my life when my schedule was crazy. Since I have more time for myself, I need to bring this habit back. I will update this post soon with details of how my attempt went.&lt;/p&gt;
+</content>
+		</entry>
 	
 		<entry>
 			<title>Hacking a Data Science Program</title>
@@ -35,31 +44,6 @@
 &lt;p&gt;My dataset came from three sources, namely: IMDB, Amazon, and Yelp. I downloaded  sources from an online repository and combined them into one. I separated the data into two groups, namely:  features and label. Features refer to the comment in term frequency representation; label refers to positive or negative. Furthermore, features and label are divided into two sections: training and testing. Training refers to data used in “teaching” the model; testing refers to data used in “learning” if the model works after teaching it. Hence, I had training features, training label, testing features, and testing label.&lt;/p&gt;
 
 &lt;p&gt;I used scikit-learn to create a model. I imported Naive Bayes from the package and fit the training features and training label using the algorithm. This led to a model named classifier. The classifier is then fed with testing features and testing label. The final step led to my realization that the model’s prediction is not perfect but fascinating to discover.&lt;/p&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>Saved By Gems</title>
-			<link href="http://enz0s.github.io/blog/2016/09/14/hacking-data-science-program"/>
-			<updated>2016-09-14T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2016/09/14/hacking-data-science-program</id>
-			<content type="html">&lt;p&gt;I’ve been Jekyll-ed. Yes, I am.&lt;/p&gt;
-
-&lt;p&gt;I used to be a Wordpress fan until spams and food-like comments bombarded my site.&lt;/p&gt;
-
-&lt;p&gt;One day, when I was cruising on something new to learn, I stumbled upon Jekyll, a static generator. I had no idea what it meant at that time. This prompted me to study it, leading me to realize that this interesting web magic can help me with my current site issue.&lt;/p&gt;
-
-&lt;p&gt;It took me awhile to get used to it. It was not entirely a breeze. I needed to do some steps before I get to see what Jekyll is all about. I updated my Mac, downloaded gems (such a fancy term to use), and run some scripts.&lt;/p&gt;
-
-&lt;p&gt;I was all set. Excited, in fact. I was about to launch “jekyll serve” to see the results. Then, boom. It didn’t work.&lt;/p&gt;
-
-&lt;p&gt;I retraced my steps. I even re-installed all gems. Still, it didn’t work. I searched online any related problem that was causing my failed attempt. I found out that Jekyll had an issue with the latest Mac OS. Argh.&lt;/p&gt;
-
-&lt;p&gt;I re-worked my steps. I downloaded tools to make my web dream a reality. I placed my hope on rbenv, a gem that would ultimately resolve my issue. It did and it was amazing.&lt;/p&gt;
-
-&lt;p&gt;I typed “jekyll serve” and yes, I made it. I was so relieved. Extremely joyous. Finally I made Jekyll work.&lt;/p&gt;
-
-&lt;p&gt;Such an awesome feeling.&lt;/p&gt;
 </content>
 		</entry>
 	
