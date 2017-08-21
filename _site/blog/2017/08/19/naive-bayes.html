@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Naive Bayes</title>
+      <!-- link to main stylesheet -->
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
+    </head>
+    <body>
+      <nav>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/cv">CV</a></li>
+              <li><a href="/blog">Blog</a></li>
+          </ul>
+      </nav>
+      <div class="container">
+      
+      <h1>Naive Bayes</h1>
+<p class="meta"><em>19 Aug 2017</em></p>
+
+<div class="post">
+  <p>Naive Bayes is an ML algorithm that allows you to label the result into classification.</p>
+
+<p>I used Naive Bayes in sentiment analysis. The sentiment analysis example aims toto classify if the comment is  positive or negative.</p>
+
+<p>My dataset came from three sources, namely: IMDB, Amazon, and Yelp. I downloaded  sources from an online repository and combined them into one. I separated the data into two groups, namely:  features and label. Features refer to the comment in term frequency representation; label refers to positive or negative. Furthermore, features and label are divided into two sections: training and testing. Training refers to data used in “teaching” the model; testing refers to data used in “learning” if the model works after teaching it. Hence, I had training features, training label, testing features, and testing label.</p>
+
+<p>I used scikit-learn to create a model. I imported Naive Bayes from the package and fit the training features and training label using the algorithm. This led to a model named classifier. The classifier is then fed with testing features and testing label. The final step led to my realization that the model’s prediction is not perfect but fascinating to discover.</p>
+
+</div>
+      
+      </div><!-- /.container -->
+      <footer>
+          <ul>
+              <li><a href="mailto:lorenzo.stamaria@gmail.com">email</a></li>
+              <li><a href="https://github.com/enz0s">github.com/enz0s</a></li>
+        </ul>
+      </footer>
+    </body>
+  </html>
