@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2017-08-21T14:12:37+08:00</updated>
+	<updated>2017-08-21T16:57:10+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -14,10 +14,82 @@
 	
 		<entry>
 			<title>Pomodoro Technique</title>
-			<link href="http://enz0s.github.io/blog/2017/08/21/pomodoro"/>
+			<link href="http://enz0s.github.io/blog/2017/08/21/pomodoro-technique"/>
 			<updated>2017-08-21T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/08/21/pomodoro</id>
-			<content type="html">&lt;p&gt;I am reliving my habit of Pomodoro technique. I used to apply to my life when my schedule was crazy. Since I have more time for myself, I need to bring this habit back. I will update this post soon with details of how my attempt went.&lt;/p&gt;
+			<id>http://enz0s.github.io//blog/2017/08/21/pomodoro-technique</id>
+			<content type="html">&lt;p&gt;I am reliving my habit of Pomodoro technique. I used to apply it to my life when my work schedule was crazy. Since I’m bringing in more time for myself and self-directing a data science program, I need to bring this habit back.&lt;/p&gt;
+
+&lt;p&gt;My Pomodoro technique will follow this sequence:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Work for 25 minutes (pomodoro = 1)&lt;/li&gt;
+  &lt;li&gt;Break for 5 minutes&lt;/li&gt;
+  &lt;li&gt;If pomodoro &amp;lt; 4, repeat step 1; otherwise, break for 15 minutes&lt;/li&gt;
+  &lt;li&gt;Repeat step 1 (to complete more tasks)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I will update this post soon with details of how my attempt went.&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Markdown Basics</title>
+			<link href="http://enz0s.github.io/blog/2017/08/21/markdown-basics"/>
+			<updated>2017-08-21T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2017/08/21/markdown-basics</id>
+			<content type="html">&lt;p&gt;In addition to hacking my data science program, I need to brush up my Markdown basics. I’ve been coding my site in Markdown instead of HTML. The latter should have outwon me due to familiarity; however, I’ve seen the former’s simplicity as a major advantage.&lt;/p&gt;
+
+&lt;p&gt;I haven’t use all Markdown syntax over the course of this site but I will list the ones that I frequently use. So far, these are:&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* link *&lt;/span&gt;/
+(description)&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* h2 (just like in html; h1 or first level is taken by the blog post title) *&lt;/span&gt;/
+&lt;span class=&quot;gu&quot;&gt;## second-level heading &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* h3 (which is a subheading of h2) *&lt;/span&gt;/
+&lt;span class=&quot;gu&quot;&gt;### third-level heading&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* h4 (which is a subheading of h3) *&lt;/span&gt;/
+&lt;span class=&quot;gu&quot;&gt;#### fourth-level heading&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* unordered bullet *&lt;/span&gt;/
+&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; this item
+&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; another item
+&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; and so on
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* ordered bullet *&lt;/span&gt;/
+&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; first item
+&lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt; second item
+&lt;span class=&quot;p&quot;&gt;3.&lt;/span&gt; and so on
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* syntax highlighting (just like this post) *&lt;/span&gt;/
+&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;code line 1&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;code line 2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.jekyllnow.com/Markdown-Style-Guide/&quot;&gt;Markdown Style Guide&lt;/a&gt; has been a powerful source to me. Plus I get to use the same syntax to add notes and comments in Jupyter notebook. As they say, KISS.&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Kaggle</title>
+			<link href="http://enz0s.github.io/blog/2017/08/21/kaggle-competition"/>
+			<updated>2017-08-21T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2017/08/21/kaggle-competition</id>
+			<content type="html">&lt;p&gt;I’m beginning to enjoy exploring &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt;. There are tons of materials to read and browse. I will update this post when I have explored much about their competition.&lt;/p&gt;
 </content>
 		</entry>
 	
@@ -28,7 +100,12 @@
 			<id>http://enz0s.github.io//blog/2017/08/21/hacking-data-science-program</id>
 			<content type="html">&lt;p&gt;My main goal is to learn data science. Initially my plan was to enrol myself in a data science masters program. However, after watching Tetiana Ivanova’s speech during the PyData London 2016 I realized that maybe I can pursue a similar path by hacking into self-directed learning. Now I am on my quest on how to hack a data science program.&lt;/p&gt;
 
-&lt;p&gt;I will update this as soon I get relevant sources of a personalized data science program.&lt;/p&gt;
+&lt;p&gt;So far I have gathered related links to my quest. These are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@davidventuri/i-dropped-out-of-school-to-create-my-own-data-science-master-s-here-s-my-curriculum-1b400dcee412&quot;&gt;My Data Science Master’s by David Venturi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://datasciencemasters.org/&quot;&gt;The Open Source Data Science Masters by Clare Corthell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
 		</entry>
 	
