@@ -18,12 +18,6 @@ I have ultimately come up with my customized data science program. In a quick gl
 	- Numerical Methods
 	- Fourier Series
 	- Introduction to Information Theory
-	- Number Theory
-	- Geometry
-	- Topology
-	- Introduction to Graph Theory
-	- Theoretical Physics
-
 
 2. Programming
 	- Python (main language)
@@ -60,7 +54,12 @@ I have ultimately come up with my customized data science program. In a quick gl
 14. Mathematical Modeling Techniques
 15. The Divine Proportion
 16. Lucifer's Legacy: The Meaning of Assymetry
-17. Star Wars Canon Series (of course!)
+17. Theoretical Physics
+18. Number Theory
+19. Geometry
+20. Topology
+21. Introduction to Graph Theory
+22. Star Wars Canon Series (of course!)
 
 I used [David Venturi's program](https://medium.com/@davidventuri/i-dropped-out-of-school-to-create-my-own-data-science-master-s-here-s-my-curriculum-1b400dcee412) and [Maastricht University's curriculum](https://www.maastrichtuniversity.nl/education/partner-program-master/master-data-science-decision-making) as references to build mine. Also, I'm beginning to fall in love with Dover books. I like how they capture the essential topics.
 
