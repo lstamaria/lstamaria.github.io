@@ -4,13 +4,69 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2017-08-22T16:40:14+08:00</updated>
+	<updated>2017-08-23T14:19:46+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
 		<email>lorenzo.stamaria@gmail.com</email>
 	</author>
 
+	
+		<entry>
+			<title>Schedule of My Data Science Program</title>
+			<link href="http://enz0s.github.io/blog/2017/08/23/schedule-of-my-data-science-program"/>
+			<updated>2017-08-23T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2017/08/23/schedule-of-my-data-science-program</id>
+			<content type="html">&lt;p&gt;I integrated Pomodoro to my learning approach. I alloted 20 minutes to each subject everyday including weekends. I have 3 major sections in my program: bridge, core, and electives. Bridge covers mathematics and programming. Core are professional subjects. Electives are areas of my interest.&lt;/p&gt;
+
+&lt;h2 id=&quot;bridge-pomodoro-1--2&quot;&gt;Bridge (pomodoro 1 &amp;amp; 2)&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Mathematics
+    &lt;ul&gt;
+      &lt;li&gt;Principles of Statistics&lt;/li&gt;
+      &lt;li&gt;Probability Theory&lt;/li&gt;
+      &lt;li&gt;Linear Algebra&lt;/li&gt;
+      &lt;li&gt;Calculus&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Programming
+    &lt;ul&gt;
+      &lt;li&gt;Python&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;core-pomodoro-3&quot;&gt;Core (pomodoro 3)&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Intro to Data Science&lt;/li&gt;
+  &lt;li&gt;Data Visualization&lt;/li&gt;
+  &lt;li&gt;Machine Learning&lt;/li&gt;
+  &lt;li&gt;Deep Learning&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;electives-pomodoro-4&quot;&gt;Electives (pomodoro 4)&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;scikit-learn&lt;/li&gt;
+  &lt;li&gt;TensorFlow&lt;/li&gt;
+  &lt;li&gt;Raspberry Pi&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Breakdown of time is as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pomodoro 1 = 20 min; break = 5 min&lt;/li&gt;
+  &lt;li&gt;pomodoro 2 = 20 min; break = 5 min&lt;/li&gt;
+  &lt;li&gt;pomodoro 3 = 20 min; break = 5 min&lt;/li&gt;
+  &lt;li&gt;pomodoro 4 = 20 min; long break = 15 min&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Total time is 110 min or (1 hour and 50 minutes).&lt;/p&gt;
+
+&lt;p&gt;One remaining issue that I have yet to resolve. I haven’t covered the scope of my subjects. I intend to settle this as I move along each subject and skip the some topics I have gone through such as Mathematics. However, I don’t want to overlook the importance of this area that’s why I supplemented it with more readings.&lt;/p&gt;
+
+&lt;p&gt;I am giving myself one month (whole September) to test this program. Fingers crossed that it will have a positive outcome. I will update this post for any changes.&lt;/p&gt;
+</content>
+		</entry>
 	
 		<entry>
 			<title>My Data Science Program</title>
