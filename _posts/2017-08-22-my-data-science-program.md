@@ -26,8 +26,8 @@ I have ultimately come up with my customized data science program. In a quick gl
 ## Core
 1. Intro to Data Science
 2. Data Visualization
-2. Machine Learning
-3. Deep Learning
+3. Machine Learning
+4. Deep Learning
 
 ## Electives
 1. Raspberry Pi
