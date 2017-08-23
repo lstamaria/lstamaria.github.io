@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2017-08-23T16:40:32+08:00</updated>
+	<updated>2017-08-23T16:42:45+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -69,10 +69,10 @@
 		</entry>
 	
 		<entry>
-			<title>Schedule of My Data Science Program</title>
-			<link href="http://enz0s.github.io/blog/2017/08/23/miscellaneous-first"/>
+			<title>A Mind For Numbers</title>
+			<link href="http://enz0s.github.io/blog/2017/08/23/a-mind-for-numbers"/>
 			<updated>2017-08-23T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/08/23/miscellaneous-first</id>
+			<id>http://enz0s.github.io//blog/2017/08/23/a-mind-for-numbers</id>
 			<content type="html">&lt;p&gt;I decided to start a miscellaneous reading before I jump into my data science program. It means that I need to finish the material first before I continue with my bridge subjects which are mathematics and programming.&lt;/p&gt;
 
 &lt;p&gt;I am enjoying my time reading &lt;a href=&quot;https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU&quot;&gt;A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)&lt;/a&gt;. I find it entertaining at the same time educational. Few books are of this sort.&lt;/p&gt;

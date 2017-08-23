@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Schedule of My Data Science Program"
+title: "A Mind For Numbers"
 date: 2017-08-23
 ---
 
