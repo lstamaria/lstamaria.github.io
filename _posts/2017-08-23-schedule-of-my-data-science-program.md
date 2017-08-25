@@ -6,7 +6,7 @@ date: 2017-08-23
 
 I integrated Pomodoro to my learning approach. I alloted 20 minutes to each subject everyday including weekends. I have 3 major sections in my program: bridge, core, and electives. Bridge covers mathematics and programming. Core are professional subjects. Electives are areas of my interest.
 
-## Bridge (pomodoro 1 & 2)
+## Bridge
 1. Mathematics
 	- Principles of Statistics
 	- Probability Theory
@@ -15,16 +15,18 @@ I integrated Pomodoro to my learning approach. I alloted 20 minutes to each subj
 2. Programming
 	- Python
 
-## Core (pomodoro 3)
+## Core
 1. Intro to Data Science
 2. Data Visualization
 3. Machine Learning
 4. Deep Learning
 
-## Electives (pomodoro 4)
-1. scikit-learn
-2. TensorFlow
-3. Raspberry Pi
+## Electives
+1. NumPy
+2. pandas
+3. scikit-learn
+4. TensorFlow
+5. Raspberry Pi
 
 Breakdown of time is as follows:
 
