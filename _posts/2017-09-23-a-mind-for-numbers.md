@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Notes on A Mind For Numbers"
-date: 2017-08-24
+title: "A Mind For Numbers"
+date: 2017-09-23
 ---
 
 I decided to start a miscellaneous reading before I jump into my data science program. It means that I need to finish the material first before I continue with my bridge subjects which are mathematics and programming.
