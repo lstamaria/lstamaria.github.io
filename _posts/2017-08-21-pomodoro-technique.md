@@ -3,7 +3,7 @@ layout: post
 title: "Pomodoro Technique"
 date: 2017-08-21
 ---
-I am reliving my habit of Pomodoro technique. I used to apply it to my life when my work schedule was crazy. Since I'm bringing in more time for myself and self-directing a data science program, I need to bring this habit back. 
+I am reliving my habit of Pomodoro technique. I used to apply it to my life when my work schedule was crazy. Since I'm driven to self-directing learning, I need to bring this habit back. 
 
 My Pomodoro technique will follow this sequence:
 1. Work for 25 minutes (pomodoro = 1)
