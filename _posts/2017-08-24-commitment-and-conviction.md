@@ -7,6 +7,7 @@ date: 2017-08-24
 I need to monitor my Pomodoro technique on my data science program and dissertation. Hence, the importance of a checklist.
 
 Log Dates: 
+* 26 Sep 2017
 * 24 Aug 2017
 * 25 Aug 2017
 * 26 Aug 2017
@@ -18,8 +19,8 @@ Log Dates:
 Pomodoro Tasks:
 1. DRRM outline [DS: 25 Aug, DF: 29 Aug 2017]
 2. DRRM readings [DS: 25 Aug, DF: ?]
-3. [Statistics DeMYSTiFieD, 2nd Edition](https://www.amazon.com/Statistics-DeMYSTiFieD-2nd-Stan-Gibilisco/dp/0071751335): [DS: 1 Sep, DF: ?] 
-5. [NumPy](http://www.numpy.org/) [DS: 24 Aug, DF: ?]
+3. [DataCamp](https://www.datacamp.com/) Python [DS: 26 Sep, DF: ?]
+4. [A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)](https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU).  [DS: 23 Sep, DF: ?]
 
 Legend:
 * DS = Date Started

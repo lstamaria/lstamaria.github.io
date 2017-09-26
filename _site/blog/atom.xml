@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2017-09-23T12:12:40+08:00</updated>
+	<updated>2017-09-26T15:54:15+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -14,9 +14,9 @@
 	
 		<entry>
 			<title>A Mind For Numbers</title>
-			<link href="http://enz0s.github.io/blog/2017/09/23/a-mind-for-numbers"/>
+			<link href="http://enz0s.github.io/blog/2017/09/23/datacamp-python"/>
 			<updated>2017-09-23T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/09/23/a-mind-for-numbers</id>
+			<id>http://enz0s.github.io//blog/2017/09/23/datacamp-python</id>
 			<content type="html">&lt;p&gt;I decided to start a miscellaneous reading before I jump into my data science program. It means that I need to finish the material first before I continue with my bridge subjects which are mathematics and programming.&lt;/p&gt;
 
 &lt;p&gt;I am enjoying my time reading &lt;a href=&quot;https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU&quot;&gt;A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)&lt;/a&gt;. I find it entertaining at the same time educational. Few books are of this sort. Below are some points which I find worth remembering.&lt;/p&gt;
@@ -43,6 +43,48 @@
   &lt;li&gt;Highlighting or underlining a text may exhibit illusion of competence.&lt;/li&gt;
 &lt;/ul&gt;
 
+</content>
+		</entry>
+	
+		<entry>
+			<title>A Mind For Numbers</title>
+			<link href="http://enz0s.github.io/blog/2017/09/23/a-mind-for-numbers"/>
+			<updated>2017-09-23T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2017/09/23/a-mind-for-numbers</id>
+			<content type="html">&lt;p&gt;I decided to start a miscellaneous reading before I jump into my data science program. It means that I need to finish the material first before I continue with my bridge subjects which are mathematics and programming.&lt;/p&gt;
+
+&lt;p&gt;I am enjoying my time reading &lt;a href=&quot;https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU&quot;&gt;A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)&lt;/a&gt;. I find it entertaining at the same time educational. Few books are of this sort. Below are some points which I find worth remembering.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;If you don’t like numbers or science, you can still change your mind.&lt;/li&gt;
+  &lt;li&gt;One must know how to shift between focused mode and diffused mode to learn better. Beat Einstellung effect.&lt;/li&gt;
+  &lt;li&gt;Spaced repetition builds from working memory to long-term memory. Find meaning. Strengthen and rehearse. Prune away trivialities. Sleep.&lt;/li&gt;
+  &lt;li&gt;Create conceptual chunks by:
+    &lt;blockquote&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Focus your attention.&lt;/li&gt;
+        &lt;li&gt;Understand the basic idea.&lt;/li&gt;
+        &lt;li&gt;Practice to gain big-picture context.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Procrastination is a poison with long-term effects.&lt;/li&gt;
+  &lt;li&gt;Build habits by:
+    &lt;blockquote&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Cue&lt;/li&gt;
+        &lt;li&gt;Routine&lt;/li&gt;
+        &lt;li&gt;Reward&lt;/li&gt;
+        &lt;li&gt;Belief&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Law of Serendipity follows Lady Luck.&lt;/li&gt;
+  &lt;li&gt;Eat your frogs first!&lt;/li&gt;
+  &lt;li&gt;Keep a planner-journal to easily track your goals and observe what does and doesn’t work.&lt;/li&gt;
+  &lt;li&gt;Memory palace technique strengthens visual memory system.&lt;/li&gt;
+  &lt;li&gt;Stories are silly memory tricks that build retention.&lt;/li&gt;
+&lt;/ol&gt;
 </content>
 		</entry>
 	
@@ -145,6 +187,7 @@
 
 &lt;p&gt;Log Dates:&lt;/p&gt;
 &lt;ul&gt;
+  &lt;li&gt;26 Sep 2017&lt;/li&gt;
   &lt;li&gt;24 Aug 2017&lt;/li&gt;
   &lt;li&gt;25 Aug 2017&lt;/li&gt;
   &lt;li&gt;26 Aug 2017&lt;/li&gt;
@@ -158,8 +201,8 @@
 &lt;ol&gt;
   &lt;li&gt;DRRM outline [DS: 25 Aug, DF: 29 Aug 2017]&lt;/li&gt;
   &lt;li&gt;DRRM readings [DS: 25 Aug, DF: ?]&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Statistics-DeMYSTiFieD-2nd-Stan-Gibilisco/dp/0071751335&quot;&gt;Statistics DeMYSTiFieD, 2nd Edition&lt;/a&gt;: [DS: 1 Sep, DF: ?]&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.numpy.org/&quot;&gt;NumPy&lt;/a&gt; [DS: 24 Aug, DF: ?]&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/&quot;&gt;DataCamp&lt;/a&gt; Python [DS: 26 Sep, DF: ?]&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU&quot;&gt;A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)&lt;/a&gt;.  [DS: 23 Sep, DF: ?]&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Legend:&lt;/p&gt;
