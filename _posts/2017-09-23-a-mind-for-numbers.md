@@ -26,3 +26,4 @@ I am enjoying my time reading [A Mind For Numbers: How to Excel at Math and Scie
 9. Keep a planner-journal to easily track your goals and observe what does and doesn't work.
 10. Memory palace technique strengthens visual memory system.
 11. Stories are silly memory tricks that build retention.
+12. Learn to let go of focused thinking and use diffuse thinking to your advantage.

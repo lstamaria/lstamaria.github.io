@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2017-09-26T15:54:15+08:00</updated>
+	<updated>2017-09-29T14:55:39+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -13,36 +13,13 @@
 
 	
 		<entry>
-			<title>A Mind For Numbers</title>
-			<link href="http://enz0s.github.io/blog/2017/09/23/datacamp-python"/>
-			<updated>2017-09-23T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/09/23/datacamp-python</id>
-			<content type="html">&lt;p&gt;I decided to start a miscellaneous reading before I jump into my data science program. It means that I need to finish the material first before I continue with my bridge subjects which are mathematics and programming.&lt;/p&gt;
+			<title>New Discoveries</title>
+			<link href="http://enz0s.github.io/blog/2017/09/29/new-discoveries"/>
+			<updated>2017-09-29T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2017/09/29/new-discoveries</id>
+			<content type="html">&lt;p&gt;I am listing down the things that I recently learned through online sources.&lt;/p&gt;
 
-&lt;p&gt;I am enjoying my time reading &lt;a href=&quot;https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU&quot;&gt;A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)&lt;/a&gt;. I find it entertaining at the same time educational. Few books are of this sort. Below are some points which I find worth remembering.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Our brain toggles between focused mode and diffuse mode.&lt;/li&gt;
-  &lt;li&gt;We experience Einstellung effect whenever we feel stuck and fixated in learning a new approach.&lt;/li&gt;
-  &lt;li&gt;One must know how to shift between focused mode and diffused mode to learn better.&lt;/li&gt;
-  &lt;li&gt;Pomodoro can be used to beat procrastination.&lt;/li&gt;
-  &lt;li&gt;Understanding of working memory  and long-term memory is essential.&lt;/li&gt;
-  &lt;li&gt;Use spaced repetition to build long-term memory.&lt;/li&gt;
-  &lt;li&gt;Sleep is important.&lt;/li&gt;
-  &lt;li&gt;It is crucial to find meaning in what you are learning.&lt;/li&gt;
-  &lt;li&gt;Strengthen and rehearse the important parts of what you are learning and prune away trivialities.&lt;/li&gt;
-  &lt;li&gt;Steps to build new learning:
-    &lt;blockquote&gt;
-      &lt;ol&gt;
-        &lt;li&gt;Focus your attention.&lt;/li&gt;
-        &lt;li&gt;Understand the basic idea you are trying to chunk.&lt;/li&gt;
-        &lt;li&gt;Gain context so you can see just not how, but also when to use this chunk.&lt;/li&gt;
-      &lt;/ol&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Highlighting or underlining a text may exhibit illusion of competence.&lt;/li&gt;
-&lt;/ul&gt;
-
+&lt;h2 id=&quot;how-to-think-about-machine-learning&quot;&gt;How to Think About Machine Learning&lt;/h2&gt;
 </content>
 		</entry>
 	
@@ -84,6 +61,7 @@
   &lt;li&gt;Keep a planner-journal to easily track your goals and observe what does and doesn’t work.&lt;/li&gt;
   &lt;li&gt;Memory palace technique strengthens visual memory system.&lt;/li&gt;
   &lt;li&gt;Stories are silly memory tricks that build retention.&lt;/li&gt;
+  &lt;li&gt;Learn to let go of focused thinking and use diffuse thinking to your advantage.&lt;/li&gt;
 &lt;/ol&gt;
 </content>
 		</entry>
@@ -185,24 +163,44 @@
 			<id>http://enz0s.github.io//blog/2017/08/24/commitment-and-conviction</id>
 			<content type="html">&lt;p&gt;I need to monitor my Pomodoro technique on my data science program and dissertation. Hence, the importance of a checklist.&lt;/p&gt;
 
-&lt;p&gt;Log Dates:&lt;/p&gt;
+&lt;p&gt;Log Dates (in reverse):&lt;/p&gt;
 &lt;ul&gt;
+  &lt;li&gt;29 Sep 2017&lt;/li&gt;
+  &lt;li&gt;27 Sep 2017&lt;/li&gt;
   &lt;li&gt;26 Sep 2017&lt;/li&gt;
-  &lt;li&gt;24 Aug 2017&lt;/li&gt;
-  &lt;li&gt;25 Aug 2017&lt;/li&gt;
-  &lt;li&gt;26 Aug 2017&lt;/li&gt;
-  &lt;li&gt;29 Aug 2017&lt;/li&gt;
-  &lt;li&gt;30 Aug 2017&lt;/li&gt;
-  &lt;li&gt;1 Sep 2017&lt;/li&gt;
   &lt;li&gt;3 Sep 2017&lt;/li&gt;
+  &lt;li&gt;1 Sep 2017&lt;/li&gt;
+  &lt;li&gt;30 Aug 2017&lt;/li&gt;
+  &lt;li&gt;29 Aug 2017&lt;/li&gt;
+  &lt;li&gt;26 Aug 2017&lt;/li&gt;
+  &lt;li&gt;25 Aug 2017&lt;/li&gt;
+  &lt;li&gt;24 Aug 2017&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Pomodoro Tasks:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;DRRM outline [DS: 25 Aug, DF: 29 Aug 2017]&lt;/li&gt;
   &lt;li&gt;DRRM readings [DS: 25 Aug, DF: ?]&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/&quot;&gt;DataCamp&lt;/a&gt; Python [DS: 26 Sep, DF: ?]&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU&quot;&gt;A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)&lt;/a&gt;.  [DS: 23 Sep, DF: ?]&lt;/li&gt;
+  &lt;li&gt;New discoveries
+    &lt;ul&gt;
+      &lt;li&gt;From various online education courses
+        &lt;ul&gt;
+          &lt;li&gt;PluralSight&lt;/li&gt;
+          &lt;li&gt;Datacamp&lt;/li&gt;
+          &lt;li&gt;Khan Academy&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;From brainy sources
+        &lt;ul&gt;
+          &lt;li&gt;Quora&lt;/li&gt;
+          &lt;li&gt;Kindle&lt;/li&gt;
+          &lt;li&gt;Audible&lt;/li&gt;
+          &lt;li&gt;Meetup&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Legend:&lt;/p&gt;
