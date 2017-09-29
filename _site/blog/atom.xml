@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2017-09-29T14:55:39+08:00</updated>
+	<updated>2017-09-29T15:34:12+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -17,9 +17,58 @@
 			<link href="http://enz0s.github.io/blog/2017/09/29/new-discoveries"/>
 			<updated>2017-09-29T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2017/09/29/new-discoveries</id>
-			<content type="html">&lt;p&gt;I am listing down the things that I recently learned through online sources.&lt;/p&gt;
+			<content type="html">&lt;p&gt;I am listing down the things that I recently learned through online education courses and other brainy sources.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-to-think-about-machine-learning&quot;&gt;How to Think About Machine Learning&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Understanding Machine Learning by David Chappell (39m)
+    &lt;ul&gt;
+      &lt;li&gt;DS: 5 May&lt;/li&gt;
+      &lt;li&gt;DF: 5 May&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Understanding Machine Learning with R by Jerry Kurata (1h 25m)
+    &lt;ul&gt;
+      &lt;li&gt;DS: 5 May&lt;/li&gt;
+      &lt;li&gt;DF: 22 May&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Understanding Machine Learning with Python by Jerry Kurata (1h 54m)
+    &lt;ul&gt;
+      &lt;li&gt;DS: 22 May&lt;/li&gt;
+      &lt;li&gt;DF: 5 Jun&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Software Process Management by Gregory Paul Knight (3h 43m)
+    &lt;ul&gt;
+      &lt;li&gt;DS: 13 Jun&lt;/li&gt;
+      &lt;li&gt;DF: 8 Sep&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How to Think About Machine Learning Algorithms by Swetha Kolalapudi (3h 8m)
+    &lt;ul&gt;
+      &lt;li&gt;DS: 5 Jun&lt;/li&gt;
+      &lt;li&gt;DF: 15 Sep&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Data Scientist with Python (4h)
+    &lt;ul&gt;
+      &lt;li&gt;DS: 15 Sep&lt;/li&gt;
+      &lt;li&gt;DF: ?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Data Science: The Big Picture by Matthew Renze (1h 9m)
+    &lt;ul&gt;
+      &lt;li&gt;DS: 29 Sep&lt;/li&gt;
+      &lt;li&gt;DF: ?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Legend:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;DS = Date Started&lt;/li&gt;
+  &lt;li&gt;DF = Date Finished&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 		</entry>
 	
@@ -179,16 +228,34 @@
 
 &lt;p&gt;Pomodoro Tasks:&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;DRRM outline [DS: 25 Aug, DF: 29 Aug 2017]&lt;/li&gt;
-  &lt;li&gt;DRRM readings [DS: 25 Aug, DF: ?]&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU&quot;&gt;A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)&lt;/a&gt;.  [DS: 23 Sep, DF: ?]&lt;/li&gt;
-  &lt;li&gt;New discoveries
+  &lt;li&gt;DRRM outline
     &lt;ul&gt;
-      &lt;li&gt;From various online education courses
+      &lt;li&gt;DS: 25 Aug&lt;/li&gt;
+      &lt;li&gt;DF: 29 Aug&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;DRRM readings
+    &lt;ul&gt;
+      &lt;li&gt;DS: 25 Aug&lt;/li&gt;
+      &lt;li&gt;DF: ?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU&quot;&gt;A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;DS: 23 Sep&lt;/li&gt;
+      &lt;li&gt;DF: ?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;My new discoveries
+    &lt;ul&gt;
+      &lt;li&gt;From online education courses
         &lt;ul&gt;
           &lt;li&gt;PluralSight&lt;/li&gt;
           &lt;li&gt;Datacamp&lt;/li&gt;
           &lt;li&gt;Khan Academy&lt;/li&gt;
+          &lt;li&gt;Udemy&lt;/li&gt;
+          &lt;li&gt;Udacity&lt;/li&gt;
+          &lt;li&gt;Coursera&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;From brainy sources
