@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>MathURL and MathJazz</title>
+      <!-- link to main stylesheet -->
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
+      
+        <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\(', '\)'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+      
+    </head>
+    <body>
+      <nav>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/cv">CV</a></li>
+              <li><a href="/blog">Blog</a></li>
+          </ul>
+      </nav>
+      <div class="container">
+      
+      <h1>MathURL and MathJazz</h1>
+<p class="meta"><em>08 Feb 2018</em></p>
+
+<div class="post">
+  <p><a href="http://mathurl.com/">MathURL</a>
+<a href="https://www.mathjax.org/">MathJax</a></p>
+
+<p>Let’s test some inline math $x$, $y$, $x_1$, $y_1$.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Now a inline math with special character: $</td>
+      <td>\psi\rangle$, $x’$, $x^*$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Test a display math:
+<script type="math/tex">|\psi_1\rangle = a|0\rangle + b|1\rangle</script>
+Is it O.K.?</p>
+
+<p>Test a display math with equation number:
+\begin{equation}
+   |\psi_1\rangle = a|0\rangle + b|1\rangle
+\end{equation}
+Is it O.K.?</p>
+
+<p>Test a display math with equation number:
+<script type="math/tex">% <![CDATA[
+\begin{align}
+    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
+    |\psi_2\rangle &= c|0\rangle + d|1\rangle
+  \end{align} %]]></script>
+Is it O.K.?</p>
+
+<p>And test a display math without equaltion number:
+<script type="math/tex">% <![CDATA[
+\begin{align\*}
+    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
+    |\psi_2\rangle &= c|0\rangle + d|1\rangle
+  \end{align\*} %]]></script>
+Is it O.K.?</p>
+
+<p>Test a display math with equation number:
+\begin{align}
+    |\psi_1\rangle &amp;= a|0\rangle + b|1\rangle \<br />
+    |\psi_2\rangle &amp;= c|0\rangle + d|1\rangle
+\end{align}
+Is it O.K.?</p>
+
+<p>And test a display math without equaltion number:
+\begin{align*}
+    |\psi_1\rangle &amp;= a|0\rangle + b|1\rangle \<br />
+    |\psi_2\rangle &amp;= c|0\rangle + d|1\rangle
+\end{align*}
+Is it O.K.?</p>
+
+</div>
+      
+      </div><!-- /.container -->
+      <footer>
+          <ul>
+              <li><a href="mailto:lorenzo.stamaria@gmail.com">email</a></li>
+              <li><a href="https://github.com/enz0s">github.com/enz0s</a></li>
+        </ul>
+      </footer>
+    </body>
+  </html>

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
   <html>
     <head>
-      {% include html_meta %}
       <title>{{ page.title }}</title>
       <!-- link to main stylesheet -->
       <link rel="stylesheet" type="text/css" href="/css/main.css">
+      {% if page.use_math %}
+        {% include mathjax_support %}
+      {% endif %}
     </head>
     <body>
       <nav>

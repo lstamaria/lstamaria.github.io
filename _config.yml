@@ -1,4 +1,3 @@
 name: Lorenzo
 markdown: kramdown
-markdown: maruku
 permalink: /blog/:year/:month/:day/:title
