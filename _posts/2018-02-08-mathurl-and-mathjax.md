@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MathURL and MathJazz"
+title: "MathURL and MathJax"
 date: 2018-02-08
 use_math: true
 ---
@@ -32,7 +32,7 @@ $$
 $$
 Is it O.K.?
 
-And test a display math without equaltion number:
+And test a display math without equation number:
 $$
   \begin{align\*}
     |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
@@ -54,3 +54,18 @@ And test a display math without equaltion number:
     |\psi_2\rangle &= c|0\rangle + d|1\rangle
 \end{align\*}
 Is it O.K.?
+
+This is a new equation.
+$$
+  \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
+$$
+
+This is another new equation.
+\begin{align}
+  \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
+\end{align}
+
+This is another new equation without equation number.
+\begin{align\*}
+  \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
+\end{align\*}
