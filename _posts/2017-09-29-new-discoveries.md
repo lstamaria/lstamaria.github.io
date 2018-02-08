@@ -21,7 +21,10 @@ I am listing down the things that I recently learned through online education co
 * How to Think About Machine Learning Algorithms by Swetha Kolalapudi (3h 8m)
 	* DS: 5 Jun
 	* DF: 15 Sep
-* Data Scientist with Python (4h)
+* Kanban Fundamentals by Steve Smith (1h 31m)
+	* DS: 15 Sep
+	* DF: 23 Sep
+* Intro to Python for Data Science by Filip Schouwenaars (4h)
 	* DS: 15 Sep
 	* DF: ?
 * Data Science: The Big Picture by Matthew Renze (1h 9m)

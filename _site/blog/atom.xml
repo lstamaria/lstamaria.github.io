@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2017-09-29T15:34:12+08:00</updated>
+	<updated>2017-09-29T15:46:18+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -50,7 +50,13 @@
       &lt;li&gt;DF: 15 Sep&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Data Scientist with Python (4h)
+  &lt;li&gt;Kanban Fundamentals by Steve Smith (1h 31m)
+    &lt;ul&gt;
+      &lt;li&gt;DS: 15 Sep&lt;/li&gt;
+      &lt;li&gt;DF: 23 Sep&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Intro to Python for Data Science by Filip Schouwenaars (4h)
     &lt;ul&gt;
       &lt;li&gt;DS: 15 Sep&lt;/li&gt;
       &lt;li&gt;DF: ?&lt;/li&gt;
