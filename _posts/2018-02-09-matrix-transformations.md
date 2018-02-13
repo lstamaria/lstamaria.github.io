@@ -14,34 +14,51 @@ These notes are taken from [Khan Academy](https://www.khanacademy.org/math/linea
 
 Range is the subset of co-domain that the function actually maps to.
 
-\begin{align} \label{a}
-f : X \rightarrow Y
-\end{align}
+$$ 
+\label{a}
+f : X 
+\rightarrow 
+Y
+$$
 The equation \ref{a} implies that set $X$ is domain, set $Y$ is co-domain, and set $Y$ is the range.
 
-\begin{align} \label{f}
-f:\mathbb{R} \rightarrow \mathbb{R}
-\end{align}
+$$
+\label{f}
+f : \mathbb{R} 
+\rightarrow 
+\mathbb{R}
+$$
 The equation \ref{f} implies that $\mathbb{R}$ is domain, $\mathbb{R}$ is co-domain, and $\mathbb{R}$ is the range.
 
-\begin{align} \label{b}
-f(x)=x^2
-\end{align}
+$$
+\label{b}
+f(x)
+=
+x^2
+$$
 The equation \ref{b} implies that $x$ is domain, $x^2$ is co-domain, and $x^2$ is the range.
 
-\begin{align} \label{g}
+
+$$
+\label{g}
 f:\mathbb{R^2} \rightarrow \mathbb{R}
-\end{align}
+$$
 The equation \ref{g} implies that $\mathbb{R^2}$ is domain, $\mathbb{R}$ is co-domain, and $\mathbb{R}$ is the range.
 
-\begin{align} \label{c}
-g(x_1, x_2) = 2
-\end{align}
+$$
+\label{c}
+g(x_1, x_2) 
+= 
+2
+$$
 The equation  \ref{c} implies that $x_1, x_2$ is domain, $2$ is co-domain, and $2$ is the range.
 
-\begin{align} \label{d}
-h(x_1, x_2) = (x_1 + x_2, x_2 - x_1, x_2x_1)
-\end{align}
+$$
+\label{d}
+h(x_1, x_2) 
+= 
+(x_1 + x_2, x_2 - x_1, x_2x_1)
+$$
 The equation \ref{d} implies that $(x_1, x_2)$ is domain, $(x_1 + x_2, x_2 - x_1, x_2x_1)$ is co-domain, and $(x_1 + x_2, x_2 - x_1, x_2x_1)$ is the range.
 
 If $x_1 = 2$ and $x_2 = 3$, then
@@ -114,7 +131,7 @@ The equation \ref{n} shows another representation of equation \ref{k}.
 
 ## Linear transformation examples
 
-(To be continued...)
+\\\(To be continued...\\\)
 
 ## Transformations and matrix multiplication
 

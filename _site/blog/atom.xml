@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-02-13T18:15:00+08:00</updated>
+	<updated>2018-02-13T19:06:57+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -25,34 +25,38 @@
 
 &lt;p&gt;Range is the subset of co-domain that the function actually maps to.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} \label{a}
-f : X \rightarrow Y
-\end{align}
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\label{a}
+f : X 
+\rightarrow 
+Y&lt;/script&gt;
 The equation \ref{a} implies that set $X$ is domain, set $Y$ is co-domain, and set $Y$ is the range.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} \label{f}
-f:\mathbb{R} \rightarrow \mathbb{R}
-\end{align}
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\label{f}
+f : \mathbb{R} 
+\rightarrow 
+\mathbb{R}&lt;/script&gt;
 The equation \ref{f} implies that $\mathbb{R}$ is domain, $\mathbb{R}$ is co-domain, and $\mathbb{R}$ is the range.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} \label{b}
-f(x)=x^2
-\end{align}
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\label{b}
+f(x)
+=
+x^2&lt;/script&gt;
 The equation \ref{b} implies that $x$ is domain, $x^2$ is co-domain, and $x^2$ is the range.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} \label{g}
-f:\mathbb{R^2} \rightarrow \mathbb{R}
-\end{align}
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\label{g}
+f:\mathbb{R^2} \rightarrow \mathbb{R}&lt;/script&gt;
 The equation \ref{g} implies that $\mathbb{R^2}$ is domain, $\mathbb{R}$ is co-domain, and $\mathbb{R}$ is the range.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} \label{c}
-g(x_1, x_2) = 2
-\end{align}
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\label{c}
+g(x_1, x_2) 
+= 
+2&lt;/script&gt;
 The equation  \ref{c} implies that $x_1, x_2$ is domain, $2$ is co-domain, and $2$ is the range.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} \label{d}
-h(x_1, x_2) = (x_1 + x_2, x_2 - x_1, x_2x_1)
-\end{align}
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\label{d}
+h(x_1, x_2) 
+= 
+(x_1 + x_2, x_2 - x_1, x_2x_1)&lt;/script&gt;
 The equation \ref{d} implies that $(x_1, x_2)$ is domain, $(x_1 + x_2, x_2 - x_1, x_2x_1)$ is co-domain, and $(x_1 + x_2, x_2 - x_1, x_2x_1)$ is the range.&lt;/p&gt;
 
 &lt;p&gt;If $x_1 = 2$ and $x_2 = 3$, then
@@ -122,7 +126,7 @@ The equation \ref{n} shows another representation of equation \ref{k}.&lt;/p&gt;
 
 &lt;h2 id=&quot;linear-transformation-examples&quot;&gt;Linear transformation examples&lt;/h2&gt;
 
-&lt;p&gt;(To be continued…)&lt;/p&gt;
+&lt;p&gt;\(To be continued…\)&lt;/p&gt;
 
 &lt;h2 id=&quot;transformations-and-matrix-multiplication&quot;&gt;Transformations and matrix multiplication&lt;/h2&gt;
 
