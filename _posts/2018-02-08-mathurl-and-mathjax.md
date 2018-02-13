@@ -7,6 +7,18 @@ use_math: true
 
 I love how I can add Math equations in Markup using [MathJax](https://www.mathjax.org/). Another tool that provides easy LaTeX translation is [MathURL](http://mathurl.com/).
 
+
+My template includes:
+
+\begin{align} \label{a}
+f : \mathbb{R}^n
+\rightarrow
+\mathbb{R}^m
+\end{align}
+The equation \ref{a} states that $n$-dimensional real coordinate space is mapped to $m$-dimensional real coordinate space.
+
+$...\textrm{normal text}...$
+
 <!--Let's test some inline math $x$, $y$, $x_1$, $y_1$.
 
 Now a inline math with special character: $|\psi\rangle$, $x'$, $x^\*$.

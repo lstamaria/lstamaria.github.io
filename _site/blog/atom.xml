@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-02-13T14:47:09+08:00</updated>
+	<updated>2018-02-13T17:52:01+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -22,20 +22,13 @@
 &lt;h2 id=&quot;functions-and-linear-transformations&quot;&gt;Functions and linear transformations&lt;/h2&gt;
 
 &lt;h3 id=&quot;a-more-formal-understanding-of-functions&quot;&gt;A more formal understanding of functions&lt;/h3&gt;
-&lt;!-- * $f : X \rightarrow Y$
- * $f(x)=x^2$ is mapped as $f : R \rightarrow R$, where the first $R$ is domain and the second $R$ is co-domain. 
- * $f(x)=x^2$ can also represented as $f:x \rightarrow x^2$.
- * Range is the subset of co-domain that the function actually maps to.
- * $g:R^2 \rightarrow R$ is mapped with $R^2$ as domain and $R$ as co-domain. Also, $R$ is the range.
- * $g(x_1, x_2) = 2$ has $x_1, x_2$ as domain, $2$ is co-domain, and $2$ is the range.
- * --&gt;
 
 &lt;p&gt;Range is the subset of co-domain that the function actually maps to.&lt;/p&gt;
 
 &lt;p&gt;\begin{align} \label{a}
-f:X \rightarrow Y
+f : X \rightarrow Y
 \end{align}
-The equation \ref{a} implies that $X$ is domain, $Y$ is co-domain, and $Y$ is the range.&lt;/p&gt;
+The equation \ref{a} implies that set $X$ is domain, set $Y$ is co-domain, and set $Y$ is the range.&lt;/p&gt;
 
 &lt;p&gt;\begin{align} \label{f}
 f:\mathbb{R} \rightarrow \mathbb{R}
@@ -68,17 +61,89 @@ h(2, 3) = (5, 1, 6)
 \end{align}
 The equation \ref{e} implies that $(2, 3)$ is domain, $(5, 1, 6)$ is co-domain, and $(5, 1, 6)$ is the range.&lt;/p&gt;
 
+&lt;h3 id=&quot;vector-transformations&quot;&gt;Vector transformations&lt;/h3&gt;
+
+&lt;p&gt;Vectors are members of some set.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{h}
+f:X \rightarrow Y
+\end{align}
+The equation \ref{h} implies that set $X$ is mapped to set $Y$.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{i}
+\vec{x} \in \mathbb{R}^n
+\end{align}
+The equation \ref{i} explains that $\vec{x}$ belongs to $n$-dimensional real coordinate space.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{j}
+f : \mathbb{R}^n
+\rightarrow
+\mathbb{R}^m
+\end{align}
+The equation \ref{j} states that $n$-dimensional real coordinate space is mapped to $m$-dimensional real coordinate space. A regular arrow represents a set is being represented by another set. Also, it means that vectors are valid elements of sets.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{k}
+f : x
+\mapsto
+x^2
+\end{align}
+The equation \ref{k} states that $x$ is mapped to $x^2$. An arrow with vertical line represents a function definition. Also, it means that functions are mapping between elements of sets. Thus, we can have functions of vectors.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{l}
+f : (x_1, x_2, x_3)
+=
+(x_1 + 2x_2, 3x_3)
+\end{align}
+The equation \ref{l} can be represented by equation \ref{m}.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{m}
+f : \mathbb{R}^3
+\rightarrow
+\mathbb{R}^2
+\end{align}
+The equation \ref{m} means that 3-dimensional real coordinate space is mapped to 2-dimensional real coordinate space.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{n}
+f :
+\begin{pmatrix}
+\begin{bmatrix}
+x_1 \\
+x_2 \\
+x_3
+\end{bmatrix}
+\end{pmatrix}
+=
+\begin{bmatrix}
+x_1 + 2x_2 \\
+3x_3
+\end{bmatrix}
+\end{align}
+The equation \ref{n} shows another representation of equation \ref{k}.&lt;/p&gt;
+
 &lt;h2 id=&quot;linear-transformation-examples&quot;&gt;Linear transformation examples&lt;/h2&gt;
+
+&lt;p&gt;To be continued…&lt;/p&gt;
 
 &lt;h2 id=&quot;transformations-and-matrix-multiplication&quot;&gt;Transformations and matrix multiplication&lt;/h2&gt;
 
+&lt;p&gt;To be continued…&lt;/p&gt;
+
 &lt;h2 id=&quot;inverse-functions-and-transformations&quot;&gt;Inverse functions and transformations&lt;/h2&gt;
+
+&lt;p&gt;To be continued…&lt;/p&gt;
 
 &lt;h2 id=&quot;finding-inverses-and-determinants&quot;&gt;Finding inverses and determinants&lt;/h2&gt;
 
+&lt;p&gt;To be continued…&lt;/p&gt;
+
 &lt;h2 id=&quot;more-determinant-depth&quot;&gt;More determinant depth&lt;/h2&gt;
 
+&lt;p&gt;To be continued…&lt;/p&gt;
+
 &lt;h2 id=&quot;transpose-of-a-matrix&quot;&gt;Transpose of a matrix&lt;/h2&gt;
+
+&lt;p&gt;To be continued…&lt;/p&gt;
+
 </content>
 		</entry>
 	
@@ -88,6 +153,17 @@ The equation \ref{e} implies that $(2, 3)$ is domain, $(5, 1, 6)$ is co-domain, 
 			<updated>2018-02-08T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2018/02/08/mathurl-and-mathjax</id>
 			<content type="html">&lt;p&gt;I love how I can add Math equations in Markup using &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt;. Another tool that provides easy LaTeX translation is &lt;a href=&quot;http://mathurl.com/&quot;&gt;MathURL&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My template includes:&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{a}
+f : \mathbb{R}^n
+\rightarrow
+\mathbb{R}^m
+\end{align}
+The equation \ref{a} states that $n$-dimensional real coordinate space is mapped to $m$-dimensional real coordinate space.&lt;/p&gt;
+
+&lt;p&gt;$…\textrm{normal text}…$&lt;/p&gt;
 
 &lt;!--Let's test some inline math $x$, $y$, $x_1$, $y_1$.
 

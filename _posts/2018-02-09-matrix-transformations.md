@@ -11,20 +11,13 @@ These notes are taken from [Khan Academy](https://www.khanacademy.org/math/linea
 ## Functions and linear transformations
 
 ### A more formal understanding of functions
-<!-- * $f : X \rightarrow Y$
- * $f(x)=x^2$ is mapped as $f : R \rightarrow R$, where the first $R$ is domain and the second $R$ is co-domain. 
- * $f(x)=x^2$ can also represented as $f:x \rightarrow x^2$.
- * Range is the subset of co-domain that the function actually maps to.
- * $g:R^2 \rightarrow R$ is mapped with $R^2$ as domain and $R$ as co-domain. Also, $R$ is the range.
- * $g(x_1, x_2) = 2$ has $x_1, x_2$ as domain, $2$ is co-domain, and $2$ is the range.
- * -->
 
 Range is the subset of co-domain that the function actually maps to.
 
 \begin{align} \label{a}
-f:X \rightarrow Y
+f : X \rightarrow Y
 \end{align}
-The equation \ref{a} implies that $X$ is domain, $Y$ is co-domain, and $Y$ is the range.
+The equation \ref{a} implies that set $X$ is domain, set $Y$ is co-domain, and set $Y$ is the range.
 
 \begin{align} \label{f}
 f:\mathbb{R} \rightarrow \mathbb{R}
@@ -57,16 +50,89 @@ h(2, 3) = (5, 1, 6)
 \end{align}
 The equation \ref{e} implies that $(2, 3)$ is domain, $(5, 1, 6)$ is co-domain, and $(5, 1, 6)$ is the range.
 
+### Vector transformations
+
+Vectors are members of some set.
+
+\begin{align} \label{h}
+f:X \rightarrow Y
+\end{align}
+The equation \ref{h} implies that set $X$ is mapped to set $Y$.
+
+
+\begin{align} \label{i}
+\vec{x} \in \mathbb{R}^n
+\end{align}
+The equation \ref{i} explains that $\vec{x}$ belongs to $n$-dimensional real coordinate space. 
+
+\begin{align} \label{j}
+f : \mathbb{R}^n
+\rightarrow
+\mathbb{R}^m
+\end{align}
+The equation \ref{j} states that $n$-dimensional real coordinate space is mapped to $m$-dimensional real coordinate space. A regular arrow represents a set is being represented by another set. Also, it means that vectors are valid elements of sets.
+
+\begin{align} \label{k}
+f : x
+\mapsto
+x^2
+\end{align}
+The equation \ref{k} states that $x$ is mapped to $x^2$. An arrow with vertical line represents a function definition. Also, it means that functions are mapping between elements of sets. Thus, we can have functions of vectors.
+
+\begin{align} \label{l}
+f : (x_1, x_2, x_3)
+=
+(x_1 + 2x_2, 3x_3)
+\end{align}
+The equation \ref{l} can be represented by equation \ref{m}.
+
+\begin{align} \label{m}
+f : \mathbb{R}^3
+\rightarrow
+\mathbb{R}^2
+\end{align}
+The equation \ref{m} means that 3-dimensional real coordinate space is mapped to 2-dimensional real coordinate space.
+
+\begin{align} \label{n}
+f :
+\begin{pmatrix}
+\begin{bmatrix}
+x_1 \\\
+x_2 \\\
+x_3
+\end{bmatrix}
+\end{pmatrix}
+=
+\begin{bmatrix}
+x_1 + 2x_2 \\\
+3x_3
+\end{bmatrix}
+\end{align}
+The equation \ref{n} shows another representation of equation \ref{k}.
+
 
 
 ## Linear transformation examples
 
+To be continued...
+
 ## Transformations and matrix multiplication
+
+To be continued...
 
 ## Inverse functions and transformations
 
+To be continued...
+
 ## Finding inverses and determinants
+
+To be continued...
 
 ## More determinant depth
 
+To be continued...
+
 ## Transpose of a matrix
+
+To be continued...
+
