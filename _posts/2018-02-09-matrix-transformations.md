@@ -137,7 +137,7 @@ The equation \ref{n} shows another representation of equation \ref{k}.
 
 ## Linear transformation examples
 
-\\\(To be continued...\\\)
+To be continued...
 
 ## Transformations and matrix multiplication
 

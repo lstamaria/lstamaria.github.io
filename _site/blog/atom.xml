@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-02-13T19:29:52+08:00</updated>
+	<updated>2018-02-13T19:31:04+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -144,7 +144,7 @@ The equation \ref{n} shows another representation of equation \ref{k}.&lt;/p&gt;
 
 &lt;h2 id=&quot;linear-transformation-examples&quot;&gt;Linear transformation examples&lt;/h2&gt;
 
-&lt;p&gt;\(To be continued…\)&lt;/p&gt;
+&lt;p&gt;To be continued…&lt;/p&gt;
 
 &lt;h2 id=&quot;transformations-and-matrix-multiplication&quot;&gt;Transformations and matrix multiplication&lt;/h2&gt;
 
