@@ -133,8 +133,6 @@ x_1 + 2x_2 \\\
 \end{align}
 The equation \ref{n} shows another representation of equation \ref{k}.
 
-
-
 ## Linear transformation examples
 
 To be continued...
