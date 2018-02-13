@@ -39,72 +39,71 @@
 <p class="meta"><em>08 Feb 2018</em></p>
 
 <div class="post">
-  <p><a href="http://mathurl.com/">MathURL</a>
-<a href="https://www.mathjax.org/">MathJax</a></p>
+  <p>I love how I can add Math equations in Markup using <a href="https://www.mathjax.org/">MathJax</a>. Another tool that provides easy LaTeX translation is <a href="http://mathurl.com/">MathURL</a>.</p>
 
-<p>Let’s test some inline math $x$, $y$, $x_1$, $y_1$.</p>
+<!--Let's test some inline math $x$, $y$, $x_1$, $y_1$.
 
-<table>
-  <tbody>
-    <tr>
-      <td>Now a inline math with special character: $</td>
-      <td>\psi\rangle$, $x’$, $x^*$.</td>
-    </tr>
-  </tbody>
-</table>
+Now a inline math with special character: $|\psi\rangle$, $x'$, $x^\*$.
 
-<p>Test a display math:
-<script type="math/tex">|\psi_1\rangle = a|0\rangle + b|1\rangle</script>
-Is it O.K.?</p>
+Test a display math:
+$$
+   |\psi_1\rangle = a|0\rangle + b|1\rangle
+$$
+Is it O.K.?
 
-<p>Test a display math with equation number:
+Test a display math with equation number:
 \begin{equation}
    |\psi_1\rangle = a|0\rangle + b|1\rangle
 \end{equation}
-Is it O.K.?</p>
+Is it O.K.?
 
-<p>Test a display math with equation number:
-<script type="math/tex">% <![CDATA[
+Test a display math with equation number:
+$$
+  \begin{align}
+    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
+    |\psi_2\rangle &= c|0\rangle + d|1\rangle
+  \end{align}
+$$
+Is it O.K.?
+
+And test a display math without equation number:
+$$
+  \begin{align\*}
+    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
+    |\psi_2\rangle &= c|0\rangle + d|1\rangle
+  \end{align\*}
+$$
+Is it O.K.?
+
+Test a display math with equation number:
 \begin{align}
     |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
     |\psi_2\rangle &= c|0\rangle + d|1\rangle
-  \end{align} %]]></script>
-Is it O.K.?</p>
+\end{align}
+Is it O.K.?
 
-<p>And test a display math without equation number:
-<script type="math/tex">% <![CDATA[
+And test a display math without equaltion number:
 \begin{align\*}
     |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
     |\psi_2\rangle &= c|0\rangle + d|1\rangle
-  \end{align\*} %]]></script>
-Is it O.K.?</p>
+\end{align\*}
+Is it O.K.?
 
-<p>Test a display math with equation number:
+This is a new equation.
+$$
+  \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
+$$
+
+This is another new equation.
 \begin{align}
-    |\psi_1\rangle &amp;= a|0\rangle + b|1\rangle \<br />
-    |\psi_2\rangle &amp;= c|0\rangle + d|1\rangle
+  \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
 \end{align}
-Is it O.K.?</p>
 
-<p>And test a display math without equaltion number:
-\begin{align*}
-    |\psi_1\rangle &amp;= a|0\rangle + b|1\rangle \<br />
-    |\psi_2\rangle &amp;= c|0\rangle + d|1\rangle
-\end{align*}
-Is it O.K.?</p>
-
-<p>This is a new equation.
-<script type="math/tex">\zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}</script></p>
-
-<p>This is another new equation.
-\begin{align}
+This is another new equation without equation number.
+\begin{align\*}
   \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
-\end{align}</p>
-
-<p>This is another new equation without equation number.
-\begin{align*}
-  \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
-\end{align*}</p>
+\end{align\*}
+-->
 
 </div>
       
@@ -112,7 +111,7 @@ Is it O.K.?</p>
       <footer>
           <ul>
               <li><a href="mailto:lorenzo.stamaria@gmail.com">email</a></li>
-              <li><a href="https://github.com/enz0s">github.com/enz0s</a></li>
+              <li><a href="https://github.com/lstamaria">github.com/lstamaria</a></li>
         </ul>
       </footer>
     </body>

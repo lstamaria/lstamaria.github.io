@@ -4,10 +4,10 @@ title: "MathURL and MathJax"
 date: 2018-02-08
 use_math: true
 ---
-[MathURL](http://mathurl.com/)
-[MathJax](https://www.mathjax.org/)
 
-Let's test some inline math $x$, $y$, $x_1$, $y_1$.
+I love how I can add Math equations in Markup using [MathJax](https://www.mathjax.org/). Another tool that provides easy LaTeX translation is [MathURL](http://mathurl.com/).
+
+<!--Let's test some inline math $x$, $y$, $x_1$, $y_1$.
 
 Now a inline math with special character: $|\psi\rangle$, $x'$, $x^\*$.
 
@@ -69,3 +69,4 @@ This is another new equation without equation number.
 \begin{align\*}
   \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
 \end{align\*}
+-->

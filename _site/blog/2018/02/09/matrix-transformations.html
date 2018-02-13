@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Matrix Transformations</title>
+      <!-- link to main stylesheet -->
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
+      
+        <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\(', '\)'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+      
+    </head>
+    <body>
+      <nav>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/cv">CV</a></li>
+              <li><a href="/blog">Blog</a></li>
+          </ul>
+      </nav>
+      <div class="container">
+      
+      <h1>Matrix Transformations</h1>
+<p class="meta"><em>09 Feb 2018</em></p>
+
+<div class="post">
+  <p>These notes are taken from <a href="https://www.khanacademy.org/math/linear-algebra/matrix-transformations#linear-transformations">Khan Academy</a>.</p>
+
+<h2 id="functions-and-linear-transformations">Functions and linear transformations</h2>
+
+<h3 id="a-more-formal-understanding-of-functions">A more formal understanding of functions</h3>
+<!-- * $f : X \rightarrow Y$
+ * $f(x)=x^2$ is mapped as $f : R \rightarrow R$, where the first $R$ is domain and the second $R$ is co-domain. 
+ * $f(x)=x^2$ can also represented as $f:x \rightarrow x^2$.
+ * Range is the subset of co-domain that the function actually maps to.
+ * $g:R^2 \rightarrow R$ is mapped with $R^2$ as domain and $R$ as co-domain. Also, $R$ is the range.
+ * $g(x_1, x_2) = 2$ has $x_1, x_2$ as domain, $2$ is co-domain, and $2$ is the range.
+ * -->
+
+<p>Range is the subset of co-domain that the function actually maps to.</p>
+
+<p>\begin{align} \label{a}
+f:X \rightarrow Y
+\end{align}
+The equation \ref{a} implies that $X$ is domain, $Y$ is co-domain, and $Y$ is the range.</p>
+
+<p>\begin{align} \label{f}
+f:\mathbb{R} \rightarrow \mathbb{R}
+\end{align}
+The equation \ref{f} implies that $\mathbb{R}$ is domain, $\mathbb{R}$ is co-domain, and $\mathbb{R}$ is the range.</p>
+
+<p>\begin{align} \label{b}
+f(x)=x^2
+\end{align}
+The equation \ref{b} implies that $x$ is domain, $x^2$ is co-domain, and $x^2$ is the range.</p>
+
+<p>\begin{align} \label{g}
+f:\mathbb{R^2} \rightarrow \mathbb{R}
+\end{align}
+The equation \ref{g} implies that $\mathbb{R^2}$ is domain, $\mathbb{R}$ is co-domain, and $\mathbb{R}$ is the range.</p>
+
+<p>\begin{align} \label{c}
+g(x_1, x_2) = 2
+\end{align}
+The equation  \ref{c} implies that $x_1, x_2$ is domain, $2$ is co-domain, and $2$ is the range.</p>
+
+<p>\begin{align} \label{d}
+h(x_1, x_2) = (x_1 + x_2, x_2 - x_1, x_2x_1)
+\end{align}
+The equation \ref{d} implies that $(x_1, x_2)$ is domain, $(x_1 + x_2, x_2 - x_1, x_2x_1)$ is co-domain, and $(x_1 + x_2, x_2 - x_1, x_2x_1)$ is the range.</p>
+
+<p>If $x_1 = 2$ and $x_2 = 3$, then
+\begin{align} \label{e}
+h(2, 3) = (5, 1, 6)
+\end{align}
+The equation \ref{e} implies that $(2, 3)$ is domain, $(5, 1, 6)$ is co-domain, and $(5, 1, 6)$ is the range.</p>
+
+<h2 id="linear-transformation-examples">Linear transformation examples</h2>
+
+<h2 id="transformations-and-matrix-multiplication">Transformations and matrix multiplication</h2>
+
+<h2 id="inverse-functions-and-transformations">Inverse functions and transformations</h2>
+
+<h2 id="finding-inverses-and-determinants">Finding inverses and determinants</h2>
+
+<h2 id="more-determinant-depth">More determinant depth</h2>
+
+<h2 id="transpose-of-a-matrix">Transpose of a matrix</h2>
+
+</div>
+      
+      </div><!-- /.container -->
+      <footer>
+          <ul>
+              <li><a href="mailto:lorenzo.stamaria@gmail.com">email</a></li>
+              <li><a href="https://github.com/lstamaria">github.com/lstamaria</a></li>
+        </ul>
+      </footer>
+    </body>
+  </html>
