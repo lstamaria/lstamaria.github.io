@@ -50,7 +50,7 @@ The equation \ref{g} implies that $\mathbb{R^2}$ is domain, $\mathbb{R}$ is co-d
 g(x_1, x_2) 
 = 
 2
-$$
+\end{align}
 The equation  \ref{c} implies that $x_1, x_2$ is domain, $2$ is co-domain, and $2$ is the range.
 
 \begin{align} 
