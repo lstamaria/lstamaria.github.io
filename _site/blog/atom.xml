@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-02-13T19:22:08+08:00</updated>
+	<updated>2018-02-13T19:24:01+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -156,7 +156,7 @@ The equation \ref{n} shows another representation of equation \ref{k}.&lt;/p&gt;
 			<link href="http://enz0s.github.io/blog/2018/02/08/mathurl-and-mathjax"/>
 			<updated>2018-02-08T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2018/02/08/mathurl-and-mathjax</id>
-			<content type="html">&lt;p&gt;I love how I can add Math equations in Markup using &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt;. Another tool that provides easy LaTeX translation is &lt;a href=&quot;http://mathurl.com/&quot;&gt;MathURL&lt;/a&gt;.&lt;/p&gt;
+			<content type="html">&lt;p&gt;I love how I can add Math equations in Markdown using &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt;. Another tool that provides easy LaTeX translation is &lt;a href=&quot;http://mathurl.com/&quot;&gt;MathURL&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My template includes:&lt;/p&gt;
 
@@ -165,7 +165,7 @@ f : \mathbb{R}^n
 \rightarrow
 \mathbb{R}^m
 \end{align}
-The equation \ref{a} states that $n$-dimensional real coordinate space is mapped to $m$-dimensional real coordinate space.&lt;/p&gt;
+The equation \ref{a} states that…&lt;/p&gt;
 
 &lt;p&gt;$…\textrm{normal text}…$&lt;/p&gt;
 

@@ -5,7 +5,7 @@ date: 2018-02-08
 use_math: true
 ---
 
-I love how I can add Math equations in Markup using [MathJax](https://www.mathjax.org/). Another tool that provides easy LaTeX translation is [MathURL](http://mathurl.com/).
+I love how I can add Math equations in Markdown using [MathJax](https://www.mathjax.org/). Another tool that provides easy LaTeX translation is [MathURL](http://mathurl.com/).
 
 
 My template includes:
@@ -15,7 +15,7 @@ f : \mathbb{R}^n
 \rightarrow
 \mathbb{R}^m
 \end{align}
-The equation \ref{a} states that $n$-dimensional real coordinate space is mapped to $m$-dimensional real coordinate space.
+The equation \ref{a} states that...
 
 $...\textrm{normal text}...$
 
