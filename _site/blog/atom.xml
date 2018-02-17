@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-02-15T18:13:38+08:00</updated>
+	<updated>2018-02-17T10:28:42+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -22,6 +22,7 @@
 &lt;h2 id=&quot;functions-and-linear-transformations&quot;&gt;Functions and linear transformations&lt;/h2&gt;
 
 &lt;h3 id=&quot;a-more-formal-understanding-of-functions&quot;&gt;A more formal understanding of functions&lt;/h3&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;Range is the subset of co-domain that the function actually maps to.&lt;/p&gt;
 
@@ -74,22 +75,29 @@ The equation \ref{d} implies that $(x_1, x_2)$ is domain, $(x_1 + x_2, x_2 - x_1
 &lt;p&gt;If $x_1 = 2$ and $x_2 = 3$, then
 \begin{align} 
 \label{e}
-h(2, 3) = (5, 1, 6)
+h(2, 3) 
+= 
+(5, 1, 6)
 \end{align}
 The equation \ref{e} implies that $(2, 3)$ is domain, $(5, 1, 6)$ is co-domain, and $(5, 1, 6)$ is the range.&lt;/p&gt;
 
 &lt;h3 id=&quot;vector-transformations&quot;&gt;Vector transformations&lt;/h3&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;Vectors are members of some set.&lt;/p&gt;
 
 &lt;p&gt;\begin{align} 
 \label{h}
-f:X \rightarrow Y
+f:X 
+\rightarrow 
+Y
 \end{align}
 The equation \ref{h} implies that set $X$ is mapped to set $Y$.&lt;/p&gt;
 
 &lt;p&gt;\begin{align} \label{i}
-\vec{x} \in \mathbb{R}^n
+\vec{x} 
+\in 
+\mathbb{R}^n
 \end{align}
 The equation \ref{i} explains that $\vec{x}$ belongs to $n$-dimensional real coordinate space.&lt;/p&gt;
 
@@ -142,29 +150,139 @@ x_1 + 2x_2 \\
 \end{align}
 The equation \ref{n} shows another representation of equation \ref{k}.&lt;/p&gt;
 
-&lt;h2 id=&quot;linear-transformation-examples&quot;&gt;Linear transformation examples&lt;/h2&gt;
+&lt;p&gt;Transformation is a function operating on vectors. It is called transformation because we are transforming one vector to another.&lt;/p&gt;
 
-&lt;p&gt;To be continued…&lt;/p&gt;
+&lt;p&gt;\begin{align} 
+\label{o}
+T : \mathbb{R}^3
+\rightarrow
+\mathbb{R}^2
+\end{align}
+The equation \ref{o} means that 3-dimensional real coordinate space is transformed to 2-dimensional real coordinate space.&lt;/p&gt;
 
-&lt;h2 id=&quot;transformations-and-matrix-multiplication&quot;&gt;Transformations and matrix multiplication&lt;/h2&gt;
+&lt;p&gt;\begin{align} 
+\label{p}
+T : \mathbb{R}^n
+\rightarrow
+\mathbb{R}^m
+\end{align}
+The equation \ref{p} means that (x_1, x_2, x_3) is transformed into (x_1 + 2x_2, 3x_3).&lt;/p&gt;
 
-&lt;p&gt;To be continued…&lt;/p&gt;
+&lt;h3 id=&quot;linear-transformations&quot;&gt;Linear transformations&lt;/h3&gt;
+&lt;hr /&gt;
 
-&lt;h2 id=&quot;inverse-functions-and-transformations&quot;&gt;Inverse functions and transformations&lt;/h2&gt;
+&lt;p&gt;\begin{align} 
+\label{q}
+\vec{a}, \vec{b} 
+\in
+\mathbb{R}^n
+\end{align}&lt;/p&gt;
 
-&lt;p&gt;To be continued…&lt;/p&gt;
+&lt;p&gt;\begin{align} 
+\label{r}
+T(\vec{a} + \vec{b}) 
+=
+T(\vec{a}) + T(\vec{b})
+\end{align}&lt;/p&gt;
 
-&lt;h2 id=&quot;finding-inverses-and-determinants&quot;&gt;Finding inverses and determinants&lt;/h2&gt;
+&lt;p&gt;\begin{align} 
+\label{s}
+T(c\vec{a})
+=
+c T(\vec{a})
+\end{align}&lt;/p&gt;
 
-&lt;p&gt;To be continued…&lt;/p&gt;
+&lt;p&gt;The equations \ref{q}, \ref{r}, and \ref{s} support the basis of linear transformation.&lt;/p&gt;
 
-&lt;h2 id=&quot;more-determinant-depth&quot;&gt;More determinant depth&lt;/h2&gt;
+&lt;p&gt;\begin{align} 
+\label{t}
+T:\mathbb{R}^2
+\rightarrow
+\mathbb{R}^2
+\end{align}&lt;/p&gt;
 
-&lt;p&gt;To be continued…&lt;/p&gt;
+&lt;p&gt;\begin{align} 
+\label{u}
+T(x_1, x_2) 
+=
+T(x_1 + x_2, 3x_1)
+\end{align}&lt;/p&gt;
 
-&lt;h2 id=&quot;transpose-of-a-matrix&quot;&gt;Transpose of a matrix&lt;/h2&gt;
+&lt;p&gt;\begin{align} 
+\label{v}
+T
+\begin{pmatrix}
+\begin{bmatrix}
+x_1 \\
+x_2
+\end{bmatrix}
+\end{pmatrix}
+=
+\begin{bmatrix}
+x_1 + x_2 \\
+3x_1
+\end{bmatrix}
+\end{align}&lt;/p&gt;
 
-&lt;p&gt;To be continued…&lt;/p&gt;
+&lt;p&gt;\begin{align} 
+\label{w}
+T:
+\begin{pmatrix}
+\begin{bmatrix}
+x_1 \\
+x_2
+\end{bmatrix}
+\end{pmatrix}
+\mapsto
+\begin{bmatrix}
+x_1 + x_2 \\
+3x_1
+\end{bmatrix}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equations \ref{t}, \ref{u}, \ref{v}, and \ref{w} support the linear transformation from 2-dimensional real coordinate space to 2-dimensional real coordinate space.&lt;/p&gt;
+
+&lt;h3 id=&quot;visualizing-linear-transformations&quot;&gt;Visualizing linear transformations&lt;/h3&gt;
+
+&lt;h3 id=&quot;matrix-from-visual-representation-of-transformation&quot;&gt;Matrix from visual representation of transformation&lt;/h3&gt;
+
+&lt;h3 id=&quot;matrix-vector-products-as-linear-transformations&quot;&gt;Matrix vector products as linear transformations&lt;/h3&gt;
+
+&lt;h3 id=&quot;linear-transformations-as-matrix-vector-products&quot;&gt;Linear transformations as matrix vector products&lt;/h3&gt;
+
+&lt;h3 id=&quot;image-of-a-subset-under-a-transformation&quot;&gt;Image of a subset under a transformation&lt;/h3&gt;
+
+&lt;h3 id=&quot;imtextrmttextrm-image-of-a-transformation&quot;&gt;im$\textrm{(}$T$\textrm{)}$: Image of a transformation&lt;/h3&gt;
+
+&lt;h3 id=&quot;preimage-and-kernel-example&quot;&gt;Preimage and kernel example&lt;/h3&gt;
+
+&lt;h3 id=&quot;sums-and-scalar-multiples-of-linear-transformations&quot;&gt;Sums and scalar multiples of linear transformations&lt;/h3&gt;
+
+&lt;h3 id=&quot;more-on-matrix-addition-and-scalar-multiplication&quot;&gt;More on matrix addition and scalar multiplication&lt;/h3&gt;
+
+&lt;!--## Linear transformation examples
+
+To be continued...
+
+## Transformations and matrix multiplication
+
+To be continued...
+
+## Inverse functions and transformations
+
+To be continued...
+
+## Finding inverses and determinants
+
+To be continued...
+
+## More determinant depth
+
+To be continued...
+
+## Transpose of a matrix
+
+To be continued...--&gt;
 </content>
 		</entry>
 	

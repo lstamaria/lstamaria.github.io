@@ -7,10 +7,10 @@ use_math: true
 
 These notes are taken from [Khan Academy](https://www.khanacademy.org/math/linear-algebra/matrix-transformations#linear-transformations).
 
-
 ## Functions and linear transformations
 
 ### A more formal understanding of functions
+--------------------------------------------
 
 Range is the subset of co-domain that the function actually maps to.
 
@@ -64,23 +64,29 @@ The equation \ref{d} implies that $(x_1, x_2)$ is domain, $(x_1 + x_2, x_2 - x_1
 If $x_1 = 2$ and $x_2 = 3$, then
 \begin{align} 
 \label{e}
-h(2, 3) = (5, 1, 6)
+h(2, 3) 
+= 
+(5, 1, 6)
 \end{align}
 The equation \ref{e} implies that $(2, 3)$ is domain, $(5, 1, 6)$ is co-domain, and $(5, 1, 6)$ is the range.
 
 ### Vector transformations
+--------------------------
 
 Vectors are members of some set.
 
 \begin{align} 
 \label{h}
-f:X \rightarrow Y
+f:X 
+\rightarrow 
+Y
 \end{align}
 The equation \ref{h} implies that set $X$ is mapped to set $Y$.
 
-
 \begin{align} \label{i}
-\vec{x} \in \mathbb{R}^n
+\vec{x} 
+\in 
+\mathbb{R}^n
 \end{align}
 The equation \ref{i} explains that $\vec{x}$ belongs to $n$-dimensional real coordinate space. 
 
@@ -133,7 +139,127 @@ x_1 + 2x_2 \\\
 \end{align}
 The equation \ref{n} shows another representation of equation \ref{k}.
 
-## Linear transformation examples
+Transformation is a function operating on vectors. It is called transformation because we are transforming one vector to another.
+
+\begin{align} 
+\label{o}
+T : \mathbb{R}^3
+\rightarrow
+\mathbb{R}^2
+\end{align}
+The equation \ref{o} means that 3-dimensional real coordinate space is transformed to 2-dimensional real coordinate space.
+
+\begin{align} 
+\label{p}
+T : \mathbb{R}^n
+\rightarrow
+\mathbb{R}^m
+\end{align}
+The equation \ref{p} means that (x_1, x_2, x_3) is transformed into (x_1 + 2x_2, 3x_3).
+
+
+### Linear transformations
+--------------------------
+
+\begin{align} 
+\label{q}
+\vec{a}, \vec{b} 
+\in
+\mathbb{R}^n
+\end{align}
+
+\begin{align} 
+\label{r}
+T(\vec{a} + \vec{b}) 
+=
+T(\vec{a}) + T(\vec{b})
+\end{align}
+
+\begin{align} 
+\label{s}
+T(c\vec{a})
+=
+c T(\vec{a})
+\end{align}
+
+The equations \ref{q}, \ref{r}, and \ref{s} support the basis of linear transformation.
+
+\begin{align} 
+\label{t}
+T:\mathbb{R}^2
+\rightarrow
+\mathbb{R}^2
+\end{align}
+
+\begin{align} 
+\label{u}
+T(x_1, x_2) 
+=
+T(x_1 + x_2, 3x_1)
+\end{align}
+
+\begin{align} 
+\label{v}
+T
+\begin{pmatrix}
+\begin{bmatrix}
+x_1 \\\
+x_2
+\end{bmatrix}
+\end{pmatrix}
+=
+\begin{bmatrix}
+x_1 + x_2 \\\
+3x_1
+\end{bmatrix}
+\end{align}
+
+\begin{align} 
+\label{w}
+T:
+\begin{pmatrix}
+\begin{bmatrix}
+x_1 \\\
+x_2
+\end{bmatrix}
+\end{pmatrix}
+\mapsto
+\begin{bmatrix}
+x_1 + x_2 \\\
+3x_1
+\end{bmatrix}
+\end{align}
+
+The equations \ref{t}, \ref{u}, \ref{v}, and \ref{w} support the linear transformation from 2-dimensional real coordinate space to 2-dimensional real coordinate space.
+
+
+
+
+
+
+
+### Visualizing linear transformations
+
+### Matrix from visual representation of transformation
+
+### Matrix vector products as linear transformations
+
+### Linear transformations as matrix vector products
+
+### Image of a subset under a transformation
+
+### im$\textrm{(}$T$\textrm{)}$: Image of a transformation
+
+### Preimage and kernel example
+
+### Sums and scalar multiples of linear transformations
+
+### More on matrix addition and scalar multiplication
+
+
+
+
+<!--## Linear transformation examples
 
 To be continued...
 
@@ -155,4 +281,4 @@ To be continued...
 
 ## Transpose of a matrix
 
-To be continued...
+To be continued...-->
