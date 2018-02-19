@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Schedule of My Data Science Program"
+title: "Schedule of my data science program"
 date: 2017-08-23
 ---
 

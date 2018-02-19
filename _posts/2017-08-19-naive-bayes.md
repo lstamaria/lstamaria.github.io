@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Naive Bayes"
+title: "Naive Bayes practice"
 date: 2017-08-19
 ---
 Naive Bayes is an ML algorithm that allows you to label the result into classification.

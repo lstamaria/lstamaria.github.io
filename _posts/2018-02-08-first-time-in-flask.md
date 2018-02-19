@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First Time in Flask"
+title: "First time in Flask"
 date: 2018-02-08
 ---
 

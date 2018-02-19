@@ -17,7 +17,7 @@ f : \mathbb{R}^n
 \end{align}
 The equation \ref{a} states that...
 
-$...\textrm{normal text}...$
+$\textrm{normal text}$
 
 <!--Let's test some inline math $x$, $y$, $x_1$, $y_1$.
 

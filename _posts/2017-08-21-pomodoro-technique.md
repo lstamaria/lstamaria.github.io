@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pomodoro Technique"
+title: "Pomodoro technique"
 date: 2017-08-21
 ---
 I am reliving my habit of Pomodoro technique. I used to apply it to my life when my work schedule was crazy. Since I'm driven to self-directing learning, I need to bring this habit back. 

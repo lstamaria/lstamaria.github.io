@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hacking a Data Science Program"
+title: "Hacking a data science program"
 date: 2017-08-21
 ---
 My main goal is to learn data science. Initially my plan was to enrol myself in a data science masters program. However, after watching Tetiana Ivanova's speech during the PyData London 2016 I realized that maybe I can pursue a similar path. Now I am on my quest on how to hack a data science program.

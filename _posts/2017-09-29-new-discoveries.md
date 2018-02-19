@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Discoveries"
+title: "New discoveries"
 date: 2017-09-29
 ---
 

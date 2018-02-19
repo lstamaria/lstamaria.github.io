@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Commitment and Conviction"
+title: "Commitment and conviction"
 date: 2017-08-24
 ---
 

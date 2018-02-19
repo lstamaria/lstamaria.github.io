@@ -69,8 +69,15 @@ ul.bulletmain li.bulletsub {
     list-style: none;
     margin-left: 0px;
 }
+
 ul.bulletmain li {
     list-style: dotted;
     margin-left: 60px;
 }
 /*end start*/
+
+.center-image {
+    /*margin: 0 auto;*/
+    margin-left: 5em;
+    display: block;
+}

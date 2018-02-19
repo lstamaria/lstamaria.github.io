@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Saved By Gems"
+title: "Saved by gems"
 date: 2016-09-14
 ---
 I've been Jekyll-ed. Yes, I am.

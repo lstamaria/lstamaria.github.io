@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Markdown Basics"
+title: "Markdown basics"
 date: 2017-08-21
 ---
 In addition to hacking my data science program, I need to brush up my Markdown basics. I've been coding my site in Markdown instead of HTML. The latter should have outwon me due to familiarity; however, I've seen the former's simplicity as a major advantage.

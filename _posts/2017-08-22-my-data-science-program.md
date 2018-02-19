@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Data Science Program"
+title: "My data science program"
 date: 2017-08-22
 ---
 I have ultimately come up with my customized data science program. In a quick glance, the outline will be as follows: 

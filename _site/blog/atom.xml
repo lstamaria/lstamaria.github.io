@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-02-17T10:28:42+08:00</updated>
+	<updated>2018-02-19T11:35:18+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -13,252 +13,451 @@
 
 	
 		<entry>
-			<title>Matrix Transformations</title>
-			<link href="http://enz0s.github.io/blog/2018/02/09/matrix-transformations"/>
+			<title>Basic theoretical probability</title>
+			<link href="http://enz0s.github.io/blog/2018/02/19/basic-theoretical-probability"/>
+			<updated>2018-02-19T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/02/19/basic-theoretical-probability</id>
+			<content type="html">&lt;p&gt;These notes are taken from &lt;a href=&quot;https://www.khanacademy.org/math/statistics-probability/probability-library/basic-theoretical-probability/v/basic-probability&quot;&gt;Khan Academy’s Probability: Basic Theoretical Probability&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;intro-to-theoretical-probability&quot;&gt;Intro to theoretical probability&lt;/h2&gt;
+
+&lt;p&gt;\begin{align} \label{1}
+	P(H) = \frac{1}{2} = 50%
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{1} shows the probability of flipping heads of a coin.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{2}
+	P(1) = \frac{1}{6}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{2} shows the probability of getting 1 after rolling a die.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{3}
+	P(1 \textrm{ or } 6) = \frac{2}{6} = \frac{1}{3}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{3} shows the probability of getting 1 or 6 after rolling a die.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{4}
+	P(2 \textrm{ and }  3) = \frac{0}{6}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{4} shows the probability of getting 2 and 3 after rolling a die.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{5}
+	P( \textrm{even}) = \frac{3}{6} = \frac{1}{2}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{5} shows the probability of getting an even number such as 2, 4, or 6 after rolling a die.&lt;/p&gt;
+
+&lt;h2 id=&quot;probability-the-basics&quot;&gt;Probability: the basics&lt;/h2&gt;
+
+&lt;h2 id=&quot;simple-probability-yellow-marble&quot;&gt;Simple probability: yellow marble&lt;/h2&gt;
+
+&lt;h2 id=&quot;simple-probability-non-blue-marble&quot;&gt;Simple probability: non-blue marble&lt;/h2&gt;
+
+&lt;h2 id=&quot;intuitive-sense-of-probabilities&quot;&gt;Intuitive sense of probabilities&lt;/h2&gt;
+
+&lt;h2 id=&quot;the-monty-hall-problem&quot;&gt;The Monty Hall problem&lt;/h2&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>My AIM MSDS wiki page</title>
+			<link href="http://enz0s.github.io/blog/2018/02/15/my-msds-wiki-page"/>
+			<updated>2018-02-15T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/02/15/my-msds-wiki-page</id>
+			<content type="html">&lt;p&gt;This my profile on &lt;a href=&quot;https://gitlab.datascience.aim.edu/MSDS-2019/wikipage/wikis/lstamaria&quot;&gt;AIM MSDS Class Wikipage&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/self.jpeg&quot; alt=&quot;I'm Lorenzo!&quot; class=&quot;img-responsive center-image&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello! I’m Lorenzo Sta. Maria. My work is mainly organizational and academic but it has never stopped me to pursue lifelong learning. My journey has led me to the growing and enchanting world of data science. I am super excited to jumpstart my life through AIM MSDS program and the powerhouse faculty lineup that supports it. I would like to see myself in the future as a home-grown Filipino &lt;em&gt;data science unicorn&lt;/em&gt; who generates business value and champions the advocacy of the socially-disadvantaged through data-driven solutions.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-your-main-interests&quot;&gt;What are your main interests?&lt;/h2&gt;
+&lt;p&gt;My current work defines my main interests. As a Technical Committee Member in the Commission on Higher Education (CHED), I advocate outcomes-based education (OBE) by designing curricula that directly address industry needs. As an Assistant Professor in Adamson University, I apply OBE processes to improve the educational experience of my students. As a former National President of the Institute of Computer Engineers in the Philippines (ICpEP), I applied a similar goal-oriented approach to attain the organization’s three-year strategic objectives.&lt;/p&gt;
+
+&lt;p&gt;On the side, I practice mind-body connection in the gym and minimalism in my way of life. I am a Star Wars fan. I firmly believe that it upholds one great philosophy in life: there is balance in the &lt;em&gt;Force&lt;/em&gt; and it binds us all.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-sort-of-expertise-can-you-bring-to-the-cohort&quot;&gt;What sort of expertise can you bring to the cohort?&lt;/h2&gt;
+
+&lt;p&gt;Admittedly, my current work is not directly related to data science. However, I believe that my transferable skills will allow me to adjust organically to the demand of work.&lt;/p&gt;
+
+&lt;p&gt;I can synthesize principles and concepts to uncover connections among and between them, analyze situations and present alternative actions, and compile information by devising a systematic approach.&lt;/p&gt;
+
+&lt;p&gt;I can mentor individuals and adjust to their personalities, instruct people by crafting inventive ways such as analogy and story-telling, and serve or assist the needs and requests of individuals with attention to detail.&lt;/p&gt;
+
+&lt;p&gt;I can set up a dev environment, work on a solution using mobile and web technologies, and control and debug a solution.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-do-you-hope-to-get-out-of-the-ms-in-data-science-program&quot;&gt;What do you hope to get out of the M.S. in Data Science program?&lt;/h2&gt;
+
+&lt;p&gt;Unicorns do not exist but with AIM MSDS program, I believe it can. My ultimate goal of becoming a home-grown Filipino &lt;em&gt;data science unicorn&lt;/em&gt; will be a reality through the guidance of our teachers and mentors. I hope to develop the characteristics that are expected from one: math-savvy, technology-adept, and domain-proficient.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-do-you-hope-to-get-out-of-studying-at-the-asian-inst-of-management&quot;&gt;What do you hope to get out of studying at the Asian Inst. of Management?&lt;/h2&gt;
+
+&lt;p&gt;In addition to gaining the necessary skill set, I hope to embody the dynamism the institution is known for. I hope to become an AIM alumnus who can lead, inspire and  transform the nation through data-driven solutions.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-you-have-any-possible-data-driven-projects-in-mind&quot;&gt;Do you have any possible data-driven projects in mind?&lt;/h2&gt;
+
+&lt;p&gt;Aside from generating business value in the industry, I would like to empower the socially-disadvantaged through data science. I hope to come up with solutions that  can improve social and economic conditions across all strata. I hope to build a data-driven traffic management system to ease the traffic in Metro Manila, a data-driven HIV decision-making system to provide better support programs, and a data-driven mental healthcare system to provide better treatments.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Functions and linear transformations</title>
+			<link href="http://enz0s.github.io/blog/2018/02/09/functions-and-linear-transformations"/>
 			<updated>2018-02-09T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2018/02/09/matrix-transformations</id>
-			<content type="html">&lt;p&gt;These notes are taken from &lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/matrix-transformations#linear-transformations&quot;&gt;Khan Academy&lt;/a&gt;.&lt;/p&gt;
+			<id>http://enz0s.github.io//blog/2018/02/09/functions-and-linear-transformations</id>
+			<content type="html">&lt;p&gt;These notes are taken from &lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/matrix-transformations#linear-transformations&quot;&gt;Khan Academy’s Matrix Transformations: Functions and Linear Transformations&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;functions-and-linear-transformations&quot;&gt;Functions and linear transformations&lt;/h2&gt;
-
-&lt;h3 id=&quot;a-more-formal-understanding-of-functions&quot;&gt;A more formal understanding of functions&lt;/h3&gt;
-&lt;hr /&gt;
+&lt;h2 id=&quot;a-more-formal-understanding-of-functions&quot;&gt;A more formal understanding of functions&lt;/h2&gt;
 
 &lt;p&gt;Range is the subset of co-domain that the function actually maps to.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{a}
-f : X 
-\rightarrow 
-Y
+&lt;p&gt;\begin{align} \label{1}
+	f : X \rightarrow Y
 \end{align}
-The equation \ref{a} implies that set $X$ is domain, set $Y$ is co-domain, and set $Y$ is the range.&lt;/p&gt;
+The equation \ref{1} implies that set &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is domain, set &lt;script type=&quot;math/tex&quot;&gt;Y&lt;/script&gt; is co-domain, and set $Y$ is the range.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{f}
-f : \mathbb{R} 
-\rightarrow 
-\mathbb{R}
+&lt;p&gt;\begin{align} \label{2}
+f : \mathbb{R} \rightarrow \mathbb{R}
 \end{align}
-The equation \ref{f} implies that $\mathbb{R}$ is domain, $\mathbb{R}$ is co-domain, and $\mathbb{R}$ is the range.&lt;/p&gt;
+The equation \ref{2} implies that &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt; is domain, $\mathbb{R}$ is co-domain, and $\mathbb{R}$ is the range.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{b}
-f(x)
-=
-x^2
+&lt;p&gt;\begin{align} \label{3}
+	f(x) =x^2
 \end{align}
-The equation \ref{b} implies that $x$ is domain, $x^2$ is co-domain, and $x^2$ is the range.&lt;/p&gt;
+The equation \ref{3} implies that &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; is domain, &lt;script type=&quot;math/tex&quot;&gt;x^2&lt;/script&gt; is co-domain, and &lt;script type=&quot;math/tex&quot;&gt;x^2&lt;/script&gt; is the range.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{g}
-f:\mathbb{R^2} \rightarrow \mathbb{R}
+&lt;p&gt;\begin{align} \label{4}
+	f:\mathbb{R^2} \rightarrow \mathbb{R}
 \end{align}
-The equation \ref{g} implies that $\mathbb{R^2}$ is domain, $\mathbb{R}$ is co-domain, and $\mathbb{R}$ is the range.&lt;/p&gt;
+The equation \ref{4} implies that &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R^2}&lt;/script&gt; is domain, &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt; is co-domain, and &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt; is the range.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{c}
-g(x_1, x_2) 
-= 
-2
+&lt;p&gt;\begin{align} \label{5}
+	g(x_1, x_2) = 2
 \end{align}
-The equation  \ref{c} implies that $x_1, x_2$ is domain, $2$ is co-domain, and $2$ is the range.&lt;/p&gt;
+The equation  \ref{5} implies that &lt;script type=&quot;math/tex&quot;&gt;(x_1, x_2)&lt;/script&gt; is domain, &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt; is co-domain, and &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt; is the range.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{d}
-h(x_1, x_2) 
-= 
-(x_1 + x_2, x_2 - x_1, x_2x_1)
+&lt;p&gt;\begin{align} \label{6}
+	h(x_1, x_2) = (x_1 + x_2, x_2 - x_1, x_2x_1)
 \end{align}
-The equation \ref{d} implies that $(x_1, x_2)$ is domain, $(x_1 + x_2, x_2 - x_1, x_2x_1)$ is co-domain, and $(x_1 + x_2, x_2 - x_1, x_2x_1)$ is the range.&lt;/p&gt;
+The equation \ref{6} implies that &lt;script type=&quot;math/tex&quot;&gt;(x_1, x_2)&lt;/script&gt; is domain, &lt;script type=&quot;math/tex&quot;&gt;(x_1 + x_2, x_2 - x_1, x_2x_1)&lt;/script&gt; is co-domain, and &lt;script type=&quot;math/tex&quot;&gt;(x_1 + x_2, x_2 - x_1, x_2x_1)&lt;/script&gt; is the range.&lt;/p&gt;
 
-&lt;p&gt;If $x_1 = 2$ and $x_2 = 3$, then
-\begin{align} 
-\label{e}
-h(2, 3) 
-= 
-(5, 1, 6)
+&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;x_1 = 2$ and $x_2 = 3&lt;/script&gt;, then&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{7}
+	h(2, 3) = (5, 1, 6)
 \end{align}
-The equation \ref{e} implies that $(2, 3)$ is domain, $(5, 1, 6)$ is co-domain, and $(5, 1, 6)$ is the range.&lt;/p&gt;
+The equation \ref{7} implies that &lt;script type=&quot;math/tex&quot;&gt;(2, 3)&lt;/script&gt; is domain, &lt;script type=&quot;math/tex&quot;&gt;(5, 1, 6)&lt;/script&gt; is co-domain, and &lt;script type=&quot;math/tex&quot;&gt;(5, 1, 6)&lt;/script&gt; is the range.&lt;/p&gt;
 
-&lt;h3 id=&quot;vector-transformations&quot;&gt;Vector transformations&lt;/h3&gt;
-&lt;hr /&gt;
+&lt;h2 id=&quot;vector-transformations&quot;&gt;Vector transformations&lt;/h2&gt;
 
 &lt;p&gt;Vectors are members of some set.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{h}
-f:X 
-\rightarrow 
-Y
+&lt;p&gt;\begin{align} \label{8}
+	f:X \rightarrow Y
 \end{align}
-The equation \ref{h} implies that set $X$ is mapped to set $Y$.&lt;/p&gt;
+The equation \ref{8} implies that set &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is mapped to set &lt;script type=&quot;math/tex&quot;&gt;Y&lt;/script&gt;.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} \label{i}
-\vec{x} 
-\in 
-\mathbb{R}^n
+&lt;p&gt;\begin{align} \label{9}
+	\vec{x} \in \mathbb{R}^n
 \end{align}
-The equation \ref{i} explains that $\vec{x}$ belongs to $n$-dimensional real coordinate space.&lt;/p&gt;
+The equation \ref{9} explains that &lt;script type=&quot;math/tex&quot;&gt;\vec{x}&lt;/script&gt; belongs to &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-dimensional real coordinate space.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} \label{j}
-f : \mathbb{R}^n
-\rightarrow
-\mathbb{R}^m
+&lt;p&gt;\begin{align} \label{10}
+	f : \mathbb{R}^n \rightarrow \mathbb{R}^m
 \end{align}
-The equation \ref{j} states that $n$-dimensional real coordinate space is mapped to $m$-dimensional real coordinate space. A regular arrow represents a set is being represented by another set. Also, it means that vectors are valid elements of sets.&lt;/p&gt;
+The equation \ref{10} states that &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-dimensional real coordinate space is mapped to &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt;-dimensional real coordinate space. A regular arrow represents a set is being represented by another set. Also, it means that vectors are valid elements of sets.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{k}
-f : x
-\mapsto
-x^2
+&lt;p&gt;\begin{align} \label{11}
+	f : x \mapsto x^2
 \end{align}
-The equation \ref{k} states that $x$ is mapped to $x^2$. An arrow with vertical line represents a function definition. Also, it means that functions are mapping between elements of sets. Thus, we can have functions of vectors.&lt;/p&gt;
+The equation \ref{11} states that &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; is mapped to &lt;script type=&quot;math/tex&quot;&gt;x^2&lt;/script&gt;. An arrow with vertical line represents a function definition. Also, it means that functions are mapping between elements of sets. Thus, we can have functions of vectors.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{l}
-f : (x_1, x_2, x_3)
-=
-(x_1 + 2x_2, 3x_3)
+&lt;p&gt;\begin{align} \label{12}
+	f : (x_1, x_2, x_3) = (x_1 + 2x_2, 3x_3)
 \end{align}
-The equation \ref{l} can be represented by equation \ref{m}.&lt;/p&gt;
+The equation \ref{12} can be represented by equation \ref{11}.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{m}
-f : \mathbb{R}^3
-\rightarrow
-\mathbb{R}^2
+&lt;p&gt;\begin{align} \label{13}
+	f : \mathbb{R}^3 \rightarrow \mathbb{R}^2
 \end{align}
-The equation \ref{m} means that 3-dimensional real coordinate space is mapped to 2-dimensional real coordinate space.&lt;/p&gt;
+The equation \ref{13} means that three-dimensional real coordinate space is mapped to two-dimensional real coordinate space.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{n}
-f :
-\begin{pmatrix}
-\begin{bmatrix}
-x_1 \\
-x_2 \\
-x_3
-\end{bmatrix}
-\end{pmatrix}
-=
-\begin{bmatrix}
-x_1 + 2x_2 \\
-3x_3
-\end{bmatrix}
+&lt;p&gt;\begin{align} \label{14}
+	f : 
+	\begin{pmatrix} 
+		\begin{bmatrix}
+			x_1 \\
+			x_2 \\
+			x_3
+		\end{bmatrix} 
+	\end{pmatrix} 
+	= 
+	\begin{bmatrix}
+		x_1 + 2x_2 \\
+		3x_3
+	\end{bmatrix} 
 \end{align}
-The equation \ref{n} shows another representation of equation \ref{k}.&lt;/p&gt;
+The equation \ref{14} shows another representation of equation \ref{13}.&lt;/p&gt;
 
 &lt;p&gt;Transformation is a function operating on vectors. It is called transformation because we are transforming one vector to another.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{o}
-T : \mathbb{R}^3
-\rightarrow
-\mathbb{R}^2
+&lt;p&gt;\begin{align} \label{15}
+	T : \mathbb{R}^3 \rightarrow \mathbb{R}^2
 \end{align}
-The equation \ref{o} means that 3-dimensional real coordinate space is transformed to 2-dimensional real coordinate space.&lt;/p&gt;
+The equation \ref{15} means that three-dimensional real coordinate space is transformed to two-dimensional real coordinate space.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{p}
-T : \mathbb{R}^n
-\rightarrow
-\mathbb{R}^m
+&lt;p&gt;\begin{align} \label{16}
+	T : (x_1, x_2, x_3) \rightarrow (x_1 + 2x_2, 3x_3)
 \end{align}
-The equation \ref{p} means that (x_1, x_2, x_3) is transformed into (x_1 + 2x_2, 3x_3).&lt;/p&gt;
+The equation \ref{16} means that &lt;script type=&quot;math/tex&quot;&gt;(x_1, x_2, x_3)&lt;/script&gt; is transformed into &lt;script type=&quot;math/tex&quot;&gt;(x_1 + 2x_2, 3x_3)&lt;/script&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;linear-transformations&quot;&gt;Linear transformations&lt;/h3&gt;
-&lt;hr /&gt;
+&lt;h2 id=&quot;linear-transformations&quot;&gt;Linear transformations&lt;/h2&gt;
 
-&lt;p&gt;\begin{align} 
-\label{q}
-\vec{a}, \vec{b} 
-\in
-\mathbb{R}^n
+&lt;p&gt;\begin{align} \label{17}
+	\vec{a}, \vec{b} \in \mathbb{R}^n
 \end{align}&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{r}
-T(\vec{a} + \vec{b}) 
-=
-T(\vec{a}) + T(\vec{b})
+&lt;p&gt;\begin{align} \label{18}
+	T(\vec{a} + \vec{b}) = T(\vec{a}) + T(\vec{b})
 \end{align}&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{s}
-T(c\vec{a})
-=
-c T(\vec{a})
+&lt;p&gt;\begin{align} \label{19}
+	T(c\vec{a}) = c T(\vec{a})
 \end{align}&lt;/p&gt;
 
-&lt;p&gt;The equations \ref{q}, \ref{r}, and \ref{s} support the basis of linear transformation.&lt;/p&gt;
+&lt;p&gt;The equations \ref{17}, \ref{18}, and \ref{19} support the basis of linear transformation.&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{t}
-T:\mathbb{R}^2
-\rightarrow
-\mathbb{R}^2
+&lt;p&gt;\begin{align} \label{20}
+	T:\mathbb{R}^2 \rightarrow \mathbb{R}^2
 \end{align}&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{u}
-T(x_1, x_2) 
-=
-T(x_1 + x_2, 3x_1)
+&lt;p&gt;\begin{align} \label{21}
+	T(x_1, x_2) = T(x_1 + x_2, 3x_1)
 \end{align}&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{v}
-T
-\begin{pmatrix}
-\begin{bmatrix}
-x_1 \\
-x_2
-\end{bmatrix}
-\end{pmatrix}
-=
-\begin{bmatrix}
-x_1 + x_2 \\
-3x_1
-\end{bmatrix}
+&lt;p&gt;\begin{align} \label{22}
+	T 
+	\begin{pmatrix} 
+		\begin{bmatrix}
+			x_1 \\
+			x_2
+		\end{bmatrix} 
+	\end{pmatrix} 
+	= 
+	\begin{bmatrix}
+		x_1 + x_2 \\
+		3x_1
+	\end{bmatrix} 
 \end{align}&lt;/p&gt;
 
-&lt;p&gt;\begin{align} 
-\label{w}
-T:
-\begin{pmatrix}
-\begin{bmatrix}
-x_1 \\
-x_2
-\end{bmatrix}
-\end{pmatrix}
-\mapsto
-\begin{bmatrix}
-x_1 + x_2 \\
-3x_1
-\end{bmatrix}
+&lt;p&gt;\begin{align} \label{23}
+	T: 
+	\begin{pmatrix} 
+		\begin{bmatrix}
+			x_1 \\
+			x_2
+		\end{bmatrix} 
+	\end{pmatrix} 
+	\mapsto 
+	\begin{bmatrix}
+		x_1 + x_2 \\
+		3x_1
+	\end{bmatrix} 
 \end{align}&lt;/p&gt;
 
-&lt;p&gt;The equations \ref{t}, \ref{u}, \ref{v}, and \ref{w} support the linear transformation from 2-dimensional real coordinate space to 2-dimensional real coordinate space.&lt;/p&gt;
+&lt;p&gt;The equations \ref{20}, \ref{21}, \ref{22}, and \ref{23} support the linear transformation from two-dimensional real coordinate space to two-dimensional real coordinate space.&lt;/p&gt;
 
-&lt;h3 id=&quot;visualizing-linear-transformations&quot;&gt;Visualizing linear transformations&lt;/h3&gt;
+&lt;p&gt;\begin{align} \label{24}
+	\vec{a} = 
+	\begin{bmatrix}
+		a_1 \\
+		a_2
+	\end{bmatrix}
+	, \vec{b} = 
+	\begin{bmatrix}
+		b_1 \\
+		b_2
+	\end{bmatrix} 
+\end{align}&lt;/p&gt;
 
-&lt;h3 id=&quot;matrix-from-visual-representation-of-transformation&quot;&gt;Matrix from visual representation of transformation&lt;/h3&gt;
+&lt;p&gt;\begin{align} \label{25}
+	\vec{a} + \vec{b} = 
+	\begin{bmatrix}
+		a_1 + b_1 \\
+		a_2 + b_2
+	\end{bmatrix} 
+\end{align}&lt;/p&gt;
 
-&lt;h3 id=&quot;matrix-vector-products-as-linear-transformations&quot;&gt;Matrix vector products as linear transformations&lt;/h3&gt;
+&lt;p&gt;\begin{align} \label{26}
+	T(\vec{a} + \vec{b}) = T 
+	\begin{pmatrix} 
+		\begin{bmatrix}
+			a_1 + b_1 \\
+			a_2 + b_2
+		\end{bmatrix} 
+	\end{pmatrix} 
+	= 
+	\begin{bmatrix}
+		a_1 + a_2 + b_1 + b_2 \\
+		3a_1 + 3b_2
+	\end{bmatrix} 
+\end{align}&lt;/p&gt;
 
-&lt;h3 id=&quot;linear-transformations-as-matrix-vector-products&quot;&gt;Linear transformations as matrix vector products&lt;/h3&gt;
+&lt;p&gt;The equations \ref{24}, \ref{25}, and \ref{26} support linear transformation. The equation \ref{26} is the transformed equation by sustituting \ref{24} to equation \ref{17} and left side of equation \ref{18}.&lt;/p&gt;
 
-&lt;h3 id=&quot;image-of-a-subset-under-a-transformation&quot;&gt;Image of a subset under a transformation&lt;/h3&gt;
+&lt;p&gt;Likewise,&lt;/p&gt;
 
-&lt;h3 id=&quot;imtextrmttextrm-image-of-a-transformation&quot;&gt;im$\textrm{(}$T$\textrm{)}$: Image of a transformation&lt;/h3&gt;
+&lt;p&gt;\begin{align} \label{27}
+	T(\vec{a}) = 
+	\begin{pmatrix} 
+		\begin{bmatrix}
+			a_1 \\
+			a_2
+		\end{bmatrix} 
+	\end{pmatrix} 
+	= 
+	\begin{bmatrix}
+		a_1 + a_2 \\
+		3a_1
+	\end{bmatrix} 
+\end{align}&lt;/p&gt;
 
-&lt;h3 id=&quot;preimage-and-kernel-example&quot;&gt;Preimage and kernel example&lt;/h3&gt;
+&lt;p&gt;\begin{align} \label{28}
+	T(\vec{b}) = 
+	\begin{pmatrix} 
+		\begin{bmatrix}
+			b_1 \\
+			b_2
+		\end{bmatrix} 
+	\end{pmatrix} 
+	= 
+	\begin{bmatrix}
+		b_1 + b_2 \\
+		3b_1
+	\end{bmatrix} 
+\end{align}&lt;/p&gt;
 
-&lt;h3 id=&quot;sums-and-scalar-multiples-of-linear-transformations&quot;&gt;Sums and scalar multiples of linear transformations&lt;/h3&gt;
+&lt;p&gt;\begin{align} \label{29}
+	T(\vec{a}) + T(\vec{b}) = 
+	\begin{bmatrix}
+		a_1 + a_2 + b_1 + b_2 \\
+		3a_1 + 3b_1
+	\end{bmatrix} 
+\end{align}&lt;/p&gt;
 
-&lt;h3 id=&quot;more-on-matrix-addition-and-scalar-multiplication&quot;&gt;More on matrix addition and scalar multiplication&lt;/h3&gt;
+&lt;p&gt;The equations \ref{27}, \ref{28}, and \ref{29} demonstrate linear transformation. The equation \ref{29} is the transformed equation by sustituting \ref{27} and \ref{28} to right side of equation \ref{18}. It shows that equation \ref{29} is the same as equation \ref{26}.&lt;/p&gt;
+
+&lt;p&gt;Also,&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{30}
+	c(\vec{a}) =
+	\begin{bmatrix}
+		ca_1 \\
+		ca_2
+	\end{bmatrix}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{31}
+	T(c\vec{a}) = T 
+	\begin{pmatrix}
+		\begin{bmatrix}
+			ca_1 + ca_2 \\
+			3ca_1
+		\end{bmatrix}
+	\end{pmatrix} 
+	= c 
+	\begin{bmatrix}
+		a_1 + a_2 \\
+		a_1
+	\end{bmatrix}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equations \ref{30} and \ref{31} demonstrate proof of equation \ref{19}.&lt;/p&gt;
+
+&lt;p&gt;Therefore, equation \ref{21} is a linear transformation or LT.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{32}
+	T \begin{pmatrix}
+		\begin{bmatrix}
+			x_1 \\
+			x_2
+		\end{bmatrix}
+	\end{pmatrix}
+	= c 
+	\begin{bmatrix}
+		x_1^2 \\
+		0
+	\end{bmatrix}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{33}
+	T(c\vec{a}) \neq c^2 T(\vec{a})
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{32} is not a linear transformation because it results to equation \ref{33}.&lt;/p&gt;
+
+&lt;h2 id=&quot;visualizing-linear-transformations&quot;&gt;Visualizing linear transformations&lt;/h2&gt;
+
+&lt;p&gt;The word “transformation” can be best visualized by imagining that the line can be stretched, compressed, or rotated like a spring or slinky.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{34}
+	f(x + y) = f(x) + f(y)
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{35}
+	f(cx) = cf(x)
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;A linear transform is a function &lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt; that satisfies two properties: \ref{33} and \ref{34}, where &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is a function of vectors.&lt;/p&gt;
+
+&lt;p&gt;A two-dimensional linear transformation is a special kind of function which takes in a two-dimensional vector &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix} x \\ y \end{bmatrix}&lt;/script&gt; and outputs another two-dimensional vector.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{36}
+	f(\textbf{v} + \textbf{w}) = f(\textbf{v}) + f(\textbf{w})
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{37}
+	f(c\textbf{v}) = cf(\textbf{v})
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;A linear transformation is two-dimensional if it satisfies two properties: \ref{36} and \ref{37}, where &lt;script type=&quot;math/tex&quot;&gt;\textbf{v}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\textbf{w}&lt;/script&gt; are vectors.&lt;/p&gt;
+
+&lt;p&gt;A transformation is linear if it follows a geometric rule: The origin must remain fixed, and all lines must remain lines.&lt;/p&gt;
+
+&lt;!--## Matrix from visual representation of transformation--&gt;
+
+&lt;h2 id=&quot;matrix-vector-products-as-linear-transformations&quot;&gt;Matrix vector products as linear transformations&lt;/h2&gt;
+
+&lt;p&gt;\begin{align} \label{38}
+	A =
+	\begin{bmatrix}
+		\vec{v_1} &amp;amp; \vec{v_2} &amp;amp; … &amp;amp; \vec{v_n}
+	\end{bmatrix}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{39}
+	T: \mathbb{R}^n \rightarrow \mathbb{R}^m
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{40}
+	T(\vec{x}) = \textbf{A} \vec{x}
+\end{align}&lt;/p&gt;
+
+&lt;h2 id=&quot;linear-transformations-as-matrix-vector-products&quot;&gt;Linear transformations as matrix vector products&lt;/h2&gt;
+
+&lt;h2 id=&quot;image-of-a-subset-under-a-transformation&quot;&gt;Image of a subset under a transformation&lt;/h2&gt;
+
+&lt;h2 id=&quot;imtextrmttextrm-image-of-a-transformation&quot;&gt;im$\textrm{(}$T$\textrm{)}$: Image of a transformation&lt;/h2&gt;
+
+&lt;h2 id=&quot;preimage-and-kernel-example&quot;&gt;Preimage and kernel example&lt;/h2&gt;
+
+&lt;h2 id=&quot;sums-and-scalar-multiples-of-linear-transformations&quot;&gt;Sums and scalar multiples of linear transformations&lt;/h2&gt;
+
+&lt;h2 id=&quot;more-on-matrix-addition-and-scalar-multiplication&quot;&gt;More on matrix addition and scalar multiplication&lt;/h2&gt;
 
 &lt;!--## Linear transformation examples
 
@@ -302,7 +501,7 @@ f : \mathbb{R}^n
 \end{align}
 The equation \ref{a} states that…&lt;/p&gt;
 
-&lt;p&gt;$…\textrm{normal text}…$&lt;/p&gt;
+&lt;p&gt;$\textrm{normal text}$&lt;/p&gt;
 
 &lt;!--Let's test some inline math $x$, $y$, $x_1$, $y_1$.
 
@@ -371,7 +570,7 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>First Time in Flask</title>
+			<title>First time in Flask</title>
 			<link href="http://enz0s.github.io/blog/2018/02/08/first-time-in-flask"/>
 			<updated>2018-02-08T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2018/02/08/first-time-in-flask</id>
@@ -382,7 +581,7 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>New Discoveries</title>
+			<title>New discoveries</title>
 			<link href="http://enz0s.github.io/blog/2017/09/29/new-discoveries"/>
 			<updated>2017-09-29T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2017/09/29/new-discoveries</id>
@@ -491,97 +690,7 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>DRRM Readings</title>
-			<link href="http://enz0s.github.io/blog/2017/08/25/drrm-readings"/>
-			<updated>2017-08-25T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/08/25/drrm-readings</id>
-			<content type="html">&lt;p&gt;These are notes on literature and studies related to my DRRM paper. Each material includes an outline and some points that supports the paper’s relevance.&lt;/p&gt;
-
-&lt;h2 id=&quot;unisdr-2015-sendai-framework-for-disaster-risk-reduction-2015-2030&quot;&gt;UNISDR. (2015). Sendai Framework for Disaster Risk Reduction 2015-2030.&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The document cites several points that support the need for accessible data on disaster risk reduction.&lt;/li&gt;
-  &lt;li&gt;The outline of the document is as follows:
-    &lt;blockquote&gt;
-      &lt;ul&gt;
-        &lt;li&gt;I. Preamble
-          &lt;blockquote&gt;
-            &lt;ul&gt;
-              &lt;li&gt;Hyogo Framework for Action: lessons learned, gaps identified and future challenges&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/blockquote&gt;
-        &lt;/li&gt;
-        &lt;li&gt;II. Expected outcome and goal&lt;/li&gt;
-        &lt;li&gt;III. Guiding principles&lt;/li&gt;
-        &lt;li&gt;IV. Priorities for action
-          &lt;blockquote&gt;
-            &lt;ul&gt;
-              &lt;li&gt;Priority 1: Understanding disaster risk&lt;/li&gt;
-              &lt;li&gt;Priority 2: Strengthening disaster risk governance to manage disaster risk&lt;/li&gt;
-              &lt;li&gt;Priority 3: Investing in disaster risk reduction for resilience&lt;/li&gt;
-              &lt;li&gt;Priority 4: Enhancing disaster preparedness for effective response and to “Build Back Better” in recovery, rehabilitation and reconstruction&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/blockquote&gt;
-        &lt;/li&gt;
-        &lt;li&gt;V. Role of stakeholders&lt;/li&gt;
-        &lt;li&gt;VI. International cooperation and global partnership
-          &lt;blockquote&gt;
-            &lt;ul&gt;
-              &lt;li&gt;General considerations&lt;/li&gt;
-              &lt;li&gt;Means of implementation&lt;/li&gt;
-              &lt;li&gt;Support from international organizations&lt;/li&gt;
-              &lt;li&gt;Follow-up actions&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/blockquote&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>DRRM Outline</title>
-			<link href="http://enz0s.github.io/blog/2017/08/25/drrm-outline"/>
-			<updated>2017-08-25T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/08/25/drrm-outline</id>
-			<content type="html">&lt;p&gt;I’m adding DRRM paper to my Pomodoro list. This goal has been stalled for a couple of years and I need to jumpstart its completion.&lt;/p&gt;
-
-&lt;p&gt;This paper focuses on developing a nationwide technology framework on automated disaster risk and reduction management system.&lt;/p&gt;
-
-&lt;p&gt;I accomplished some preliminary tasks before I engulf myself in DDRM materials. These include:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;My “dev environment” (Mendeley, MS Word)&lt;/li&gt;
-  &lt;li&gt;Skeleton of my manuscript&lt;/li&gt;
-  &lt;li&gt;Auto-update table of contents&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;My suitable literature and studies are:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;international DRRM framework&lt;/li&gt;
-  &lt;li&gt;current DRRM framework of the Philippines&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In addition, I need to:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Associate the framework to PMP project management&lt;/li&gt;
-  &lt;li&gt;Associate the framework to PMP business analysis&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The outline of my paper is as follows:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Current global situation in DRRM&lt;/li&gt;
-  &lt;li&gt;Our local situation in DRRM&lt;/li&gt;
-  &lt;li&gt;DRRM area of improvement in the Philippines&lt;/li&gt;
-  &lt;li&gt;Solution to DRRM area of improvement&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>Commitment and Conviction</title>
+			<title>Commitment and conviction</title>
 			<link href="http://enz0s.github.io/blog/2017/08/24/commitment-and-conviction"/>
 			<updated>2017-08-24T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2017/08/24/commitment-and-conviction</id>
@@ -654,7 +763,7 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>Schedule of My Data Science Program</title>
+			<title>Schedule of my data science program</title>
 			<link href="http://enz0s.github.io/blog/2017/08/23/schedule-of-my-data-science-program"/>
 			<updated>2017-08-23T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2017/08/23/schedule-of-my-data-science-program</id>
@@ -712,7 +821,7 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>My Data Science Program</title>
+			<title>My data science program</title>
 			<link href="http://enz0s.github.io/blog/2017/08/22/my-data-science-program"/>
 			<updated>2017-08-22T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2017/08/22/my-data-science-program</id>
@@ -797,7 +906,7 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>Pomodoro Technique</title>
+			<title>Pomodoro technique</title>
 			<link href="http://enz0s.github.io/blog/2017/08/21/pomodoro-technique"/>
 			<updated>2017-08-21T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2017/08/21/pomodoro-technique</id>
@@ -816,7 +925,7 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>Markdown Basics</title>
+			<title>Markdown basics</title>
 			<link href="http://enz0s.github.io/blog/2017/08/21/markdown-basics"/>
 			<updated>2017-08-21T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2017/08/21/markdown-basics</id>
@@ -878,7 +987,7 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>Hacking a Data Science Program</title>
+			<title>Hacking a data science program</title>
 			<link href="http://enz0s.github.io/blog/2017/08/21/hacking-data-science-program"/>
 			<updated>2017-08-21T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2017/08/21/hacking-data-science-program</id>
@@ -1046,7 +1155,7 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>Naive Bayes</title>
+			<title>Naive Bayes practice</title>
 			<link href="http://enz0s.github.io/blog/2017/08/19/naive-bayes"/>
 			<updated>2017-08-19T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2017/08/19/naive-bayes</id>
@@ -1061,7 +1170,7 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>Saved By Gems</title>
+			<title>Saved by gems</title>
 			<link href="http://enz0s.github.io/blog/2016/09/14/saved-by-gems"/>
 			<updated>2016-09-14T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2016/09/14/saved-by-gems</id>
