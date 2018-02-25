@@ -4,13 +4,126 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-02-19T11:35:18+08:00</updated>
+	<updated>2018-02-25T23:52:35+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
 		<email>lorenzo.stamaria@gmail.com</email>
 	</author>
 
+	
+		<entry>
+			<title>Teraflop</title>
+			<link href="http://enz0s.github.io/blog/2018/02/23/teraflop"/>
+			<updated>2018-02-23T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/02/23/teraflop</id>
+			<content type="html">&lt;p&gt;Teraflop is a unit of measurement of how fast a computer is according to floating-point calculation. Teraflop is 1 trillion “flops.” Flop stands for “FLOating-Point” calculation. It is said to be that flop is a more accurate measurement than instructions per second. Flop can be described by the number of equations with finite floating-point numbers that a machine can solve in one second.&lt;/p&gt;
+
+&lt;p&gt;A traditional calculator can perform 10 flops. Imagine a machine that can perform 10 megaflops. It’s like computing equations with 10 million floating-point numbers in one second. Similarly, a 10-gigaflop machine can compute equations with 10 billion floating-point numbers in one second. We can apply this analogy to other units such as trillion, quadrillion, quintillion, and so on.&lt;/p&gt;
+
+&lt;p&gt;AIM’s Analytics, Computing, and Complex Systems lab or ACCeSs@AIM, AIM’s main lab for data science projects, hosts a 500-teraflop computer. This means their machine can compute equations with 500 trillion floating-point numbers in one second. That’s absolutely super fast! Way to go AIM! (Nerding…)&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Brain foods</title>
+			<link href="http://enz0s.github.io/blog/2018/02/23/brain-foods"/>
+			<updated>2018-02-23T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/02/23/brain-foods</id>
+			<content type="html">&lt;p&gt;Since I’m preparing for my AIM Master Science in Data Science, I need sustenance to enhance my thinking. The foods considered as “&lt;a href=&quot;https://www.webmd.com/diet/features/eat-smart-healthier-brain#1&quot;&gt;superfoods&lt;/a&gt;”  are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Blueberries&lt;/li&gt;
+  &lt;li&gt;Salmon&lt;/li&gt;
+  &lt;li&gt;Nuts and seeds&lt;/li&gt;
+  &lt;li&gt;Avocados&lt;/li&gt;
+  &lt;li&gt;Whole grains&lt;/li&gt;
+  &lt;li&gt;Beans&lt;/li&gt;
+  &lt;li&gt;Pomegranate juice&lt;/li&gt;
+  &lt;li&gt;Freshly brewed tea&lt;/li&gt;
+  &lt;li&gt;Dark chocolate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On the other side, there are &lt;a href=&quot;http://www.eatthis.com/foods-for-brain/&quot;&gt;worst foods&lt;/a&gt;. These are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Commercial muffin&lt;/li&gt;
+  &lt;li&gt;Citrus and diet soda&lt;/li&gt;
+  &lt;li&gt;Canned tuna&lt;/li&gt;
+  &lt;li&gt;Soy sauce&lt;/li&gt;
+  &lt;li&gt;Rib eye steak&lt;/li&gt;
+  &lt;li&gt;Frozen pie&lt;/li&gt;
+  &lt;li&gt;Cured meats&lt;/li&gt;
+  &lt;li&gt;Frozen pizza&lt;/li&gt;
+  &lt;li&gt;Ice cream&lt;/li&gt;
+  &lt;li&gt;French fries&lt;/li&gt;
+  &lt;li&gt;White rice&lt;/li&gt;
+  &lt;li&gt;Fruit juice&lt;/li&gt;
+  &lt;li&gt;Alcohol&lt;/li&gt;
+  &lt;li&gt;Donuts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In other words, I need to stay away from hydrogenated/trans fats, sugar, and sodium to prevent brain drain.&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Min and max values of an integer</title>
+			<link href="http://enz0s.github.io/blog/2018/02/21/min-and-max-values-of-an-integer"/>
+			<updated>2018-02-21T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/02/21/min-and-max-values-of-an-integer</id>
+			<content type="html">&lt;p&gt;\begin{align} \label{1}
+	min = -1 * 2^{n - 1}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{1} illustrates the minimum value of an &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-bit integer.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{2}
+	max = 2^{n - 1} - 1 
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{2} illustrates the maximum value of an &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-bit integer.&lt;/p&gt;
+
+&lt;p&gt;The equations \ref{2}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{3}
+	min = 0
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{3} illustrates the minimum value of an non-negative &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-bit integer.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{4}
+	max = 2^n - 1 
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{4} illustrates the maximum value of an non-negative &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-bit integer.&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Probability using sample spaces</title>
+			<link href="http://enz0s.github.io/blog/2018/02/19/probability-using-sample-spaces"/>
+			<updated>2018-02-19T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/02/19/probability-using-sample-spaces</id>
+			<content type="html">&lt;p&gt;These notes are taken from &lt;a href=&quot;https://www.khanacademy.org/math/statistics-probability/probability-library/probability-sample-spaces/v/events-and-outcomes-3&quot;&gt;Khan Academy’s Probability: Basic Theoretical Probability&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;probability-with-counting-outcomes&quot;&gt;Probability with counting outcomes&lt;/h2&gt;
+
+&lt;p&gt;Problem: Find the probability of flipping exactly two heads on three coins.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{1}
+	P(\textrm{exactly two heads}) = \frac{3}{8}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{1} shows the probability of flipping exactly two heads.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-all-the-ways-you-can-flip-a-coin&quot;&gt;Example: All the ways you can flip a coin&lt;/h2&gt;
+
+&lt;h2 id=&quot;die-rolling-probability&quot;&gt;Die rolling probability&lt;/h2&gt;
+
+&lt;h2 id=&quot;subsets-of-sample-spaces&quot;&gt;Subsets of sample spaces&lt;/h2&gt;
+
+</content>
+		</entry>
 	
 		<entry>
 			<title>Basic theoretical probability</title>
@@ -53,13 +166,133 @@
 
 &lt;h2 id=&quot;probability-the-basics&quot;&gt;Probability: the basics&lt;/h2&gt;
 
+&lt;p&gt;Probability is how likely something is to happen.&lt;/p&gt;
+
+&lt;p&gt;Statistics is the analysis of events governed by probability.&lt;/p&gt;
+
+&lt;p&gt;The best example for understanding probability is flipping a coin.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{6}
+	P(\textrm{condition}) = \frac{\textrm{# of possibilities that meets condition}} {\textrm{# of equally likely possibilities}}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{6} shows general formula of probability.&lt;/p&gt;
+
+&lt;p&gt;The probability of an event can only be between 0 and 1. It can also be written as a percentage.&lt;/p&gt;
+
+&lt;p&gt;The probability of an event &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is written as &lt;script type=&quot;math/tex&quot;&gt;P(A)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;P(A) &gt; P(B)&lt;/script&gt;, then event A has higher chance of occuring than B.&lt;/p&gt;
+
+&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;P(A) = P(B)&lt;/script&gt;, then events A and B are equally likely to occur.&lt;/p&gt;
+
 &lt;h2 id=&quot;simple-probability-yellow-marble&quot;&gt;Simple probability: yellow marble&lt;/h2&gt;
+
+&lt;p&gt;Problem: Find the probability of pulling a yellow marble from a bag with 3 yellow, 2 red, 2 green, and 1 blue.&lt;/p&gt;
+
+&lt;p&gt;Answer:&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{7}
+	P(\textrm{yellow}) = \frac{3} {3 + 2 + 2 + 1} = \frac{3} {8} 
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{7} shows the probability of pulling a yellow marble from a bag of marbles.&lt;/p&gt;
 
 &lt;h2 id=&quot;simple-probability-non-blue-marble&quot;&gt;Simple probability: non-blue marble&lt;/h2&gt;
 
+&lt;p&gt;Problem: We have a bag with 9 red marbles, 2 blue marbles, and 3 green marbles in it. What is the probability of randomly selecting a non-blue marble from the bag?&lt;/p&gt;
+
+&lt;p&gt;Answer:&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{8}
+	P(\textrm{blue}) = \frac{2} {9 + 2 + 3}  = \frac{1} {7} 
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{9}
+	P(\textrm{non-blue}) = 1 - \frac{1} {7}	= \frac{6} {7} 
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equations \ref{8} and \ref{9} show the probability of pulling a non-blue marble from a bag of marbles.&lt;/p&gt;
+
+&lt;p&gt;Problem: If a number is randomly chosen from the following list, what is the probability that the number is a multiple of 5?&lt;/p&gt;
+
+&lt;p&gt;32, 49, 30, 55, 56, 28, 50, 40, 40, 45, 3, 25&lt;/p&gt;
+
+&lt;p&gt;Answer:&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{10}
+	P(\textrm{multiple of 5}) = \frac{7} {12}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{10} shows the probability of getting a multiple of 5 from a set of numbers.&lt;/p&gt;
+
+&lt;p&gt;Problem: The circumference of a circle is 36&lt;script type=&quot;math/tex&quot;&gt;\pi&lt;/script&gt;. Contained in that circle is a smaller circle with are 16&lt;script type=&quot;math/tex&quot;&gt;\pi&lt;/script&gt;. A point is selected at random from the inside the larger circle. What is the probability that the point also lies in the smaller circle?&lt;/p&gt;
+
+&lt;p&gt;Answer:&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{11}
+	P(\textrm{point in smaller circle}) = \frac{\textrm{area of smaller circle}} {\textrm{area of bigger circle}}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{12}
+	P(\textrm{point in smaller circle}) = \frac{16\pi} {324\pi} = \frac {4} {81}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equations \ref{11} and \ref{12} show the probability of getting a point that lies in both smaller circle and bigger circle.&lt;/p&gt;
+
 &lt;h2 id=&quot;intuitive-sense-of-probabilities&quot;&gt;Intuitive sense of probabilities&lt;/h2&gt;
 
+&lt;p&gt;Another best example for understanding probability is rolling a die.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{13}
+	P(\textrm{rolling} \leq 2) = \frac{2}{6} = \frac {1} {3}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equations \ref{13} shows the probability of rolling less than or equal to 2.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{14}
+	P(\textrm{rolling} \geq 3) = \frac{4}{6} = \frac {2} {3}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equations \ref{14} shows the probability of rolling greater than or equal to 3.&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{14} has greater probability than equation \ref{13}. This means that rolling greater than or equal 3 is more likely to happen than rolling less than or equal to 3.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{15}
+	P(\textrm{rolling} 7) = \frac{0}{6} = 0 or 0\%
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equations \ref{15} shows the probability of rolling 7. This means that the event is &lt;em&gt;impossible to happen&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{16}
+	P(\textrm{rolling any from 1 to 6}) = \frac{6}{6} = 1 or 100\%
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equations \ref{15} shows the probability of rolling any from 1 to 6. This means that the event is &lt;em&gt;going to happen&lt;/em&gt;.&lt;/p&gt;
+
 &lt;h2 id=&quot;the-monty-hall-problem&quot;&gt;The Monty Hall problem&lt;/h2&gt;
+
+&lt;p&gt;Monty Hall is the host of Let’s Make A Deal with three doors that hide one major prize and two silly rewards. The goal is to find the door that hides the major prize. Switching is allowed after seeing the item hidden on the first door.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{17}
+	P(\textrm{win}) = \frac{1}{3}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{18}
+	P(\textrm{lose}) = \frac{2}{3} 
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{17} shows the probability of winning if you don’t switch. The equation \ref{18} shows the probability of losing if you don’t switch.&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{19}
+	P(\textrm{win}) = \frac{2}{3}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{20}
+	P(\textrm{lose}) = \frac{1}{3} 
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;The equation \ref{19} shows the probability of winning if you switch. The equation \ref{20} shows the probability of losing if you switch.&lt;/p&gt;
 </content>
 		</entry>
 	
