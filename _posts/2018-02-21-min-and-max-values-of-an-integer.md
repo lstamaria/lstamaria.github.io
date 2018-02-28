@@ -17,8 +17,6 @@ The equation \ref{1} illustrates the minimum value of an $$n$$-bit integer.
 
 The equation \ref{2} illustrates the maximum value of an $$n$$-bit integer.
 
-The equations \ref{2} 
-
 \begin{align} \label{3}
 	min = 0
 \end{align}

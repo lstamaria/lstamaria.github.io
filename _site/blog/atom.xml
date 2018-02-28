@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-02-25T23:54:35+08:00</updated>
+	<updated>2018-02-28T11:35:14+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -83,8 +83,6 @@
 
 &lt;p&gt;The equation \ref{2} illustrates the maximum value of an &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-bit integer.&lt;/p&gt;
 
-&lt;p&gt;The equations \ref{2}&lt;/p&gt;
-
 &lt;p&gt;\begin{align} \label{3}
 	min = 0
 \end{align}&lt;/p&gt;
@@ -110,6 +108,8 @@
 
 &lt;p&gt;Problem: Find the probability of flipping exactly two heads on three coins.&lt;/p&gt;
 
+&lt;p&gt;Answer:&lt;/p&gt;
+
 &lt;p&gt;\begin{align} \label{1}
 	P(\textrm{exactly two heads}) = \frac{3}{8}
 \end{align}&lt;/p&gt;
@@ -117,6 +117,14 @@
 &lt;p&gt;The equation \ref{1} shows the probability of flipping exactly two heads.&lt;/p&gt;
 
 &lt;h2 id=&quot;example-all-the-ways-you-can-flip-a-coin&quot;&gt;Example: All the ways you can flip a coin&lt;/h2&gt;
+
+&lt;p&gt;Problem: Find the probability of getting exactly two heads when flipping three coins.&lt;/p&gt;
+
+&lt;p&gt;Answer:&lt;/p&gt;
+
+&lt;p&gt;\begin{align} \label{2}
+	P(\textrm{exactly two heads}) = \frac{3}{8}
+\end{align}&lt;/p&gt;
 
 &lt;h2 id=&quot;die-rolling-probability&quot;&gt;Die rolling probability&lt;/h2&gt;
 
