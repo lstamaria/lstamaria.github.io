@@ -4,13 +4,55 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-02-28T11:35:14+08:00</updated>
+	<updated>2018-03-03T16:06:28+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
 		<email>lorenzo.stamaria@gmail.com</email>
 	</author>
 
+	
+		<entry>
+			<title>Ubuntu fixes</title>
+			<link href="http://enz0s.github.io/blog/2018/03/02/ubuntu-fixes"/>
+			<updated>2018-03-02T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/03/02/ubuntu-fixes</id>
+			<content type="html">&lt;p&gt;I have experience some problems in Ubuntu installation on my MacBook Air 2012. Granted my favorite laptop is aging, 5 years to be exact, but I still love it.&lt;/p&gt;
+
+&lt;p&gt;The following are some hacks that I did to make Ubuntu run a bit better on my machine:&lt;/p&gt;
+
+&lt;p&gt;MacOS Version 10.13.3
+VirtualBox Version 5.2.6
+Ubuntu Version 17.10.1
+GuestAdditions Version 5.2.6 but it’s really 5.2.7&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Problem&lt;/em&gt; Cannot perform “Insert Guest Additions CD image…”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://askubuntu.com/questions/979955/ubuntu-17-10-screen-blinks-in-virtualbox-on-macbook-pro&quot;&gt;move the GuestAdditions image outside of default directory&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://askubuntu.com/questions/985815/vboxclient-seamless-failed-to-start-stage-setting-guest-irq-filter-mask-err&quot;&gt;commands to install GuestAdditions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;sudo apt-get install gcc make perl
+cd /media/lorenzo/VBox_GAs_5.2.6/
+sudo ./VBoxLinuxAdditions.run
+sudo reboot&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.virtualbox.org/download/testcase/VBoxGuestAdditions_5.2.7-120528.iso&quot;&gt;install a new version of GuestAdditions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://askubuntu.com/questions/961304/how-do-you-switch-from-wayland-back-to-xorg-in-ubuntu-17-10&quot;&gt;Wayland to Xorg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;/etc/gdm3/custom.conf and uncomment the line&lt;/p&gt;
+
+&lt;p&gt;#WaylandEnable=false by removing the # in front.&lt;/p&gt;
+
+&lt;p&gt;x
+Delete a character&lt;/p&gt;
+
+&lt;p&gt;:wq
+Write and quit&lt;/p&gt;
+
+</content>
+		</entry>
 	
 		<entry>
 			<title>Teraflop</title>
@@ -305,11 +347,15 @@
 		</entry>
 	
 		<entry>
-			<title>My AIM MSDS wiki page</title>
+			<title>A new chapter begins</title>
 			<link href="http://enz0s.github.io/blog/2018/02/15/my-msds-wiki-page"/>
 			<updated>2018-02-15T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2018/02/15/my-msds-wiki-page</id>
-			<content type="html">&lt;p&gt;This my profile on &lt;a href=&quot;https://gitlab.datascience.aim.edu/MSDS-2019/wikipage/wikis/lstamaria&quot;&gt;AIM MSDS Class Wikipage&lt;/a&gt;.&lt;/p&gt;
+			<content type="html">&lt;p&gt;One of the happiest moments of my journey is when I was accepted in the Master of Science in Data Science by the world-class institution, Asian Institute of Management or AIM. I am overwhelmed and humbled. More than 150 deserving applicants underwent a rigorous screening and I was one of the 43 hand-picked candidates. I will forever be grateful of this life-changing moment.&lt;/p&gt;
+
+&lt;p&gt;As one of the requirements in the Gitlab account, we were asked to write a profile about ourselves. This my profile on &lt;a href=&quot;https://gitlab.datascience.aim.edu/MSDS-2019/wikipage/wikis/lstamaria&quot;&gt;AIM MSDS Class Wikipage&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;&lt;img src=&quot;/image/self.jpeg&quot; alt=&quot;I'm Lorenzo!&quot; class=&quot;img-responsive center-image&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
 
