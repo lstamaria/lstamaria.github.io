@@ -4,9 +4,9 @@ title: "A new chapter begins"
 date: 2018-02-15
 ---
 
-One of the happiest moments of my journey is when I was accepted in the Master of Science in Data Science by the world-class institution, Asian Institute of Management or AIM. I am overwhelmed and humbled. More than 150 deserving applicants underwent a rigorous screening and I was one of the 43 hand-picked candidates. I will forever be grateful of this life-changing moment.
+One of the greatest moments of my journey is when I was accepted in the Master of Science in Data Science by the world-class institution, [Asian Institute of Management](https://aim.edu/). I know that this will be a life-changing experience. More than 150 deserving applicants underwent rigorous screening and I was one of the 43 hand-picked candidates. I will forever be grateful of this.
 
-As one of the requirements in the Gitlab account, we were asked to write a profile about ourselves. This my profile on [AIM MSDS Class Wikipage](https://gitlab.datascience.aim.edu/MSDS-2019/wikipage/wikis/lstamaria).
+As one of the requirements in the Gitlab account, we were asked to write a personal profile. This my profile on [AIM MSDS Class Wikipage](https://gitlab.datascience.aim.edu/MSDS-2019/wikipage/wikis/lstamaria).
 
 -----
 

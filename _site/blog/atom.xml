@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-03-03T16:06:28+08:00</updated>
+	<updated>2018-03-03T16:13:05+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -13,11 +13,11 @@
 
 	
 		<entry>
-			<title>Ubuntu fixes</title>
-			<link href="http://enz0s.github.io/blog/2018/03/02/ubuntu-fixes"/>
-			<updated>2018-03-02T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2018/03/02/ubuntu-fixes</id>
-			<content type="html">&lt;p&gt;I have experience some problems in Ubuntu installation on my MacBook Air 2012. Granted my favorite laptop is aging, 5 years to be exact, but I still love it.&lt;/p&gt;
+			<title>MSDS</title>
+			<link href="http://enz0s.github.io/blog/2018/03/03/ubuntu-fixes"/>
+			<updated>2018-03-03T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/03/03/ubuntu-fixes</id>
+			<content type="html">&lt;p&gt;I have experienced some problems in Ubuntu installation on my MacBook Air 2012. Granted my favorite laptop is aging, 5 years to be exact, but I still love it.&lt;/p&gt;
 
 &lt;p&gt;The following are some hacks that I did to make Ubuntu run a bit better on my machine:&lt;/p&gt;
 
@@ -351,9 +351,9 @@ Write and quit&lt;/p&gt;
 			<link href="http://enz0s.github.io/blog/2018/02/15/my-msds-wiki-page"/>
 			<updated>2018-02-15T00:00:00+08:00</updated>
 			<id>http://enz0s.github.io//blog/2018/02/15/my-msds-wiki-page</id>
-			<content type="html">&lt;p&gt;One of the happiest moments of my journey is when I was accepted in the Master of Science in Data Science by the world-class institution, Asian Institute of Management or AIM. I am overwhelmed and humbled. More than 150 deserving applicants underwent a rigorous screening and I was one of the 43 hand-picked candidates. I will forever be grateful of this life-changing moment.&lt;/p&gt;
+			<content type="html">&lt;p&gt;One of the greatest moments of my journey is when I was accepted in the Master of Science in Data Science by the world-class institution, &lt;a href=&quot;https://aim.edu/&quot;&gt;Asian Institute of Management&lt;/a&gt;. I know that this will be a life-changing experience. More than 150 deserving applicants underwent rigorous screening and I was one of the 43 hand-picked candidates. I will forever be grateful of this.&lt;/p&gt;
 
-&lt;p&gt;As one of the requirements in the Gitlab account, we were asked to write a profile about ourselves. This my profile on &lt;a href=&quot;https://gitlab.datascience.aim.edu/MSDS-2019/wikipage/wikis/lstamaria&quot;&gt;AIM MSDS Class Wikipage&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As one of the requirements in the Gitlab account, we were asked to write a personal profile. This my profile on &lt;a href=&quot;https://gitlab.datascience.aim.edu/MSDS-2019/wikipage/wikis/lstamaria&quot;&gt;AIM MSDS Class Wikipage&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 

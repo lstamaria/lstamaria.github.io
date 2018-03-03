@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Ubuntu fixes"
-date: 2018-03-02
+title: "MSDS"
+date: 2018-03-03
 use_math: true
 ---
 
-I have experience some problems in Ubuntu installation on my MacBook Air 2012. Granted my favorite laptop is aging, 5 years to be exact, but I still love it.
+I have experienced some problems in Ubuntu installation on my MacBook Air 2012. Granted my favorite laptop is aging, 5 years to be exact, but I still love it.
 
 The following are some hacks that I did to make Ubuntu run a bit better on my machine:
 
