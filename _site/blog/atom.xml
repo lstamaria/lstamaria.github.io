@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-03-03T16:13:05+08:00</updated>
+	<updated>2018-05-01T11:41:13+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -357,7 +357,7 @@ Write and quit&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/self.jpeg&quot; alt=&quot;I'm Lorenzo!&quot; class=&quot;img-responsive center-image&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/image/self.jpeg&quot; alt=&quot;I&#39;m Lorenzo!&quot; class=&quot;img-responsive center-image&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hello! I’m Lorenzo Sta. Maria. My work is mainly organizational and academic but it has never stopped me to pursue lifelong learning. My journey has led me to the growing and enchanting world of data science. I am super excited to jumpstart my life through AIM MSDS program and the powerhouse faculty lineup that supports it. I would like to see myself in the future as a home-grown Filipino &lt;em&gt;data science unicorn&lt;/em&gt; who generates business value and champions the advocacy of the socially-disadvantaged through data-driven solutions.&lt;/p&gt;
 
@@ -790,9 +790,9 @@ The equation \ref{a} states that…&lt;/p&gt;
 
 &lt;p&gt;$\textrm{normal text}$&lt;/p&gt;
 
-&lt;!--Let's test some inline math $x$, $y$, $x_1$, $y_1$.
+&lt;!--Let&#39;s test some inline math $x$, $y$, $x_1$, $y_1$.
 
-Now a inline math with special character: $|\psi\rangle$, $x'$, $x^\*$.
+Now a inline math with special character: $|\psi\rangle$, $x&#39;$, $x^\*$.
 
 Test a display math:
 $$
@@ -1222,43 +1222,36 @@ This is another new equation without equation number.
 
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* link *&lt;/span&gt;/
 (description)&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* h2 (just like in html; h1 or first level is taken by the blog post title) *&lt;/span&gt;/
 &lt;span class=&quot;gu&quot;&gt;## second-level heading &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* h3 (which is a subheading of h2) *&lt;/span&gt;/
 &lt;span class=&quot;gu&quot;&gt;### third-level heading&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* h4 (which is a subheading of h3) *&lt;/span&gt;/
 &lt;span class=&quot;gu&quot;&gt;#### fourth-level heading&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* unordered bullet *&lt;/span&gt;/
 &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; this item
 &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; another item
 &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; and so on
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* ordered bullet *&lt;/span&gt;/
 &lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; first item
 &lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt; second item
 &lt;span class=&quot;p&quot;&gt;3.&lt;/span&gt; and so on
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/&lt;span class=&quot;ge&quot;&gt;* syntax highlighting (just like this post) *&lt;/span&gt;/
 &lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;code line 1&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;code line 2
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The &lt;a href=&quot;http://www.jekyllnow.com/Markdown-Style-Guide/&quot;&gt;Markdown Style Guide&lt;/a&gt; has been a powerful source to me. Plus I get to use the same syntax to add notes and comments in Jupyter notebook. As they say, KISS.&lt;/p&gt;
 </content>
@@ -1282,7 +1275,7 @@ This is another new equation without equation number.
 
 &lt;p&gt;So far I have gathered related links to my quest. Below are related links and outlines that I scoured online. In the end, I designed my own curriculum. This currently serves as my roadmap to data science.&lt;/p&gt;
 
-&lt;h2 id=&quot;data-science-for-decision-making-from-maastricht-universityhttpswwwmaastrichtuniversitynleducationpartner-program-mastermaster-data-science-decision-making---my-dream-school&quot;&gt;&lt;a href=&quot;https://www.maastrichtuniversity.nl/education/partner-program-master/master-data-science-decision-making&quot;&gt;Data Science for Decision Making from Maastricht University&lt;/a&gt; - My dream school&lt;/h2&gt;
+&lt;h2 id=&quot;data-science-for-decision-making-from-maastricht-university---my-dream-school&quot;&gt;&lt;a href=&quot;https://www.maastrichtuniversity.nl/education/partner-program-master/master-data-science-decision-making&quot;&gt;Data Science for Decision Making from Maastricht University&lt;/a&gt; - My dream school&lt;/h2&gt;
 
 &lt;h3 id=&quot;year-1-core-courses&quot;&gt;Year 1 Core Courses&lt;/h3&gt;
 &lt;ol&gt;
@@ -1321,7 +1314,7 @@ This is another new equation without equation number.
   &lt;li&gt;Intelligent Search &amp;amp; Games (Pre: good programming)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;my-data-science-masters-by-david-venturihttpsmediumcomdavidventurii-dropped-out-of-school-to-create-my-own-data-science-master-s-here-s-my-curriculum-1b400dcee412&quot;&gt;&lt;a href=&quot;https://medium.com/@davidventuri/i-dropped-out-of-school-to-create-my-own-data-science-master-s-here-s-my-curriculum-1b400dcee412&quot;&gt;My Data Science Master’s by David Venturi&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;my-data-science-masters-by-david-venturi&quot;&gt;&lt;a href=&quot;https://medium.com/@davidventuri/i-dropped-out-of-school-to-create-my-own-data-science-master-s-here-s-my-curriculum-1b400dcee412&quot;&gt;My Data Science Master’s by David Venturi&lt;/a&gt;&lt;/h2&gt;
 
 &lt;h3 id=&quot;intro-to-programming&quot;&gt;Intro to Programming&lt;/h3&gt;
 &lt;ol&gt;
