@@ -4,7 +4,7 @@
 	<title>Lorenzo's Blog</title>
 	<link href="http://enz0s.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://enz0s.github.io/blog"/>
-	<updated>2018-05-01T11:41:13+08:00</updated>
+	<updated>2018-05-31T18:41:38+08:00</updated>
 	<id>http://enz0s.github.io/blog</id>
 	<author>
 		<name>Lorenzo Sta. Maria</name>
@@ -13,44 +13,301 @@
 
 	
 		<entry>
-			<title>MSDS</title>
-			<link href="http://enz0s.github.io/blog/2018/03/03/ubuntu-fixes"/>
-			<updated>2018-03-03T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2018/03/03/ubuntu-fixes</id>
-			<content type="html">&lt;p&gt;I have experienced some problems in Ubuntu installation on my MacBook Air 2012. Granted my favorite laptop is aging, 5 years to be exact, but I still love it.&lt;/p&gt;
+			<title>Steps to plot kNN accuracy</title>
+			<link href="http://enz0s.github.io/blog/2018/05/31/ml-steps"/>
+			<updated>2018-05-31T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/05/31/ml-steps</id>
+			<content type="html">&lt;p&gt;The following are the steps to plot kNN accuracy vs n_neighbors:&lt;/p&gt;
 
-&lt;p&gt;The following are some hacks that I did to make Ubuntu run a bit better on my machine:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Get data and clean it&lt;/li&gt;
+  &lt;li&gt;Describe the data&lt;/li&gt;
+  &lt;li&gt;Determine accuracy&lt;/li&gt;
+  &lt;li&gt;Determine n_neighbors&lt;/li&gt;
+  &lt;li&gt;Build the plot&lt;/li&gt;
+  &lt;li&gt;Comment on the optimal n_neighbors&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;MacOS Version 10.13.3
-VirtualBox Version 5.2.6
-Ubuntu Version 17.10.1
-GuestAdditions Version 5.2.6 but it’s really 5.2.7&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Steps to solve a math problem</title>
+			<link href="http://enz0s.github.io/blog/2018/05/27/math-steps"/>
+			<updated>2018-05-27T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/05/27/math-steps</id>
+			<content type="html">&lt;p&gt;It’s fascinating how a simple steps can go a long way. “IDEA” is a mnemonic device to remember the steps to solve a math problem. These are:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Problem&lt;/em&gt; Cannot perform “Insert Guest Additions CD image…”&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Identify the Problem
+    &lt;ul&gt;
+      &lt;li&gt;Read the problem&lt;/li&gt;
+      &lt;li&gt;Paraphrase the problem&lt;/li&gt;
+      &lt;li&gt;Underline/circle important information&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Develop a Solution: Strategy
+    &lt;ul&gt;
+      &lt;li&gt;Draw a picture or diagram&lt;/li&gt;
+      &lt;li&gt;Make a plan to solve the problem&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Evaluate: Solve!
+    &lt;ul&gt;
+      &lt;li&gt;Show all of your work&lt;/li&gt;
+      &lt;li&gt;Use words, numbers, and/or pictures&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Assess Your Answer: Check
+    &lt;ul&gt;
+      &lt;li&gt;Read the problem again&lt;/li&gt;
+      &lt;li&gt;Make sure you understand the question&lt;/li&gt;
+      &lt;li&gt;Check for mathematical errors&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://askubuntu.com/questions/979955/ubuntu-17-10-screen-blinks-in-virtualbox-on-macbook-pro&quot;&gt;move the GuestAdditions image outside of default directory&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These steps are taken from &lt;a href=&quot;https://www.youtube.com/watch?v=tk0Q37GDmJ8&quot;&gt;4 Steps to Math Problem Solving&lt;/a&gt; by Sabrina Knopf.&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Critical success factors of IT-BPO</title>
+			<link href="http://enz0s.github.io/blog/2018/05/22/eb-paper"/>
+			<updated>2018-05-22T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/05/22/eb-paper</id>
+			<content type="html">&lt;p&gt;The success of the IT-BPO sector can be attributed to the key factors at the macro-level perspective. These are technology, population growth, and human capital. The paper enumerates studies and literature to support this claim.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://askubuntu.com/questions/985815/vboxclient-seamless-failed-to-start-stage-setting-guest-irq-filter-mask-err&quot;&gt;commands to install GuestAdditions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/image/eb-image5.png&quot; alt=&quot;Critical success factors&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;sudo apt-get install gcc make perl
-cd /media/lorenzo/VBox_GAs_5.2.6/
-sudo ./VBoxLinuxAdditions.run
-sudo reboot&lt;/p&gt;
+&lt;p&gt;Pasag (2017) identified government initiatives and policies that propelled technology in the country. The Ramos administration rolled several of them: the National Information Plan 2000 (1991), the National Information Technology Council (1994), and the Government Agencies’ Internet Connectivity Directives (1997). The Estrada administration enacted the Electronic Commerce Act (2000) and the Government Information Systems Plan (2000). The Arroyo administration prioritized ICT through the General Appropriations Act of 2004-2010. The Aquino administration signed the bill for the Department of Information and Communications Technology or DICT (2016). The Duterte administration rolled out the National Broadband Plan (2017) and supported foreign telcos to provide faster Internet services.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.virtualbox.org/download/testcase/VBoxGuestAdditions_5.2.7-120528.iso&quot;&gt;install a new version of GuestAdditions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Furuoka (2010) stated that there is a long-run equilibrium relationship between  economic performance and population growth in the Philippines. This means that the improving economy has a positive impact to Philippine population. The figure above shows that the population increases over time. The Philippines grew massively from 63 M in  1991 to 104 B in 2017.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://askubuntu.com/questions/961304/how-do-you-switch-from-wayland-back-to-xorg-in-ubuntu-17-10&quot;&gt;Wayland to Xorg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Price, Francisco, and Caboverde (2016) highlighted the significance of human capital in the IT-BPO sector. Similarly, Del Prado (2015) mentioned that human capital investment is necessary to push the sector further. The figure above shows the number of college graduates over time. The number of college graduates  rose from 312,667 in 1994 to 645,973 in 2016. The increase may not be dramatic but these graduates are important part of the human capital as some of them became part of the IT-BPO sector.&lt;/p&gt;
 
-&lt;p&gt;/etc/gdm3/custom.conf and uncomment the line&lt;/p&gt;
+&lt;p&gt;In addition to these success factors, there are other factors that contributed to rise of IT-BPO sector. Sachitanand (2010) reported that the Philippines make a “snug fit” to the United States in terms of cultural similarities. Nejar, Rempillo, and Seraspi (2012) highlighted that the Philippines offered a “generous” tax incentives to BPO companies, comparable to other countries such as India, China, South Africa, and Jamaica. Sachitanand (2010) added also that the Philippines produces English-proficient college graduates. New York Times further supported this when they said that the Philippines is “the new capital of call centers” (Bajaj, 2011).&lt;/p&gt;
 
-&lt;p&gt;#WaylandEnable=false by removing the # in front.&lt;/p&gt;
+&lt;p&gt;References:&lt;/p&gt;
 
-&lt;p&gt;x
-Delete a character&lt;/p&gt;
+&lt;p&gt;Bajaj, V. (2011). Philippines Overtakes India as Hub of Call Centers - The New York Times. Retrieved May 25, 2018, from https://www.nytimes.com/2011/11/26/business/philippines-overtakes-india-as-hub-of-call-centers.html&lt;/p&gt;
 
-&lt;p&gt;:wq
-Write and quit&lt;/p&gt;
+&lt;p&gt;Cahiles-Magkilat, B. (2017). Angara assures BPO perks to remain in tax reform bill » Manila Bulletin Business. Retrieved May 24, 2018, from https://business.mb.com.ph/2017/07/13/angara-assures-bpo-perks-to-remain-in-tax-reform-bill/&lt;/p&gt;
 
+&lt;p&gt;Del Prado, F. (2015). The BPO Challenge : Leveraging Capabilities , Creating Opportunities. PIDS Discussion Paper Series, (July). Retrieved from https://dirp3.pids.gov.ph/webportal/CDN/PUBLICATIONS/pidsdps1536.pdf&lt;/p&gt;
+
+&lt;p&gt;Flatworld Solutions. (2018). The Growth of BPO Industry in Philippines - Flatworld Solutions. Retrieved May 18, 2018, from https://www.flatworldsolutions.com/articles/growth-bpo-industry-philippines.php&lt;/p&gt;
+
+&lt;p&gt;Francisco, J. P. (2017). Yes, the IT-BPO sector can play a major role in economic development - Inquirer Business. Retrieved May 21, 2018, from http://business.inquirer.net/228233/yes-bpo-sector-can-play-major-role-economic-development&lt;/p&gt;
+
+&lt;p&gt;Furuoka, F. (2010). Population Growth and Economic Development : Empirical Evidence from the Philippines. Philippine Journal of Development, XXXVII(68), 82–93. Retrieved from http://dirp3.pids.gov.ph/ris/pjd/pidspjd10-1population.pdf&lt;/p&gt;
+
+&lt;p&gt;Nejar, E. M., Rempillo, M., &amp;amp; Seraspi, A. (2012). Taxation and Fiscal Incentives of the Philippine BPO Industry. NTRC Tax Research Journal, 24.1, 1–33.&lt;/p&gt;
+
+&lt;p&gt;Pasag, A. (2017). Lesson 2: Current State of Philippines - ICT Empowerment Technologies. Retrieved May 22, 2018, from https://etechk12.blogspot.com/2017/04/lesson-2-current-state-of-philippines.html&lt;/p&gt;
+
+&lt;p&gt;Philippine Statistics Authority. (2005). Tertiary Enrollment and Graduates in Government and Private Schools by Discipline Group, Philippines: Academic Year 1997 - 1998 to Academic Year 2004 - 2005. Retrieved from https://psa.gov.ph/sites/default/files/TAB14-8.PDF&lt;/p&gt;
+
+&lt;p&gt;Price, N. A., Francisco, J. P. S., &amp;amp; Caboverde, C. E. C. (2016). IT-BPO in the Philippines: A Driver of Shared Prosperity? SSRN Electronic Journal. https://doi.org/10.2139/ssrn.2880408&lt;/p&gt;
+
+&lt;p&gt;Rollon, E. M. (2017). The Framework That Makes Philippine BPO So Successful. Retrieved May 21, 2018, from http://andersongroup.ph/the-framework-that-makes-ph-bpo-so-successful/&lt;/p&gt;
+
+&lt;p&gt;Sachitanand, R. (2010). Indian BPOs fading voice. Business Today, 82–84.&lt;/p&gt;
+
+&lt;p&gt;TechTarget. (2017). What is ICT (information and communications technology, or technologies)? - Definition from WhatIs.com. Retrieved May 24, 2018, from https://searchcio.techtarget.com/definition/ICT-information-and-communications-technology-or-technologies&lt;/p&gt;
+
+&lt;p&gt;Villamil, W., Reyes, R., &amp;amp; Hernandez, J. (2015). Globalization, Adjustment, and Employment Drivers. Policy Brief, (3), 1–6. https://doi.org/10.1177/0022146513479002&lt;/p&gt;
+
+&lt;p&gt;Worldometers. (2017). Philippines Population (2018) - Worldometers. Retrieved May 22, 2018, from http://www.worldometers.info/world-population/philippines-population/&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Reading for understanding</title>
+			<link href="http://enz0s.github.io/blog/2018/05/09/reading-for-understanding"/>
+			<updated>2018-05-09T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/05/09/reading-for-understanding</id>
+			<content type="html">&lt;p&gt;A useful way to deal with readings while building understanding is using the method provided by &lt;a href=&quot;https://student.unsw.edu.au/reading-understanding&quot;&gt;UNSW Sydney&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/SQW3Ra.png&quot; alt=&quot;SQW3Ra&quot; /&gt;&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Term 2 courses</title>
+			<link href="http://enz0s.github.io/blog/2018/05/09/term-2-courses"/>
+			<updated>2018-05-09T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/05/09/term-2-courses</id>
+			<content type="html">&lt;p&gt;My courses for Term 2 courses are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data Mining and Wrangling&lt;/li&gt;
+  &lt;li&gt;Machine Learning&lt;/li&gt;
+  &lt;li&gt;Applied Computational Statistics&lt;/li&gt;
+  &lt;li&gt;Economics for Business&lt;/li&gt;
+  &lt;li&gt;Digital Marketing and Analytics&lt;/li&gt;
+  &lt;li&gt;Managerial Accounting&lt;/li&gt;
+  &lt;li&gt;Management Communications&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Git basics</title>
+			<link href="http://enz0s.github.io/blog/2018/05/09/git-basics"/>
+			<updated>2018-05-09T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/05/09/git-basics</id>
+			<content type="html">&lt;p&gt;Some of the handy git commands are:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Clone remote git address */
+git clone some-remote-repo-address
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Create local repo */
+git init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Associate remote repo address to local repo */
+sudo git remote add origin some-remote-repo-address
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Stage changes in local repo */
+git add .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Add message to staged changes */
+git commit -m &#39;some message&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Initial upload of changes to remote repo */
+git push --set-upstream origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Upload changes to remote repo */
+git push -u origin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Deriving expectations</title>
+			<link href="http://enz0s.github.io/blog/2018/05/07/deriving-expectations"/>
+			<updated>2018-05-07T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/05/07/deriving-expectations</id>
+			<content type="html">&lt;p&gt;Using mathematical equations, show that for a random variable $X$ with variance $Var(X)$,&lt;/p&gt;
+
+&lt;p&gt;$Var(X) = \left&amp;lt;X^2\right&amp;gt; - \left&amp;lt;X\right&amp;gt;^2$.&lt;/p&gt;
+
+&lt;p&gt;This is my solution.&lt;/p&gt;
+
+&lt;p&gt;Using $E()$ instead of $\left&amp;lt; \right&amp;gt;$:&lt;/p&gt;
+
+&lt;p&gt;$Var(X) = E[(X + E(X))^2]$&lt;/p&gt;
+
+&lt;p&gt;$Var(X) = E[X^2 -2E(X)X + E(X)^2]$&lt;/p&gt;
+
+&lt;p&gt;$Var(X) = E(X^2) -2E(X)E(X) + E(X)^2$&lt;/p&gt;
+
+&lt;p&gt;$Var(X) = E(X^2) -2E(X)^2 + E(X)^2$&lt;/p&gt;
+
+&lt;p&gt;$Var(X) = E(X^2) -E(X)^2$&lt;/p&gt;
+
+&lt;p&gt;Thus,&lt;/p&gt;
+
+&lt;p&gt;$Var(X) = \left&amp;lt;X^2\right&amp;gt; - \left&amp;lt;X\right&amp;gt;^2$&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Packages for conda environment</title>
+			<link href="http://enz0s.github.io/blog/2018/05/07/conda-packages"/>
+			<updated>2018-05-07T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/05/07/conda-packages</id>
+			<content type="html">&lt;p&gt;Important packages that I need to install in my conda environment are:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda update -n base conda
+conda install -c anaconda jupyter 
+conda install -c anaconda numpy 
+conda install -c anaconda pandas 
+conda install -c conda-forge matplotlib
+conda install -c conda-forge jupyter_contrib_nbextensions
+conda install -c conda-forge autopep8
+conda install -c anaconda scipy 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I installed these packages in my conda environment using Ubuntu platform.&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Term 2 begins</title>
+			<link href="http://enz0s.github.io/blog/2018/05/06/term-2-begins"/>
+			<updated>2018-05-06T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/05/06/term-2-begins</id>
+			<content type="html">&lt;p&gt;So MSDS Term 1 has ended a week ago and Term 2 begins exactly tomorrow. To recap, the following courses I completed last term are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mathematics for Data Science&lt;/li&gt;
+  &lt;li&gt;Programming for Data Science&lt;/li&gt;
+  &lt;li&gt;Introduction to Data Science and Data Privacy&lt;/li&gt;
+  &lt;li&gt;Data Visualization and Storytelling&lt;/li&gt;
+  &lt;li&gt;Human Behavior Organization&lt;/li&gt;
+  &lt;li&gt;Design Thinking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What did I learn from Term 1?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Learning from others can contribute a lot to your progress.&lt;/li&gt;
+  &lt;li&gt;I can always improve my learning style by trying other approaches.&lt;/li&gt;
+  &lt;li&gt;Inspiring teachers can further propel a student’s learning immensely.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Conda basics</title>
+			<link href="http://enz0s.github.io/blog/2018/05/06/conda"/>
+			<updated>2018-05-06T00:00:00+08:00</updated>
+			<id>http://enz0s.github.io//blog/2018/05/06/conda</id>
+			<content type="html">&lt;p&gt;The handout is correct: I learned how to use conda in less than 30 minutes. Initially I thought that it is another gruesome code crunching task. It turned out quite practical and easy. Some useful commands that I use are:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Create a new environment */
+conda create --name some-env
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Use environment */
+source activate some-env
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Close current environment */
+source deactivate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Check what are installed in current environment */
+conda info --envs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Install jupyter in current environment */
+conda install jupyter
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Run jupyter in current environment */
+jupyter-notebook
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Check installed packages in current environment */
+conda list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Check installed packages in current environment */
+conda list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* Check installed packages in current environment */
+conda install some_package
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </content>
 		</entry>
 	
@@ -68,285 +325,6 @@ Write and quit&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<title>Brain foods</title>
-			<link href="http://enz0s.github.io/blog/2018/02/23/brain-foods"/>
-			<updated>2018-02-23T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2018/02/23/brain-foods</id>
-			<content type="html">&lt;p&gt;Since I’m preparing for my AIM Master Science in Data Science, I need sustenance to enhance my thinking. The foods considered as “&lt;a href=&quot;https://www.webmd.com/diet/features/eat-smart-healthier-brain#1&quot;&gt;superfoods&lt;/a&gt;”  are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Blueberries&lt;/li&gt;
-  &lt;li&gt;Salmon&lt;/li&gt;
-  &lt;li&gt;Nuts and seeds&lt;/li&gt;
-  &lt;li&gt;Avocados&lt;/li&gt;
-  &lt;li&gt;Whole grains&lt;/li&gt;
-  &lt;li&gt;Beans&lt;/li&gt;
-  &lt;li&gt;Pomegranate juice&lt;/li&gt;
-  &lt;li&gt;Freshly brewed tea&lt;/li&gt;
-  &lt;li&gt;Dark chocolate&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;On the other side, there are &lt;a href=&quot;http://www.eatthis.com/foods-for-brain/&quot;&gt;worst foods&lt;/a&gt;. These are:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Commercial muffin&lt;/li&gt;
-  &lt;li&gt;Citrus and diet soda&lt;/li&gt;
-  &lt;li&gt;Canned tuna&lt;/li&gt;
-  &lt;li&gt;Soy sauce&lt;/li&gt;
-  &lt;li&gt;Rib eye steak&lt;/li&gt;
-  &lt;li&gt;Frozen pie&lt;/li&gt;
-  &lt;li&gt;Cured meats&lt;/li&gt;
-  &lt;li&gt;Frozen pizza&lt;/li&gt;
-  &lt;li&gt;Ice cream&lt;/li&gt;
-  &lt;li&gt;French fries&lt;/li&gt;
-  &lt;li&gt;White rice&lt;/li&gt;
-  &lt;li&gt;Fruit juice&lt;/li&gt;
-  &lt;li&gt;Alcohol&lt;/li&gt;
-  &lt;li&gt;Donuts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In other words, I need to stay away from hydrogenated/trans fats, sugar, and sodium to prevent brain drain.&lt;/p&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>Min and max values of an integer</title>
-			<link href="http://enz0s.github.io/blog/2018/02/21/min-and-max-values-of-an-integer"/>
-			<updated>2018-02-21T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2018/02/21/min-and-max-values-of-an-integer</id>
-			<content type="html">&lt;p&gt;\begin{align} \label{1}
-	min = -1 * 2^{n - 1}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{1} illustrates the minimum value of an &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-bit integer.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{2}
-	max = 2^{n - 1} - 1 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{2} illustrates the maximum value of an &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-bit integer.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{3}
-	min = 0
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{3} illustrates the minimum value of an non-negative &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-bit integer.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{4}
-	max = 2^n - 1 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{4} illustrates the maximum value of an non-negative &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-bit integer.&lt;/p&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>Probability using sample spaces</title>
-			<link href="http://enz0s.github.io/blog/2018/02/19/probability-using-sample-spaces"/>
-			<updated>2018-02-19T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2018/02/19/probability-using-sample-spaces</id>
-			<content type="html">&lt;p&gt;These notes are taken from &lt;a href=&quot;https://www.khanacademy.org/math/statistics-probability/probability-library/probability-sample-spaces/v/events-and-outcomes-3&quot;&gt;Khan Academy’s Probability: Basic Theoretical Probability&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;probability-with-counting-outcomes&quot;&gt;Probability with counting outcomes&lt;/h2&gt;
-
-&lt;p&gt;Problem: Find the probability of flipping exactly two heads on three coins.&lt;/p&gt;
-
-&lt;p&gt;Answer:&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{1}
-	P(\textrm{exactly two heads}) = \frac{3}{8}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{1} shows the probability of flipping exactly two heads.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-all-the-ways-you-can-flip-a-coin&quot;&gt;Example: All the ways you can flip a coin&lt;/h2&gt;
-
-&lt;p&gt;Problem: Find the probability of getting exactly two heads when flipping three coins.&lt;/p&gt;
-
-&lt;p&gt;Answer:&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{2}
-	P(\textrm{exactly two heads}) = \frac{3}{8}
-\end{align}&lt;/p&gt;
-
-&lt;h2 id=&quot;die-rolling-probability&quot;&gt;Die rolling probability&lt;/h2&gt;
-
-&lt;h2 id=&quot;subsets-of-sample-spaces&quot;&gt;Subsets of sample spaces&lt;/h2&gt;
-
-</content>
-		</entry>
-	
-		<entry>
-			<title>Basic theoretical probability</title>
-			<link href="http://enz0s.github.io/blog/2018/02/19/basic-theoretical-probability"/>
-			<updated>2018-02-19T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2018/02/19/basic-theoretical-probability</id>
-			<content type="html">&lt;p&gt;These notes are taken from &lt;a href=&quot;https://www.khanacademy.org/math/statistics-probability/probability-library/basic-theoretical-probability/v/basic-probability&quot;&gt;Khan Academy’s Probability: Basic Theoretical Probability&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;intro-to-theoretical-probability&quot;&gt;Intro to theoretical probability&lt;/h2&gt;
-
-&lt;p&gt;\begin{align} \label{1}
-	P(H) = \frac{1}{2} = 50%
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{1} shows the probability of flipping heads of a coin.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{2}
-	P(1) = \frac{1}{6}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{2} shows the probability of getting 1 after rolling a die.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{3}
-	P(1 \textrm{ or } 6) = \frac{2}{6} = \frac{1}{3}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{3} shows the probability of getting 1 or 6 after rolling a die.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{4}
-	P(2 \textrm{ and }  3) = \frac{0}{6}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{4} shows the probability of getting 2 and 3 after rolling a die.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{5}
-	P( \textrm{even}) = \frac{3}{6} = \frac{1}{2}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{5} shows the probability of getting an even number such as 2, 4, or 6 after rolling a die.&lt;/p&gt;
-
-&lt;h2 id=&quot;probability-the-basics&quot;&gt;Probability: the basics&lt;/h2&gt;
-
-&lt;p&gt;Probability is how likely something is to happen.&lt;/p&gt;
-
-&lt;p&gt;Statistics is the analysis of events governed by probability.&lt;/p&gt;
-
-&lt;p&gt;The best example for understanding probability is flipping a coin.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{6}
-	P(\textrm{condition}) = \frac{\textrm{# of possibilities that meets condition}} {\textrm{# of equally likely possibilities}}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{6} shows general formula of probability.&lt;/p&gt;
-
-&lt;p&gt;The probability of an event can only be between 0 and 1. It can also be written as a percentage.&lt;/p&gt;
-
-&lt;p&gt;The probability of an event &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is written as &lt;script type=&quot;math/tex&quot;&gt;P(A)&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;P(A) &gt; P(B)&lt;/script&gt;, then event A has higher chance of occuring than B.&lt;/p&gt;
-
-&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;P(A) = P(B)&lt;/script&gt;, then events A and B are equally likely to occur.&lt;/p&gt;
-
-&lt;h2 id=&quot;simple-probability-yellow-marble&quot;&gt;Simple probability: yellow marble&lt;/h2&gt;
-
-&lt;p&gt;Problem: Find the probability of pulling a yellow marble from a bag with 3 yellow, 2 red, 2 green, and 1 blue.&lt;/p&gt;
-
-&lt;p&gt;Answer:&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{7}
-	P(\textrm{yellow}) = \frac{3} {3 + 2 + 2 + 1} = \frac{3} {8} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{7} shows the probability of pulling a yellow marble from a bag of marbles.&lt;/p&gt;
-
-&lt;h2 id=&quot;simple-probability-non-blue-marble&quot;&gt;Simple probability: non-blue marble&lt;/h2&gt;
-
-&lt;p&gt;Problem: We have a bag with 9 red marbles, 2 blue marbles, and 3 green marbles in it. What is the probability of randomly selecting a non-blue marble from the bag?&lt;/p&gt;
-
-&lt;p&gt;Answer:&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{8}
-	P(\textrm{blue}) = \frac{2} {9 + 2 + 3}  = \frac{1} {7} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{9}
-	P(\textrm{non-blue}) = 1 - \frac{1} {7}	= \frac{6} {7} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{8} and \ref{9} show the probability of pulling a non-blue marble from a bag of marbles.&lt;/p&gt;
-
-&lt;p&gt;Problem: If a number is randomly chosen from the following list, what is the probability that the number is a multiple of 5?&lt;/p&gt;
-
-&lt;p&gt;32, 49, 30, 55, 56, 28, 50, 40, 40, 45, 3, 25&lt;/p&gt;
-
-&lt;p&gt;Answer:&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{10}
-	P(\textrm{multiple of 5}) = \frac{7} {12}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{10} shows the probability of getting a multiple of 5 from a set of numbers.&lt;/p&gt;
-
-&lt;p&gt;Problem: The circumference of a circle is 36&lt;script type=&quot;math/tex&quot;&gt;\pi&lt;/script&gt;. Contained in that circle is a smaller circle with are 16&lt;script type=&quot;math/tex&quot;&gt;\pi&lt;/script&gt;. A point is selected at random from the inside the larger circle. What is the probability that the point also lies in the smaller circle?&lt;/p&gt;
-
-&lt;p&gt;Answer:&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{11}
-	P(\textrm{point in smaller circle}) = \frac{\textrm{area of smaller circle}} {\textrm{area of bigger circle}}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{12}
-	P(\textrm{point in smaller circle}) = \frac{16\pi} {324\pi} = \frac {4} {81}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{11} and \ref{12} show the probability of getting a point that lies in both smaller circle and bigger circle.&lt;/p&gt;
-
-&lt;h2 id=&quot;intuitive-sense-of-probabilities&quot;&gt;Intuitive sense of probabilities&lt;/h2&gt;
-
-&lt;p&gt;Another best example for understanding probability is rolling a die.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{13}
-	P(\textrm{rolling} \leq 2) = \frac{2}{6} = \frac {1} {3}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{13} shows the probability of rolling less than or equal to 2.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{14}
-	P(\textrm{rolling} \geq 3) = \frac{4}{6} = \frac {2} {3}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{14} shows the probability of rolling greater than or equal to 3.&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{14} has greater probability than equation \ref{13}. This means that rolling greater than or equal 3 is more likely to happen than rolling less than or equal to 3.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{15}
-	P(\textrm{rolling} 7) = \frac{0}{6} = 0 or 0\%
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{15} shows the probability of rolling 7. This means that the event is &lt;em&gt;impossible to happen&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{16}
-	P(\textrm{rolling any from 1 to 6}) = \frac{6}{6} = 1 or 100\%
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{15} shows the probability of rolling any from 1 to 6. This means that the event is &lt;em&gt;going to happen&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-monty-hall-problem&quot;&gt;The Monty Hall problem&lt;/h2&gt;
-
-&lt;p&gt;Monty Hall is the host of Let’s Make A Deal with three doors that hide one major prize and two silly rewards. The goal is to find the door that hides the major prize. Switching is allowed after seeing the item hidden on the first door.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{17}
-	P(\textrm{win}) = \frac{1}{3}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{18}
-	P(\textrm{lose}) = \frac{2}{3} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{17} shows the probability of winning if you don’t switch. The equation \ref{18} shows the probability of losing if you don’t switch.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{19}
-	P(\textrm{win}) = \frac{2}{3}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{20}
-	P(\textrm{lose}) = \frac{1}{3} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{19} shows the probability of winning if you switch. The equation \ref{20} shows the probability of losing if you switch.&lt;/p&gt;
-</content>
-		</entry>
-	
-		<entry>
 			<title>A new chapter begins</title>
 			<link href="http://enz0s.github.io/blog/2018/02/15/my-msds-wiki-page"/>
 			<updated>2018-02-15T00:00:00+08:00</updated>
@@ -357,7 +335,7 @@ Write and quit&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/self.jpeg&quot; alt=&quot;I&#39;m Lorenzo!&quot; class=&quot;img-responsive center-image&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/self.jpeg&quot; alt=&quot;I&#39;m Lorenzo!&quot; class=&quot;img-responsive center-image&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hello! I’m Lorenzo Sta. Maria. My work is mainly organizational and academic but it has never stopped me to pursue lifelong learning. My journey has led me to the growing and enchanting world of data science. I am super excited to jumpstart my life through AIM MSDS program and the powerhouse faculty lineup that supports it. I would like to see myself in the future as a home-grown Filipino &lt;em&gt;data science unicorn&lt;/em&gt; who generates business value and champions the advocacy of the socially-disadvantaged through data-driven solutions.&lt;/p&gt;
 
@@ -388,387 +366,6 @@ Write and quit&lt;/p&gt;
 
 &lt;p&gt;Aside from generating business value in the industry, I would like to empower the socially-disadvantaged through data science. I hope to come up with solutions that  can improve social and economic conditions across all strata. I hope to build a data-driven traffic management system to ease the traffic in Metro Manila, a data-driven HIV decision-making system to provide better support programs, and a data-driven mental healthcare system to provide better treatments.&lt;/p&gt;
 
-</content>
-		</entry>
-	
-		<entry>
-			<title>Functions and linear transformations</title>
-			<link href="http://enz0s.github.io/blog/2018/02/09/functions-and-linear-transformations"/>
-			<updated>2018-02-09T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2018/02/09/functions-and-linear-transformations</id>
-			<content type="html">&lt;p&gt;These notes are taken from &lt;a href=&quot;https://www.khanacademy.org/math/linear-algebra/matrix-transformations#linear-transformations&quot;&gt;Khan Academy’s Matrix Transformations: Functions and Linear Transformations&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-more-formal-understanding-of-functions&quot;&gt;A more formal understanding of functions&lt;/h2&gt;
-
-&lt;p&gt;Range is the subset of co-domain that the function actually maps to.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{1}
-	f : X \rightarrow Y
-\end{align}
-The equation \ref{1} implies that set &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is domain, set &lt;script type=&quot;math/tex&quot;&gt;Y&lt;/script&gt; is co-domain, and set $Y$ is the range.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{2}
-f : \mathbb{R} \rightarrow \mathbb{R}
-\end{align}
-The equation \ref{2} implies that &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt; is domain, $\mathbb{R}$ is co-domain, and $\mathbb{R}$ is the range.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{3}
-	f(x) =x^2
-\end{align}
-The equation \ref{3} implies that &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; is domain, &lt;script type=&quot;math/tex&quot;&gt;x^2&lt;/script&gt; is co-domain, and &lt;script type=&quot;math/tex&quot;&gt;x^2&lt;/script&gt; is the range.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{4}
-	f:\mathbb{R^2} \rightarrow \mathbb{R}
-\end{align}
-The equation \ref{4} implies that &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R^2}&lt;/script&gt; is domain, &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt; is co-domain, and &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt; is the range.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{5}
-	g(x_1, x_2) = 2
-\end{align}
-The equation  \ref{5} implies that &lt;script type=&quot;math/tex&quot;&gt;(x_1, x_2)&lt;/script&gt; is domain, &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt; is co-domain, and &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt; is the range.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{6}
-	h(x_1, x_2) = (x_1 + x_2, x_2 - x_1, x_2x_1)
-\end{align}
-The equation \ref{6} implies that &lt;script type=&quot;math/tex&quot;&gt;(x_1, x_2)&lt;/script&gt; is domain, &lt;script type=&quot;math/tex&quot;&gt;(x_1 + x_2, x_2 - x_1, x_2x_1)&lt;/script&gt; is co-domain, and &lt;script type=&quot;math/tex&quot;&gt;(x_1 + x_2, x_2 - x_1, x_2x_1)&lt;/script&gt; is the range.&lt;/p&gt;
-
-&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;x_1 = 2$ and $x_2 = 3&lt;/script&gt;, then&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{7}
-	h(2, 3) = (5, 1, 6)
-\end{align}
-The equation \ref{7} implies that &lt;script type=&quot;math/tex&quot;&gt;(2, 3)&lt;/script&gt; is domain, &lt;script type=&quot;math/tex&quot;&gt;(5, 1, 6)&lt;/script&gt; is co-domain, and &lt;script type=&quot;math/tex&quot;&gt;(5, 1, 6)&lt;/script&gt; is the range.&lt;/p&gt;
-
-&lt;h2 id=&quot;vector-transformations&quot;&gt;Vector transformations&lt;/h2&gt;
-
-&lt;p&gt;Vectors are members of some set.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{8}
-	f:X \rightarrow Y
-\end{align}
-The equation \ref{8} implies that set &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is mapped to set &lt;script type=&quot;math/tex&quot;&gt;Y&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{9}
-	\vec{x} \in \mathbb{R}^n
-\end{align}
-The equation \ref{9} explains that &lt;script type=&quot;math/tex&quot;&gt;\vec{x}&lt;/script&gt; belongs to &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-dimensional real coordinate space.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{10}
-	f : \mathbb{R}^n \rightarrow \mathbb{R}^m
-\end{align}
-The equation \ref{10} states that &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-dimensional real coordinate space is mapped to &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt;-dimensional real coordinate space. A regular arrow represents a set is being represented by another set. Also, it means that vectors are valid elements of sets.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{11}
-	f : x \mapsto x^2
-\end{align}
-The equation \ref{11} states that &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; is mapped to &lt;script type=&quot;math/tex&quot;&gt;x^2&lt;/script&gt;. An arrow with vertical line represents a function definition. Also, it means that functions are mapping between elements of sets. Thus, we can have functions of vectors.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{12}
-	f : (x_1, x_2, x_3) = (x_1 + 2x_2, 3x_3)
-\end{align}
-The equation \ref{12} can be represented by equation \ref{11}.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{13}
-	f : \mathbb{R}^3 \rightarrow \mathbb{R}^2
-\end{align}
-The equation \ref{13} means that three-dimensional real coordinate space is mapped to two-dimensional real coordinate space.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{14}
-	f : 
-	\begin{pmatrix} 
-		\begin{bmatrix}
-			x_1 \\
-			x_2 \\
-			x_3
-		\end{bmatrix} 
-	\end{pmatrix} 
-	= 
-	\begin{bmatrix}
-		x_1 + 2x_2 \\
-		3x_3
-	\end{bmatrix} 
-\end{align}
-The equation \ref{14} shows another representation of equation \ref{13}.&lt;/p&gt;
-
-&lt;p&gt;Transformation is a function operating on vectors. It is called transformation because we are transforming one vector to another.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{15}
-	T : \mathbb{R}^3 \rightarrow \mathbb{R}^2
-\end{align}
-The equation \ref{15} means that three-dimensional real coordinate space is transformed to two-dimensional real coordinate space.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{16}
-	T : (x_1, x_2, x_3) \rightarrow (x_1 + 2x_2, 3x_3)
-\end{align}
-The equation \ref{16} means that &lt;script type=&quot;math/tex&quot;&gt;(x_1, x_2, x_3)&lt;/script&gt; is transformed into &lt;script type=&quot;math/tex&quot;&gt;(x_1 + 2x_2, 3x_3)&lt;/script&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;linear-transformations&quot;&gt;Linear transformations&lt;/h2&gt;
-
-&lt;p&gt;\begin{align} \label{17}
-	\vec{a}, \vec{b} \in \mathbb{R}^n
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{18}
-	T(\vec{a} + \vec{b}) = T(\vec{a}) + T(\vec{b})
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{19}
-	T(c\vec{a}) = c T(\vec{a})
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{17}, \ref{18}, and \ref{19} support the basis of linear transformation.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{20}
-	T:\mathbb{R}^2 \rightarrow \mathbb{R}^2
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{21}
-	T(x_1, x_2) = T(x_1 + x_2, 3x_1)
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{22}
-	T 
-	\begin{pmatrix} 
-		\begin{bmatrix}
-			x_1 \\
-			x_2
-		\end{bmatrix} 
-	\end{pmatrix} 
-	= 
-	\begin{bmatrix}
-		x_1 + x_2 \\
-		3x_1
-	\end{bmatrix} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{23}
-	T: 
-	\begin{pmatrix} 
-		\begin{bmatrix}
-			x_1 \\
-			x_2
-		\end{bmatrix} 
-	\end{pmatrix} 
-	\mapsto 
-	\begin{bmatrix}
-		x_1 + x_2 \\
-		3x_1
-	\end{bmatrix} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{20}, \ref{21}, \ref{22}, and \ref{23} support the linear transformation from two-dimensional real coordinate space to two-dimensional real coordinate space.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{24}
-	\vec{a} = 
-	\begin{bmatrix}
-		a_1 \\
-		a_2
-	\end{bmatrix}
-	, \vec{b} = 
-	\begin{bmatrix}
-		b_1 \\
-		b_2
-	\end{bmatrix} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{25}
-	\vec{a} + \vec{b} = 
-	\begin{bmatrix}
-		a_1 + b_1 \\
-		a_2 + b_2
-	\end{bmatrix} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{26}
-	T(\vec{a} + \vec{b}) = T 
-	\begin{pmatrix} 
-		\begin{bmatrix}
-			a_1 + b_1 \\
-			a_2 + b_2
-		\end{bmatrix} 
-	\end{pmatrix} 
-	= 
-	\begin{bmatrix}
-		a_1 + a_2 + b_1 + b_2 \\
-		3a_1 + 3b_2
-	\end{bmatrix} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{24}, \ref{25}, and \ref{26} support linear transformation. The equation \ref{26} is the transformed equation by sustituting \ref{24} to equation \ref{17} and left side of equation \ref{18}.&lt;/p&gt;
-
-&lt;p&gt;Likewise,&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{27}
-	T(\vec{a}) = 
-	\begin{pmatrix} 
-		\begin{bmatrix}
-			a_1 \\
-			a_2
-		\end{bmatrix} 
-	\end{pmatrix} 
-	= 
-	\begin{bmatrix}
-		a_1 + a_2 \\
-		3a_1
-	\end{bmatrix} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{28}
-	T(\vec{b}) = 
-	\begin{pmatrix} 
-		\begin{bmatrix}
-			b_1 \\
-			b_2
-		\end{bmatrix} 
-	\end{pmatrix} 
-	= 
-	\begin{bmatrix}
-		b_1 + b_2 \\
-		3b_1
-	\end{bmatrix} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{29}
-	T(\vec{a}) + T(\vec{b}) = 
-	\begin{bmatrix}
-		a_1 + a_2 + b_1 + b_2 \\
-		3a_1 + 3b_1
-	\end{bmatrix} 
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{27}, \ref{28}, and \ref{29} demonstrate linear transformation. The equation \ref{29} is the transformed equation by sustituting \ref{27} and \ref{28} to right side of equation \ref{18}. It shows that equation \ref{29} is the same as equation \ref{26}.&lt;/p&gt;
-
-&lt;p&gt;Also,&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{30}
-	c(\vec{a}) =
-	\begin{bmatrix}
-		ca_1 \\
-		ca_2
-	\end{bmatrix}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{31}
-	T(c\vec{a}) = T 
-	\begin{pmatrix}
-		\begin{bmatrix}
-			ca_1 + ca_2 \\
-			3ca_1
-		\end{bmatrix}
-	\end{pmatrix} 
-	= c 
-	\begin{bmatrix}
-		a_1 + a_2 \\
-		a_1
-	\end{bmatrix}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equations \ref{30} and \ref{31} demonstrate proof of equation \ref{19}.&lt;/p&gt;
-
-&lt;p&gt;Therefore, equation \ref{21} is a linear transformation or LT.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{32}
-	T \begin{pmatrix}
-		\begin{bmatrix}
-			x_1 \\
-			x_2
-		\end{bmatrix}
-	\end{pmatrix}
-	= c 
-	\begin{bmatrix}
-		x_1^2 \\
-		0
-	\end{bmatrix}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{33}
-	T(c\vec{a}) \neq c^2 T(\vec{a})
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;The equation \ref{32} is not a linear transformation because it results to equation \ref{33}.&lt;/p&gt;
-
-&lt;h2 id=&quot;visualizing-linear-transformations&quot;&gt;Visualizing linear transformations&lt;/h2&gt;
-
-&lt;p&gt;The word “transformation” can be best visualized by imagining that the line can be stretched, compressed, or rotated like a spring or slinky.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{34}
-	f(x + y) = f(x) + f(y)
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{35}
-	f(cx) = cf(x)
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;A linear transform is a function &lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt; that satisfies two properties: \ref{33} and \ref{34}, where &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is a function of vectors.&lt;/p&gt;
-
-&lt;p&gt;A two-dimensional linear transformation is a special kind of function which takes in a two-dimensional vector &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix} x \\ y \end{bmatrix}&lt;/script&gt; and outputs another two-dimensional vector.&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{36}
-	f(\textbf{v} + \textbf{w}) = f(\textbf{v}) + f(\textbf{w})
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{37}
-	f(c\textbf{v}) = cf(\textbf{v})
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;A linear transformation is two-dimensional if it satisfies two properties: \ref{36} and \ref{37}, where &lt;script type=&quot;math/tex&quot;&gt;\textbf{v}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\textbf{w}&lt;/script&gt; are vectors.&lt;/p&gt;
-
-&lt;p&gt;A transformation is linear if it follows a geometric rule: The origin must remain fixed, and all lines must remain lines.&lt;/p&gt;
-
-&lt;!--## Matrix from visual representation of transformation--&gt;
-
-&lt;h2 id=&quot;matrix-vector-products-as-linear-transformations&quot;&gt;Matrix vector products as linear transformations&lt;/h2&gt;
-
-&lt;p&gt;\begin{align} \label{38}
-	A =
-	\begin{bmatrix}
-		\vec{v_1} &amp;amp; \vec{v_2} &amp;amp; … &amp;amp; \vec{v_n}
-	\end{bmatrix}
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{39}
-	T: \mathbb{R}^n \rightarrow \mathbb{R}^m
-\end{align}&lt;/p&gt;
-
-&lt;p&gt;\begin{align} \label{40}
-	T(\vec{x}) = \textbf{A} \vec{x}
-\end{align}&lt;/p&gt;
-
-&lt;h2 id=&quot;linear-transformations-as-matrix-vector-products&quot;&gt;Linear transformations as matrix vector products&lt;/h2&gt;
-
-&lt;h2 id=&quot;image-of-a-subset-under-a-transformation&quot;&gt;Image of a subset under a transformation&lt;/h2&gt;
-
-&lt;h2 id=&quot;imtextrmttextrm-image-of-a-transformation&quot;&gt;im$\textrm{(}$T$\textrm{)}$: Image of a transformation&lt;/h2&gt;
-
-&lt;h2 id=&quot;preimage-and-kernel-example&quot;&gt;Preimage and kernel example&lt;/h2&gt;
-
-&lt;h2 id=&quot;sums-and-scalar-multiples-of-linear-transformations&quot;&gt;Sums and scalar multiples of linear transformations&lt;/h2&gt;
-
-&lt;h2 id=&quot;more-on-matrix-addition-and-scalar-multiplication&quot;&gt;More on matrix addition and scalar multiplication&lt;/h2&gt;
-
-&lt;!--## Linear transformation examples
-
-To be continued...
-
-## Transformations and matrix multiplication
-
-To be continued...
-
-## Inverse functions and transformations
-
-To be continued...
-
-## Finding inverses and determinants
-
-To be continued...
-
-## More determinant depth
-
-To be continued...
-
-## Transpose of a matrix
-
-To be continued...--&gt;
 </content>
 		</entry>
 	
@@ -868,72 +465,6 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>New discoveries</title>
-			<link href="http://enz0s.github.io/blog/2017/09/29/new-discoveries"/>
-			<updated>2017-09-29T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/09/29/new-discoveries</id>
-			<content type="html">&lt;p&gt;I am listing down the things that I recently learned through online education courses and other brainy sources.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understanding Machine Learning by David Chappell (39m)
-    &lt;ul&gt;
-      &lt;li&gt;DS: 5 May&lt;/li&gt;
-      &lt;li&gt;DF: 5 May&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Understanding Machine Learning with R by Jerry Kurata (1h 25m)
-    &lt;ul&gt;
-      &lt;li&gt;DS: 5 May&lt;/li&gt;
-      &lt;li&gt;DF: 22 May&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Understanding Machine Learning with Python by Jerry Kurata (1h 54m)
-    &lt;ul&gt;
-      &lt;li&gt;DS: 22 May&lt;/li&gt;
-      &lt;li&gt;DF: 5 Jun&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Software Process Management by Gregory Paul Knight (3h 43m)
-    &lt;ul&gt;
-      &lt;li&gt;DS: 13 Jun&lt;/li&gt;
-      &lt;li&gt;DF: 8 Sep&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How to Think About Machine Learning Algorithms by Swetha Kolalapudi (3h 8m)
-    &lt;ul&gt;
-      &lt;li&gt;DS: 5 Jun&lt;/li&gt;
-      &lt;li&gt;DF: 15 Sep&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Kanban Fundamentals by Steve Smith (1h 31m)
-    &lt;ul&gt;
-      &lt;li&gt;DS: 15 Sep&lt;/li&gt;
-      &lt;li&gt;DF: 23 Sep&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Intro to Python for Data Science by Filip Schouwenaars (4h)
-    &lt;ul&gt;
-      &lt;li&gt;DS: 15 Sep&lt;/li&gt;
-      &lt;li&gt;DF: ?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Data Science: The Big Picture by Matthew Renze (1h 9m)
-    &lt;ul&gt;
-      &lt;li&gt;DS: 29 Sep&lt;/li&gt;
-      &lt;li&gt;DF: ?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Legend:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;DS = Date Started&lt;/li&gt;
-  &lt;li&gt;DF = Date Finished&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		</entry>
-	
-		<entry>
 			<title>A Mind For Numbers</title>
 			<link href="http://enz0s.github.io/blog/2017/09/23/a-mind-for-numbers"/>
 			<updated>2017-09-23T00:00:00+08:00</updated>
@@ -973,79 +504,6 @@ This is another new equation without equation number.
   &lt;li&gt;Stories are silly memory tricks that build retention.&lt;/li&gt;
   &lt;li&gt;Learn to let go of focused thinking and use diffuse thinking to your advantage.&lt;/li&gt;
 &lt;/ol&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>Commitment and conviction</title>
-			<link href="http://enz0s.github.io/blog/2017/08/24/commitment-and-conviction"/>
-			<updated>2017-08-24T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/08/24/commitment-and-conviction</id>
-			<content type="html">&lt;p&gt;I need to monitor my Pomodoro technique on my data science program and dissertation. Hence, the importance of a checklist.&lt;/p&gt;
-
-&lt;p&gt;Log Dates (in reverse):&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;29 Sep 2017&lt;/li&gt;
-  &lt;li&gt;27 Sep 2017&lt;/li&gt;
-  &lt;li&gt;26 Sep 2017&lt;/li&gt;
-  &lt;li&gt;3 Sep 2017&lt;/li&gt;
-  &lt;li&gt;1 Sep 2017&lt;/li&gt;
-  &lt;li&gt;30 Aug 2017&lt;/li&gt;
-  &lt;li&gt;29 Aug 2017&lt;/li&gt;
-  &lt;li&gt;26 Aug 2017&lt;/li&gt;
-  &lt;li&gt;25 Aug 2017&lt;/li&gt;
-  &lt;li&gt;24 Aug 2017&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pomodoro Tasks:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;DRRM outline
-    &lt;ul&gt;
-      &lt;li&gt;DS: 25 Aug&lt;/li&gt;
-      &lt;li&gt;DF: 29 Aug&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;DRRM readings
-    &lt;ul&gt;
-      &lt;li&gt;DS: 25 Aug&lt;/li&gt;
-      &lt;li&gt;DF: ?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU&quot;&gt;A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;DS: 23 Sep&lt;/li&gt;
-      &lt;li&gt;DF: ?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;My new discoveries
-    &lt;ul&gt;
-      &lt;li&gt;From online education courses
-        &lt;ul&gt;
-          &lt;li&gt;PluralSight&lt;/li&gt;
-          &lt;li&gt;Datacamp&lt;/li&gt;
-          &lt;li&gt;Khan Academy&lt;/li&gt;
-          &lt;li&gt;Udemy&lt;/li&gt;
-          &lt;li&gt;Udacity&lt;/li&gt;
-          &lt;li&gt;Coursera&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;From brainy sources
-        &lt;ul&gt;
-          &lt;li&gt;Quora&lt;/li&gt;
-          &lt;li&gt;Kindle&lt;/li&gt;
-          &lt;li&gt;Audible&lt;/li&gt;
-          &lt;li&gt;Meetup&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Legend:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;DS = Date Started&lt;/li&gt;
-  &lt;li&gt;DF = Date Finished&lt;/li&gt;
-&lt;/ul&gt;
 </content>
 		</entry>
 	
@@ -1108,91 +566,6 @@ This is another new equation without equation number.
 		</entry>
 	
 		<entry>
-			<title>My data science program</title>
-			<link href="http://enz0s.github.io/blog/2017/08/22/my-data-science-program"/>
-			<updated>2017-08-22T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/08/22/my-data-science-program</id>
-			<content type="html">&lt;p&gt;I have ultimately come up with my customized data science program. In a quick glance, the outline will be as follows:&lt;/p&gt;
-
-&lt;h2 id=&quot;bridge&quot;&gt;Bridge&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Mathematics
-    &lt;ul&gt;
-      &lt;li&gt;Principles of Statistics&lt;/li&gt;
-      &lt;li&gt;Probability Theory&lt;/li&gt;
-      &lt;li&gt;Statistical Analysis of Experimental Data&lt;/li&gt;
-      &lt;li&gt;Linear Algebra&lt;/li&gt;
-      &lt;li&gt;Matrices and Linear Transformations&lt;/li&gt;
-      &lt;li&gt;Calculus&lt;/li&gt;
-      &lt;li&gt;Ordinary Differential Equations&lt;/li&gt;
-      &lt;li&gt;Partial Differential Equations&lt;/li&gt;
-      &lt;li&gt;Numerical Methods&lt;/li&gt;
-      &lt;li&gt;Fourier Series&lt;/li&gt;
-      &lt;li&gt;Introduction to Information Theory&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Programming
-    &lt;ul&gt;
-      &lt;li&gt;Python (main language)&lt;/li&gt;
-      &lt;li&gt;R (intro only)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;core&quot;&gt;Core&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Intro to Data Science&lt;/li&gt;
-  &lt;li&gt;Data Visualization&lt;/li&gt;
-  &lt;li&gt;Machine Learning&lt;/li&gt;
-  &lt;li&gt;Deep Learning&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;electives&quot;&gt;Electives&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Raspberry Pi&lt;/li&gt;
-  &lt;li&gt;scikit-learn&lt;/li&gt;
-  &lt;li&gt;TensorFlow&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;final-project&quot;&gt;Final Project&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;A dev model based on Raspberry Pi and TensorFlow&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;miscellaneous-readings&quot;&gt;Miscellaneous (Readings)&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Mathematics for the Nonmathematician&lt;/li&gt;
-  &lt;li&gt;Mathematics: Its Content, Methods and Meaning&lt;/li&gt;
-  &lt;li&gt;Introduction to Artificial Intelligence&lt;/li&gt;
-  &lt;li&gt;Mathematics and the Physical World&lt;/li&gt;
-  &lt;li&gt;Introduction to Linear Algebra and Differential Equations&lt;/li&gt;
-  &lt;li&gt;Mathematics and Logic&lt;/li&gt;
-  &lt;li&gt;Stanford Mathematics Problem Book&lt;/li&gt;
-  &lt;li&gt;Tensor Analysis on Manifolds&lt;/li&gt;
-  &lt;li&gt;Tensors, Differential Forms and Variational Principles&lt;/li&gt;
-  &lt;li&gt;Lady Luck: The Theory of Probability&lt;/li&gt;
-  &lt;li&gt;Elementary Number Theory&lt;/li&gt;
-  &lt;li&gt;Prelude to Mathematics&lt;/li&gt;
-  &lt;li&gt;A Book of Set Theory&lt;/li&gt;
-  &lt;li&gt;Mathematical Modeling Techniques&lt;/li&gt;
-  &lt;li&gt;The Divine Proportion&lt;/li&gt;
-  &lt;li&gt;Lucifer’s Legacy: The Meaning of Assymetry&lt;/li&gt;
-  &lt;li&gt;Theoretical Physics&lt;/li&gt;
-  &lt;li&gt;Number Theory&lt;/li&gt;
-  &lt;li&gt;Geometry&lt;/li&gt;
-  &lt;li&gt;Topology&lt;/li&gt;
-  &lt;li&gt;Introduction to Graph Theory&lt;/li&gt;
-  &lt;li&gt;Star Wars Canon Series (of course!)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I used &lt;a href=&quot;https://medium.com/@davidventuri/i-dropped-out-of-school-to-create-my-own-data-science-master-s-here-s-my-curriculum-1b400dcee412&quot;&gt;David Venturi’s program&lt;/a&gt; and &lt;a href=&quot;https://www.maastrichtuniversity.nl/education/partner-program-master/master-data-science-decision-making&quot;&gt;Maastricht University’s curriculum&lt;/a&gt; as references to build mine. Also, I’m beginning to fall in love with Dover books. I like how they capture the essential topics.&lt;/p&gt;
-
-&lt;p&gt;I will update this post should there be any changes to my preferential value and direction (geeky joke). Fingers crossed that I’ll make it too.&lt;/p&gt;
-
-</content>
-		</entry>
-	
-		<entry>
 			<title>Pomodoro technique</title>
 			<link href="http://enz0s.github.io/blog/2017/08/21/pomodoro-technique"/>
 			<updated>2017-08-21T00:00:00+08:00</updated>
@@ -1206,8 +579,6 @@ This is another new equation without equation number.
   &lt;li&gt;If pomodoro &amp;lt; 4, repeat step 1; otherwise, break for 15 minutes&lt;/li&gt;
   &lt;li&gt;Repeat step 1 (to complete more tasks)&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;I will update this post soon with details of how my attempt went.&lt;/p&gt;
 </content>
 		</entry>
 	
@@ -1254,183 +625,6 @@ This is another new equation without equation number.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The &lt;a href=&quot;http://www.jekyllnow.com/Markdown-Style-Guide/&quot;&gt;Markdown Style Guide&lt;/a&gt; has been a powerful source to me. Plus I get to use the same syntax to add notes and comments in Jupyter notebook. As they say, KISS.&lt;/p&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>Kaggle</title>
-			<link href="http://enz0s.github.io/blog/2017/08/21/kaggle-competition"/>
-			<updated>2017-08-21T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/08/21/kaggle-competition</id>
-			<content type="html">&lt;p&gt;I’m beginning to enjoy exploring &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt;. There are tons of materials to read and browse. I will update this post when I have explored much about their competition.&lt;/p&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>Hacking a data science program</title>
-			<link href="http://enz0s.github.io/blog/2017/08/21/hacking-data-science-program"/>
-			<updated>2017-08-21T00:00:00+08:00</updated>
-			<id>http://enz0s.github.io//blog/2017/08/21/hacking-data-science-program</id>
-			<content type="html">&lt;p&gt;My main goal is to learn data science. Initially my plan was to enrol myself in a data science masters program. However, after watching Tetiana Ivanova’s speech during the PyData London 2016 I realized that maybe I can pursue a similar path. Now I am on my quest on how to hack a data science program.&lt;/p&gt;
-
-&lt;p&gt;So far I have gathered related links to my quest. Below are related links and outlines that I scoured online. In the end, I designed my own curriculum. This currently serves as my roadmap to data science.&lt;/p&gt;
-
-&lt;h2 id=&quot;data-science-for-decision-making-from-maastricht-university---my-dream-school&quot;&gt;&lt;a href=&quot;https://www.maastrichtuniversity.nl/education/partner-program-master/master-data-science-decision-making&quot;&gt;Data Science for Decision Making from Maastricht University&lt;/a&gt; - My dream school&lt;/h2&gt;
-
-&lt;h3 id=&quot;year-1-core-courses&quot;&gt;Year 1 Core Courses&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Research Project OR 1&lt;/li&gt;
-  &lt;li&gt;Model Identification and Data Fitting (Pre: Linear Algebra, Mathematical Modelling, Probability and Statistics)&lt;/li&gt;
-  &lt;li&gt;Research Project OR 2&lt;/li&gt;
-  &lt;li&gt;Data Mining&lt;/li&gt;
-  &lt;li&gt;Planning and Scheduling (Pre: some experience with optimization such as linear programming and/or design and analysis of efficient algorithms)&lt;/li&gt;
-  &lt;li&gt;Algorithms for Big Data&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;year-1-electives&quot;&gt;Year 1 Electives&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Mathematical Optimization (Pre: Calculus 1 &amp;amp; 2, Linear Algebra)&lt;/li&gt;
-  &lt;li&gt;Stochastic Decision Making&lt;/li&gt;
-  &lt;li&gt;Signal and Image Processing (Pre: Linear Algebra, Calculus, linear systems theory and transforms such as Fourier and Laplace)&lt;/li&gt;
-  &lt;li&gt;Dynamic Game Theory&lt;/li&gt;
-  &lt;li&gt;Symbolic Computation and Control (Pre: Linear Algebra, Calculus, Mathematical Modeling)&lt;/li&gt;
-  &lt;li&gt;Autonomous Robotic Systems (Pre: Discrete Mathematics, Linear Algebra, Probability and Statistics, Data Structures and Algorithms)&lt;/li&gt;
-  &lt;li&gt;Ontology Engineering &amp;amp; Semantic Web&lt;/li&gt;
-  &lt;li&gt;Information Retrieval and Text Mining&lt;/li&gt;
-  &lt;li&gt;Advanced Concepts in Machine Learning (Pre: familiarity with the basics of machine learning through Machine Learning or Data Machine course)&lt;/li&gt;
-  &lt;li&gt;Computer Vision&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;year-2&quot;&gt;Year 2&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Master’s Thesis OR&lt;/li&gt;
-  &lt;li&gt;Master Internship&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;other-electives&quot;&gt;Other Electives&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Multi-Agent Systems (Pre: basic logic, basic mathematics, probability theory, Java programming)&lt;/li&gt;
-  &lt;li&gt;Foundations of Agents (Pre: propositional and predicate logic, Calculus)&lt;/li&gt;
-  &lt;li&gt;Intelligent Search &amp;amp; Games (Pre: good programming)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;my-data-science-masters-by-david-venturi&quot;&gt;&lt;a href=&quot;https://medium.com/@davidventuri/i-dropped-out-of-school-to-create-my-own-data-science-master-s-here-s-my-curriculum-1b400dcee412&quot;&gt;My Data Science Master’s by David Venturi&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;intro-to-programming&quot;&gt;Intro to Programming&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/385/coursera-learn-to-program-the-fundamentals&quot;&gt;Learn to Program: The Fundamentals (LPT1)&lt;/a&gt; and &lt;a href=&quot;https://www.class-central.com/mooc/390/coursera-learn-to-program-crafting-quality-code&quot;&gt;Crafting Quality Code (LPT2)&lt;/a&gt; by the University of Toronto via Coursera&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/408/coursera-an-introduction-to-interactive-programming-in-python-part-1&quot;&gt;An Introduction to Interactive Programming in Python (Part 1)&lt;/a&gt; and &lt;a href=&quot;https://www.class-central.com/mooc/3196/coursera-an-introduction-to-interactive-programming-in-python-part-2&quot;&gt;(Part 2)&lt;/a&gt; by Rice University via Coursera&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/tracks/r-programming?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;R Programming Track&lt;/a&gt; by DataCamp&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;statistics-and-probability&quot;&gt;Statistics and Probability&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/2244/edx-ut-7-01x-foundations-of-data-analysis&quot;&gt;Foundations of Data Analysis — Part 1: Statistics Using R&lt;/a&gt; and &lt;a href=&quot;https://www.class-central.com/mooc/4804/edx-foundations-of-data-analysis-part-2-inferential-statistics&quot;&gt;Part 2: Inferential Statistics&lt;/a&gt; by the University of Texas at Austin via edX&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://click.linksynergy.com/deeplink?id=SAyYsTvLiGQ&amp;amp;mid=40328&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fstatistics&quot;&gt;Statistics with R Specialization&lt;/a&gt; by Duke University via Coursera&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/1496/edx-6-041x-introduction-to-probability-the-science-of-uncertainty&quot;&gt;Introduction to Probability — The Science of Uncertainty&lt;/a&gt; by the Massachusetts Institute of Technology (MIT) via edX&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;introductions-to-data-science&quot;&gt;Introductions to Data Science&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://click.linksynergy.com/fs-bin/click?id=SAyYsTvLiGQ&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Fdatascience%2F&quot;&gt;Data Science A-Z™: Real-Life Data Science Exercises Included&lt;/a&gt; by Kirill Eremenko and the SuperDataScience Team via Udemy&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/4937/udacity-intro-to-data-analysis&quot;&gt;Intro to Data Analysis&lt;/a&gt; by Udacity&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bigdatauniversity.com/learn/data-science/&quot;&gt;Data Science Fundamentals&lt;/a&gt; by Big Data University&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;data-visualization&quot;&gt;Data Visualization&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://click.linksynergy.com/fs-bin/click?id=SAyYsTvLiGQ&amp;amp;subid=&amp;amp;offerid=467035.1&amp;amp;type=10&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;tmpid=18061&amp;amp;RD_PARM1=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fdata-visualization&quot;&gt;Data Visualization with Tableau Specialization&lt;/a&gt; by the University of California, Davis via Coursera&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/tracks/data-visualization-with-r?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;Data Visualization with ggplot2 Series&lt;/a&gt; by DataCamp&lt;/li&gt;
-  &lt;li&gt;Tableau 10 Series (&lt;a href=&quot;https://click.linksynergy.com/fs-bin/click?id=SAyYsTvLiGQ&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;tmpid=14538&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Ftableau10%2F&quot;&gt;Tableau 10 A-Z&lt;/a&gt; and &lt;a href=&quot;https://click.linksynergy.com/fs-bin/click?id=SAyYsTvLiGQ&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Ftableau10-advanced%2F&quot;&gt;Tableau 10 Advanced Training&lt;/a&gt;) by Kirill Eremenko and the SuperDataScience Team on Udemy&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/835/coursera-machine-learning&quot;&gt;Machine Learning&lt;/a&gt; by Stanford University via Coursera&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/7231/edx-machine-learning&quot;&gt;Machine Learning&lt;/a&gt; by Columbia University via edX&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://click.linksynergy.com/deeplink?id=SAyYsTvLiGQ&amp;amp;mid=39197&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;murl=https%3A%2F%2Fwww.udemy.com%2Fmachinelearning%2F&quot;&gt;Machine Learning A-Z™: Hands-On Python &amp;amp; R In Data Science&lt;/a&gt; by Kirill Eremenko and Hadelin de Ponteves via Udemy&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;deep-learning&quot;&gt;Deep Learning&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/6679/kadenze-creative-applications-of-deep-learning-with-tensorflow&quot;&gt;Creative Applications of Deep Learning with TensorFlow&lt;/a&gt; by Kadenze&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/398/coursera-neural-networks-for-machine-learning&quot;&gt;Neural Networks for Machine Learning&lt;/a&gt; by the University of Toronto via Coursera&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://click.linksynergy.com/fs-bin/click?id=SAyYsTvLiGQ&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Fdeeplearning%2F&quot;&gt;Deep Learning A-Z™: Hands-On Artificial Neural Networks&lt;/a&gt; by Kirill Eremenko and Hadelin de Ponteves via Udemy&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;supplementary-subjects&quot;&gt;Supplementary Subjects&lt;/h3&gt;
-
-&lt;h4 id=&quot;python&quot;&gt;Python&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/tracks/python-programming?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;Python Programming Track&lt;/a&gt; by DataCamp, including
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/courses/pandas-foundations?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;pandas Foundations&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/courses/manipulating-dataframes-with-pandas?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;Manipulating DataFrames with pandas&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/courses/merging-dataframes-with-pandas?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;Merging DataFrames with pandas&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;r&quot;&gt;R&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/tracks/r-programming?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;R Programming Track&lt;/a&gt; by DataCamp, including
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;Data Manipulation in R with dplyr&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/courses/joining-data-in-r-with-dplyr?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;Joining Data in R with dplyr&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/courses/data-table-data-manipulation-r-tutorial?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;Data Analysis in R, the data.table Way&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;databases--sql&quot;&gt;Databases &amp;amp; SQL&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/1580/stanford-openedx-db-introduction-to-databases&quot;&gt;Introduction to Databases&lt;/a&gt; by Stanford University via Stanford OpenEdx&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;data-preparation&quot;&gt;Data Preparation&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;Tracks by DataCamp:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/tracks/importing-cleaning-data-with-python?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;Importing &amp;amp; Cleaning Data with Python Track&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/tracks/importing-cleaning-data-with-r?tap_a=5644-dce66f&amp;amp;tap_s=93618-a68c98&quot;&gt;Importing &amp;amp; Cleaning Data with R Track&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;exploratory-data-analysis&quot;&gt;Exploratory Data Analysis&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/1478/udacity-data-analysis-with-r&quot;&gt;Data Analysis with R&lt;/a&gt; by Udacity and Facebook&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;big-data&quot;&gt;Big Data&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://click.linksynergy.com/fs-bin/click?id=SAyYsTvLiGQ&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Fthe-ultimate-hands-on-hadoop-tame-your-big-data%2F&quot;&gt;The Ultimate Hands-On Hadoop — Tame your Big Data!&lt;/a&gt; by Frank Kane via Udemy, including
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://click.linksynergy.com/fs-bin/click?id=SAyYsTvLiGQ&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Ftaming-big-data-with-apache-spark-hands-on%2F&quot;&gt;Taming Big Data with Apache Spark and Python — Hands On!&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://click.linksynergy.com/fs-bin/click?id=SAyYsTvLiGQ&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Ftaming-big-data-with-mapreduce-and-hadoop%2F&quot;&gt;Taming Big Data with MapReduce and Hadoop — Hands On!&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://click.linksynergy.com/fs-bin/click?id=SAyYsTvLiGQ&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Fapache-spark-with-scala-hands-on-with-big-data%2F&quot;&gt;Apache Spark 2.0 with Scala — Hands On with Big Data!&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://click.linksynergy.com/fs-bin/click?id=SAyYsTvLiGQ&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;u1=medium-data-science-career-guide-summary&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Ftaming-big-data-with-spark-streaming-hands-on%2F&quot;&gt;Taming Big Data with Spark Streaming and Scala — Hands On!&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;software-skills&quot;&gt;Software Skills&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/365/udacity-software-testing&quot;&gt;Software Testing&lt;/a&gt; by Udacity&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/457/udacity-software-debugging&quot;&gt;Software Debugging&lt;/a&gt; by Udacity&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/8542/udacity-github-collaboration&quot;&gt;Version Control with Git and GitHub &amp;amp; Collaboration&lt;/a&gt; by Udacity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/4391/coursera-building-a-data-science-team&quot;&gt;Building a Data Science Team&lt;/a&gt; by Johns Hopkins University via Coursera&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/2161/coursera-learning-how-to-learn-powerful-mental-tools-to-help-you-master-tough-subjects&quot;&gt;Learning How to Learn: Powerful mental tools to help you master tough subjects&lt;/a&gt; by Dr. Barbara Oakley and the University of California, San Diego via Coursera&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.class-central.com/mooc/8289/coursera-mindshift-break-through-obstacles-to-learning-and-discover-your-hidden-potential&quot;&gt;Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential&lt;/a&gt; by Dr. Barbara Oakley and McMaster University via Coursera&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;(Updated: 22 Aug 2017)&lt;/p&gt;
-
 </content>
 		</entry>
 	

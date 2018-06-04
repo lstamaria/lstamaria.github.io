@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Git basics</title>
+      <!-- link to main stylesheet -->
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
+      <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+
+      <link rel="icon" href="/image/favicon.ico" type="image/x-icon" />
+      
+    </head>
+    <body>
+
+      <nav>
+          <ul>
+              <li><a href="/">Homesss</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/cv">CV</a></li>
+              <li><a href="/blog">Blog</a></li>
+          </ul>
+      </nav>
+      <div class="container">
+      
+      <h1>Git basics</h1>
+<p class="meta"><em>09 May 2018</em></p>
+
+<div class="post">
+  <p>Some of the handy git commands are:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/* Clone remote git address */
+git clone some-remote-repo-address
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/* Create local repo */
+git init
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/* Associate remote repo address to local repo */
+sudo git remote add origin some-remote-repo-address
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/* Stage changes in local repo */
+git add .
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/* Add message to staged changes */
+git commit -m 'some message'
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/* Initial upload of changes to remote repo */
+git push --set-upstream origin master
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/* Upload changes to remote repo */
+git push -u origin
+</code></pre></div>
+
+</div>
+      
+      </div><!-- /.container -->
+      <footer>
+          <ul>
+              <li><a href="mailto:lorenzo.stamaria@gmail.com">email</a></li>
+              <li><a href="https://github.com/lstamaria">github.com/lstamaria</a></li>
+        </ul>
+      </footer>
+    </body>
+  </html>

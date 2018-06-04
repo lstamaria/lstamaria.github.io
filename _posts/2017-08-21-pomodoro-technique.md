@@ -10,6 +10,3 @@ My Pomodoro technique will follow this sequence:
 2. Break for 5 minutes
 3. If pomodoro < 4, repeat step 1; otherwise, break for 15 minutes
 4. Repeat step 1 (to complete more tasks)
-
-
-I will update this post soon with details of how my attempt went.

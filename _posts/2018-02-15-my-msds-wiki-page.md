@@ -10,7 +10,7 @@ As one of the requirements in the Gitlab account, we were asked to write a perso
 
 -----
 
-![I'm Lorenzo!](/image/self.jpeg){:class="img-responsive" :height="300px" width="300px" .center-image}
+![I'm Lorenzo!](/images/self.jpeg){:class="img-responsive" :height="300px" width="300px" .center-image}
 
 Hello! I'm Lorenzo Sta. Maria. My work is mainly organizational and academic but it has never stopped me to pursue lifelong learning. My journey has led me to the growing and enchanting world of data science. I am super excited to jumpstart my life through AIM MSDS program and the powerhouse faculty lineup that supports it. I would like to see myself in the future as a home-grown Filipino *data science unicorn* who generates business value and champions the advocacy of the socially-disadvantaged through data-driven solutions.
 

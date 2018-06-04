@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Prof LT3A</title>
+      <!-- link to main stylesheet -->
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
+      <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+
+      <link rel="icon" href="/image/favicon.ico" type="image/x-icon" />
+      
+        <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\(', '\)'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+      
+    </head>
+    <body>
+
+      <nav>
+          <ul>
+              <li><a href="/">Homesss</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/cv">CV</a></li>
+              <li><a href="/blog">Blog</a></li>
+          </ul>
+      </nav>
+      <div class="container">
+      
+      <h1>Prof LT3A</h1>
+<p class="meta"><em>23 May 2018</em></p>
+
+<div class="post">
+  <p>This is weird! Super super weird… $x_i$</p>
+
+<p>\begin{align}
+\left(\sum\right)
+\end{align}</p>
+
+<pre>
+  <code class="ruby">
+    puts "hello"
+  </code>
+</pre>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code>    <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+    <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+    <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span><span class="p">,</span> <span class="n">Counter</span>
+    <span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">chain</span>
+    <span class="kn">from</span> <span class="nn">operator</span> <span class="kn">import</span> <span class="n">itemgetter</span>
+    <span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">fetch_20newsgroups</span>
+    <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>
+</code></pre></div>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">import</span> <span class="n">numpy</span> <span class="n">as</span> <span class="n">np</span>
+<span class="n">import</span> <span class="n">matplotlib</span><span class="p">.</span><span class="nf">pyplot</span> <span class="n">as</span> <span class="n">plt</span>
+<span class="n">from</span> <span class="n">collections</span> <span class="n">import</span> <span class="n">defaultdict</span><span class="p">,</span> <span class="no">Counter</span>
+<span class="n">from</span> <span class="n">itertools</span> <span class="n">import</span> <span class="n">chain</span>
+<span class="n">from</span> <span class="n">operator</span> <span class="n">import</span> <span class="n">itemgetter</span>
+<span class="n">from</span> <span class="n">sklearn</span><span class="p">.</span><span class="nf">datasets</span> <span class="n">import</span> <span class="n">fetch_20newsgroups</span>
+<span class="n">from</span> <span class="no">IPython</span><span class="p">.</span><span class="nf">display</span> <span class="n">import</span> <span class="nb">display</span><span class="p">,</span> <span class="no">HTML</span></code></pre></figure>
+
+<p>Superweird…</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">data_newsgroups</span> <span class="o">=</span> <span class="n">fetch_20newsgroups</span><span class="p">(</span>
+    <span class="n">subset</span><span class="o">=</span><span class="s">'all'</span><span class="p">,</span> 
+    <span class="n">categories</span><span class="o">=</span><span class="p">[</span><span class="s">'comp.graphics'</span><span class="p">,</span> <span class="s">'rec.autos'</span><span class="p">],</span>
+    <span class="n">shuffle</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> 
+    <span class="n">remove</span><span class="o">=</span><span class="p">[</span><span class="s">'headers'</span><span class="p">,</span> <span class="s">'footers'</span><span class="p">,</span> <span class="s">'quotes'</span><span class="p">])</span>
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">for</span> <span class="n">each</span> <span class="ow">in</span> <span class="n">data_newsgroups</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">each</span> <span class="o">!=</span> <span class="s">"data"</span><span class="p">:</span>
+        <span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s">'&lt;h2&gt;</span><span class="si">%</span><span class="s">s:&lt;/h2&gt;'</span> <span class="o">%</span> <span class="n">each</span><span class="p">))</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">data_newsgroups</span><span class="p">[</span><span class="n">each</span><span class="p">])</span>
+</code></pre></div>
+
+<h2>filenames:</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>['/home/lorenzo/scikit_learn_data/20news_home/20news-bydate-train/rec.autos/101572'
+ '/home/lorenzo/scikit_learn_data/20news_home/20news-bydate-train/rec.autos/102756'
+ '/home/lorenzo/scikit_learn_data/20news_home/20news-bydate-train/rec.autos/101579'
+ ...
+ '/home/lorenzo/scikit_learn_data/20news_home/20news-bydate-test/rec.autos/103494'
+ '/home/lorenzo/scikit_learn_data/20news_home/20news-bydate-test/comp.graphics/40008'
+ '/home/lorenzo/scikit_learn_data/20news_home/20news-bydate-test/rec.autos/103165']
+</code></pre></div>
+
+<h2>target_names:</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>['comp.graphics', 'rec.autos']
+</code></pre></div>
+
+<h2>target:</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>[1 1 1 ... 1 0 1]
+</code></pre></div>
+
+<h2>DESCR:</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>None
+</code></pre></div>
+
+<h2>description:</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>the 20 newsgroups by date dataset
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">name</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">data_newsgroups</span><span class="p">[</span><span class="s">'target_names'</span><span class="p">]):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">name</span> <span class="o">+</span> <span class="s">':'</span><span class="p">,</span> <span class="p">(</span><span class="n">data_newsgroups</span><span class="p">[</span><span class="s">'target'</span><span class="p">]</span> <span class="o">==</span> <span class="n">index</span><span class="p">)</span><span class="o">.</span><span class="nb">sum</span><span class="p">())</span>
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>comp.graphics: 973
+rec.autos: 990
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">trunc_size</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">data_trunc</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">post</span><span class="p">,</span> <span class="n">label</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">data_newsgroups</span><span class="p">[</span><span class="s">'data'</span><span class="p">],</span> <span class="n">data_newsgroups</span><span class="p">[</span><span class="s">'target'</span><span class="p">]):</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">data_newsgroups</span><span class="p">[</span><span class="s">'target_names'</span><span class="p">][</span><span class="n">label</span><span class="p">]</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="n">name</span><span class="p">])</span> <span class="o">&lt;</span> <span class="n">trunc_size</span><span class="p">:</span>
+        <span class="n">data_trunc</span><span class="p">[</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">post</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">posts</span> <span class="ow">in</span> <span class="n">data_trunc</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">name</span> <span class="o">+</span> <span class="s">':'</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">posts</span><span class="p">))</span>
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>rec.autos: 100
+comp.graphics: 100
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">posts</span> <span class="ow">in</span> <span class="n">data_trunc</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s">'&lt;h2&gt;</span><span class="si">%</span><span class="s">s:&lt;/h2&gt;'</span> <span class="o">%</span> <span class="n">name</span><span class="p">))</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="n">name</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
+</code></pre></div>
+
+<h2>rec.autos:</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;apparently you're not a woman - my husband hates the auto door locks
+&lt;feels safer in a car that locks easily (in addition to watching around
+&lt;in a secluded spot, etc - have my keys ready to open the door so I'm
+</code></pre></div>
+
+<h2>comp.graphics:</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>In regards to fractal commpression, I have seen 2 fractal compressed "movies".
+They were both fairly impressive.  The first one was a 64 gray scale "movie" of
+Casablanca, it was 1.3MB and had 11 minutes of 13 fps video.  It was a little
+grainy but not bad at all.  The second one I saw was only 3 minutes but it
+had 8 bit color with 10fps and measured in at 1.2MB.
+
+I consider the fractal movies a practical thing to explore.  But unlike many 
+other formats out there, you do end up losing resolution.  I don't know what
+kind of software/hardware was used for creating the "movies" I saw but the guy
+that showed them to me said it took 5-15 minutes per frame to generate.  But as
+I said above playback was 10 or more frames per second.  And how else could you
+put 11 minutes on one floppy disk?
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">1337</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">posts</span> <span class="ow">in</span> <span class="n">data_trunc</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s">'&lt;h2&gt;</span><span class="si">%</span><span class="s">s:&lt;/h2&gt;'</span> <span class="o">%</span> <span class="n">name</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">post</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">posts</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">post</span><span class="p">)</span>
+        <span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s">'&lt;hr/&gt;'</span><span class="p">))</span>
+    <span class="k">print</span><span class="p">()</span>
+</code></pre></div>
+
+<h2>rec.autos:</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>According to a LoJack representative I saw recently, LoJack must be installed by
+an authorized LoJack dealer, and is placed in one of (roughly) 30 spots in the
+car...
+</code></pre></div>
+
+<hr />
+
+<div class="highlighter-rouge"><pre class="highlight"><code>I don't know if some lemons are out there, but from personal experience
+My brother's has been trouble free.  Not one single repair, only 
+regular maintainance.  The only work he had done on it was a result
+of his stupidity... he stopped suddenly in the middle of a left turn 
+on a busy intersection, and was rear-ended.  He has a 1989 Plymouth
+Sundance.  I would recomend it, but I would also like to say that if
+you can wait about six months, ChryCo is coming out with a new car
+called the Neon, that is built in the same way as the LH's where.
+Good luck with your desiscion.
+</code></pre></div>
+
+<hr />
+
+<div class="highlighter-rouge"><pre class="highlight"><code>If you hold off, there are a number of interesting convertibles coming
+to market in the next few years.
+
+The new LeBaron will be based on the Mitsubishi Galant, which should
+be an improvement over the current model.
+
+The new PL compact will have a convertible option (also a chrysler
+product)
+
+Kia, makers of the Ford Festiva is planning a larger convertible.
+</code></pre></div>
+
+<hr />
+
+<hr />
+
+<div class="highlighter-rouge"><pre class="highlight"><code>I find this method much better myself, too, although I do really
+hate it when the bolt finally comes loose and the wrench and my
+hand both come crashing into my face.  After coming to, which is
+about 15 minutes later, I change my clothes (because by this time
+all the oil has drained *on* me), and ice my entire face and suck
+down about 20 Tylenol to ease the pain.  Later in the day I then
+proceed with refilling the engine oil.
+
+It's just crazy how I try and change the oil on my cars in one
+weekend---I go through about 3 bottles of Tylenol and 2 bags of ice.
+</code></pre></div>
+
+<hr />
+
+<h2>comp.graphics:</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>I am looking for an algorithm to determine if a given point is bound by a 
+polygon. Does anyone have any such code or a reference to book containing
+information on the subject ?
+
+		Regards
+</code></pre></div>
+
+<hr />
+
+<div class="highlighter-rouge"><pre class="highlight"><code>What hardware do plan to run on?  Workstation or PC?  Cost level?
+Run-time licensing needs?
+
+Bob
+</code></pre></div>
+
+<hr />
+
+<div class="highlighter-rouge"><pre class="highlight"><code>I wrote...
+
+and it has since turned out that all the mirror sites I looked at were 
+fooled by a restructuring at the original site - zaphod.ncsa.uiuc.edu - 
+and hence were in a mess. That and a pointer to 'imconv' should get
+me started. Ta muchly.
+
+Cheers
+	Markus
+</code></pre></div>
+
+<hr />
+
+<div class="highlighter-rouge"><pre class="highlight"><code>I too would like a 3D graphics library!  How much do C libraries cost
+anyway?  Can you get the tools used by, say, RenderMan, and can you get
+them at a reasonable cost?
+
+Sorry that I don't have any answers, just questions...
+</code></pre></div>
+
+<hr />
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Hi!
+
+I need a Windows 3.1 driver for the Matrox PG-1281 CV
+SVGA card. 
+At the moment Windows runs only in the 640x480 mode.
+If you have a driver for this card, please send it 
+with the OEMSETUP.INF to 
+
+bockamp@Informatik.TU-Muenchen.DE
+
+Thanks!
+</code></pre></div>
+
+<hr />
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Vectorizer</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">word_idf</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">index_word</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">word_index</span> <span class="o">=</span> <span class="p">{}</span>
+        
+    <span class="k">def</span> <span class="nf">build_mappings</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">texts</span><span class="p">):</span>
+        <span class="s">"""Initialize word-index mappings
+        
+        Parameter
+        ---------
+        texts : sequence of str
+            Corpus to build mappings for
+        """</span>
+        <span class="n">word_doccount</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">text</span> <span class="ow">in</span> <span class="n">texts</span><span class="p">:</span>
+            <span class="n">word_doccount</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()))</span>
+        <span class="n">N</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">texts</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">word_idf</span> <span class="o">=</span> <span class="p">{</span> <span class="n">word</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">N</span><span class="o">/</span><span class="n">doccount</span><span class="p">)</span> 
+                          <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">doccount</span> <span class="ow">in</span> <span class="n">word_doccount</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="p">}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">index_word</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">word_idf</span><span class="o">.</span><span class="n">keys</span><span class="p">()))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">word_index</span> <span class="o">=</span> <span class="p">{</span><span class="n">v</span><span class="p">:</span><span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">index_word</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+        
+    <span class="k">def</span> <span class="nf">vectorize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">normalize</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">idf</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+        <span class="s">"""Return the BoW vector representation of text
+        
+        Parameters
+        ----------
+        text : str
+            Text to compute the vector representation of
+        normalize : 'total', 'norm' or None, optional
+            If `total`, normalize by total number of words. If 'norm', 
+            normalize by Euclidean norm. If None, no normalization is
+            performed
+        idf : boolean, optional
+            Perform IDF weighting if True
+            
+        Returns
+        -------
+        vec : ndarray
+            BoW vector representation of text
+        """</span>
+        <span class="n">word_freq</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+        <span class="n">vec</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">index_word</span><span class="p">))</span>
+        
+        <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">index</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">word_index</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                 <span class="n">vec</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="n">word_freq</span><span class="p">[</span><span class="n">word</span><span class="p">]</span>
+        
+        <span class="k">if</span> <span class="n">idf</span> <span class="ow">is</span> <span class="bp">True</span><span class="p">:</span>
+            <span class="c"># Use IDF</span>
+            <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">index</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">word_index</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                 <span class="n">vec</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="n">word_freq</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">word_idf</span><span class="p">[</span><span class="n">word</span><span class="p">]</span>
+                
+        <span class="k">if</span> <span class="n">normalize</span> <span class="ow">is</span> <span class="s">'total'</span><span class="p">:</span>
+            <span class="c"># Use standard normalization</span>
+            <span class="n">vec</span> <span class="o">=</span> <span class="n">vec</span> <span class="o">/</span> <span class="n">vec</span><span class="o">.</span><span class="nb">sum</span><span class="p">()</span>
+            
+        <span class="k">elif</span> <span class="n">normalize</span> <span class="ow">is</span> <span class="s">'norm'</span><span class="p">:</span>
+            <span class="c"># Use Euclidian</span>
+            <span class="n">vec</span> <span class="o">=</span> <span class="n">vec</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">vec</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="nb">sum</span><span class="p">())</span>
+
+        <span class="k">return</span> <span class="n">vec</span>
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">vectorizer</span> <span class="o">=</span> <span class="n">Vectorizer</span><span class="p">()</span>
+<span class="n">vectorizer</span><span class="o">.</span><span class="n">build_mappings</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">chain</span><span class="p">(</span><span class="o">*</span><span class="n">data_trunc</span><span class="o">.</span><span class="n">values</span><span class="p">())))</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">'Vanilla BoW: '</span><span class="p">,</span> <span class="n">vectorizer</span><span class="o">.</span><span class="n">vectorize</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">][</span><span class="mi">0</span><span class="p">]))</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Normalized by total words: '</span><span class="p">,</span> 
+      <span class="n">vectorizer</span><span class="o">.</span><span class="n">vectorize</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">normalize</span><span class="o">=</span><span class="s">'total'</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Normalized by Euclidean norm: '</span><span class="p">,</span> 
+      <span class="n">vectorizer</span><span class="o">.</span><span class="n">vectorize</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">normalize</span><span class="o">=</span><span class="s">'norm'</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'IDF-weighted: '</span><span class="p">,</span> <span class="n">b</span>
+      <span class="n">vectorizer</span><span class="o">.</span><span class="n">vectorize</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">idf</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Vanilla BoW:  [1. 1. 1. ... 0. 0. 0.]
+Normalized by total words:  [0.02380952 0.02380952 0.02380952 ... 0.         0.         0.        ]
+Normalized by Euclidean norm:  [0.12909944 0.12909944 0.12909944 ... 0.         0.         0.        ]
+IDF-weighted:  [0.5798185  3.68887945 4.60517019 ... 0.         0.         0.        ]
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">first_post_ra_bow</span> <span class="o">=</span> <span class="n">vectorizer</span><span class="o">.</span><span class="n">vectorize</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> 
+                                         <span class="n">normalize</span><span class="o">=</span><span class="s">'norm'</span><span class="p">,</span> <span class="n">idf</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">second_post_ra_bow</span> <span class="o">=</span> <span class="n">vectorizer</span><span class="o">.</span><span class="n">vectorize</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span> 
+                                          <span class="n">normalize</span><span class="o">=</span><span class="s">'norm'</span><span class="p">,</span> <span class="n">idf</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">first_post_cg_bow</span> <span class="o">=</span> <span class="n">vectorizer</span><span class="o">.</span><span class="n">vectorize</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'comp.graphics'</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> 
+                                         <span class="n">normalize</span><span class="o">=</span><span class="s">'norm'</span><span class="p">,</span> <span class="n">idf</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">lpnorm</span><span class="p">(</span><span class="n">vec1</span><span class="p">,</span> <span class="n">vec2</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+    <span class="s">"""Compute the L_p-norm distance between vec1 and vec2
+    
+    Parameters
+    ----------
+    vec1 : ndarray
+        First vector
+    vec2 : ndarray
+        Second vector
+    p : int or float, optional
+        Order of L_p norm; the `p` in L_p norm
+        
+    Returns
+    -------
+    norm : float
+        L_p norm distance of `vec1` and `vec2`
+    """</span>
+    
+    <span class="n">norm</span> <span class="o">=</span> <span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="nb">abs</span><span class="p">(</span><span class="n">vec1</span><span class="o">-</span><span class="n">vec2</span><span class="p">)</span><span class="o">**</span><span class="n">p</span><span class="p">)</span><span class="o">.</span><span class="nb">sum</span><span class="p">())</span><span class="o">**</span><span class="p">(</span><span class="mf">1.</span><span class="o">/</span><span class="n">p</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">norm</span>
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'Euclidean distance between first and second posts in rec.autos:'</span><span class="p">,</span>
+      <span class="n">lpnorm</span><span class="p">(</span><span class="n">first_post_ra_bow</span><span class="p">,</span> <span class="n">second_post_ra_bow</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Manhattan distance between first and second posts in rec.autos:'</span><span class="p">,</span>
+      <span class="n">lpnorm</span><span class="p">(</span><span class="n">first_post_ra_bow</span><span class="p">,</span> <span class="n">second_post_ra_bow</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Euclidean distance between first posts in rec.autos and comp.graphics:'</span><span class="p">,</span>
+      <span class="n">lpnorm</span><span class="p">(</span><span class="n">first_post_ra_bow</span><span class="p">,</span> <span class="n">first_post_cg_bow</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Manhattan distance between first posts in rec.autos and comp.graphics:'</span><span class="p">,</span>
+      <span class="n">lpnorm</span><span class="p">(</span><span class="n">first_post_ra_bow</span><span class="p">,</span> <span class="n">first_post_cg_bow</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Euclidean distance between first and second posts in rec.autos: 1.3892023964910596
+Manhattan distance between first and second posts in rec.autos: 18.149205212654934
+Euclidean distance between first posts in rec.autos and comp.graphics: 1.4106777045388137
+Manhattan distance between first posts in rec.autos and comp.graphics: 13.488269514615673
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">cossim</span><span class="p">(</span><span class="n">vec1</span><span class="p">,</span> <span class="n">vec2</span><span class="p">):</span>
+    <span class="s">"""Compute cosine similarity between vec1 and vec2"""</span>
+    
+    <span class="k">return</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">vec1</span><span class="p">,</span> <span class="n">vec2</span><span class="p">))</span><span class="o">.</span><span class="nb">sum</span><span class="p">()</span> <span class="o">/</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">vec1</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="nb">sum</span><span class="p">())</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">vec2</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="nb">sum</span><span class="p">()))</span>
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'Cosine similarity between first and second posts in rec.autos:'</span><span class="p">,</span>
+      <span class="n">cossim</span><span class="p">(</span><span class="n">first_post_ra_bow</span><span class="p">,</span> <span class="n">second_post_ra_bow</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Cosine similarity between first posts in rec.autos and comp.graphics:'</span><span class="p">,</span>
+      <span class="n">cossim</span><span class="p">(</span><span class="n">first_post_ra_bow</span><span class="p">,</span> <span class="n">first_post_cg_bow</span><span class="p">))</span>
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Cosine similarity between first and second posts in rec.autos: 0.035058350791748585
+Cosine similarity between first posts in rec.autos and comp.graphics: 0.0049942069585516705
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Queryer</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">texts</span><span class="p">,</span> <span class="n">normalize</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">idf</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">texts</span> <span class="o">=</span> <span class="n">texts</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">normalize</span> <span class="o">=</span> <span class="n">normalize</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">idf</span> <span class="o">=</span> <span class="n">idf</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">vectorizer</span> <span class="o">=</span> <span class="n">Vectorizer</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">vectorizer</span><span class="o">.</span><span class="n">build_mappings</span><span class="p">(</span><span class="n">texts</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bows</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">([</span><span class="bp">self</span><span class="o">.</span><span class="n">vectorizer</span><span class="o">.</span><span class="n">vectorize</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">normalize</span><span class="p">,</span> <span class="n">idf</span><span class="p">)</span>
+                               <span class="k">for</span> <span class="n">text</span> <span class="ow">in</span> <span class="n">texts</span><span class="p">])</span>
+        
+    <span class="k">def</span> <span class="nf">compute_distances</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+        <span class="s">"""Compute distance of query from each of the text in the corpus
+        
+        Parameters
+        ----------
+        query : str
+            Compute distances from this text
+        method : int or 'cossim'
+            If 'cossim', use cosine similarity to compute distance. Otherwise,
+            use the L_p norm with the value of `method` as the order
+            
+        Returns
+        -------
+        distances : list of float
+            Distance of query from each of the text in the corpus
+        """</span>
+                
+        <span class="n">query_vec</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">vectorizer</span><span class="o">.</span><span class="n">vectorize</span><span class="p">(</span><span class="n">query</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">normalize</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">idf</span><span class="p">)</span>
+        <span class="n">distances</span> <span class="o">=</span> <span class="p">[]</span>
+        
+        <span class="k">if</span> <span class="n">method</span> <span class="ow">is</span> <span class="s">'cossim'</span><span class="p">:</span>
+            <span class="c">#distances = np.array([cossim(query_vec, self.bows[i]) for i in range(len(self.bows))])</span>
+            
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bow</span><span class="p">)):</span>
+                <span class="n">c</span> <span class="o">=</span> <span class="n">cossim</span><span class="p">(</span><span class="n">query_vec</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bows</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                <span class="n">distances</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+                
+        <span class="k">elif</span> <span class="nb">type</span><span class="p">(</span><span class="n">method</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">int</span><span class="p">:</span>
+            <span class="c">#distances = np.array([lpnorm(query_vec, self.bows[i], p=method) for i in range(len(self.bows))])</span>
+            
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bows</span><span class="p">)):</span>
+                <span class="n">l</span> <span class="o">=</span> <span class="n">lpnorm</span><span class="p">(</span><span class="n">query_vec</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bows</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                <span class="n">distances</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
+            
+        <span class="k">return</span> <span class="n">distances</span>
+        
+        
+    <span class="k">def</span> <span class="nf">nearest_k</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+        <span class="s">"""Return most similar k texts in the corpus along with the distance
+        
+        Parameters
+        ----------
+        query : str
+            Compute similarity from this text
+        k : int
+            Number of texts to return
+        method : int or 'cossim'
+            If 'cossim', use cosine similarity to compute distance. Otherwise,
+            use the L_p norm with the value of `method` as the order
+           
+        Returns
+        -------
+        most_simlar : list of tuple
+            Tuples of (text, distance) arranged by increasing distance
+        """</span>
+        <span class="n">distances</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">compute_distances</span><span class="p">(</span><span class="n">query</span><span class="p">,</span> <span class="n">method</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">[(</span><span class="bp">self</span><span class="o">.</span><span class="n">texts</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">distances</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> 
+                    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="n">distances</span><span class="p">)[:</span><span class="n">k</span><span class="p">]]</span> 
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">queryer</span> <span class="o">=</span> <span class="n">Queryer</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">chain</span><span class="p">(</span><span class="o">*</span><span class="n">data_trunc</span><span class="o">.</span><span class="n">values</span><span class="p">())),</span> <span class="n">normalize</span><span class="o">=</span><span class="s">'norm'</span><span class="p">,</span>
+                  <span class="n">idf</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="k">assert</span> <span class="n">np</span><span class="o">.</span><span class="n">nanargmin</span><span class="p">(</span><span class="n">queryer</span><span class="o">.</span><span class="n">compute_distances</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">][</span><span class="mi">0</span><span class="p">]))</span> \
+        <span class="o">==</span> <span class="mi">0</span>
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/home/lorenzo/anaconda/envs/dmw-env/lib/python3.6/site-packages/ipykernel_launcher.py:60: RuntimeWarning: invalid value encountered in true_divide
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">R</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">])</span>
+<span class="n">k</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="n">queryer</span><span class="o">.</span><span class="n">compute_distances</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">][</span><span class="mi">0</span><span class="p">]))[:</span><span class="n">k</span><span class="p">]</span>
+        <span class="o">&lt;</span> <span class="n">R</span><span class="p">)</span><span class="o">.</span><span class="nb">sum</span><span class="p">()</span>
+<span class="n">precision</span> <span class="o">=</span> <span class="n">r</span><span class="o">/</span><span class="n">k</span>
+<span class="n">recall</span> <span class="o">=</span> <span class="n">r</span><span class="o">/</span><span class="n">R</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Precision:'</span><span class="p">,</span> <span class="n">precision</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Recall:'</span><span class="p">,</span> <span class="n">recall</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Precision: 0.8
+Recall: 0.08
+</code></pre></div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">y_precision</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">x_recall</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">201</span><span class="p">):</span>
+    <span class="n">R</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">])</span>
+    <span class="n">k</span> <span class="o">=</span> <span class="n">i</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="n">queryer</span><span class="o">.</span><span class="n">compute_distances</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">][</span><span class="mi">0</span><span class="p">]))[:</span><span class="n">k</span><span class="p">]</span>
+        <span class="o">&lt;</span> <span class="n">R</span><span class="p">)</span><span class="o">.</span><span class="nb">sum</span><span class="p">()</span>
+    <span class="n">precision</span> <span class="o">=</span> <span class="n">r</span><span class="o">/</span><span class="n">k</span>
+    <span class="n">recall</span> <span class="o">=</span> <span class="n">r</span><span class="o">/</span><span class="n">R</span>
+    <span class="n">y_precision</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">precision</span><span class="p">)</span>
+    <span class="n">x_recall</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recall</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">"Recall"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">"Precision"</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_recall</span><span class="p">,</span> <span class="n">y_precision</span><span class="p">);</span>
+</code></pre></div>
+
+<p><img src="/image/2018-05-28/output_18_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="kn">import</span> <span class="n">trapz</span>
+
+<span class="n">rs</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="n">queryer</span><span class="o">.</span><span class="n">compute_distances</span><span class="p">(</span><span class="n">data_trunc</span><span class="p">[</span><span class="s">'rec.autos'</span><span class="p">][</span><span class="mi">0</span><span class="p">]))[:</span><span class="n">k</span><span class="p">]</span>
+        <span class="o">&lt;</span> <span class="n">R</span><span class="p">)</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span>
+
+<span class="n">precisions</span> <span class="o">=</span> <span class="n">rs</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">rs</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">recalls</span> <span class="o">=</span> <span class="n">rs</span> <span class="o">/</span> <span class="n">R</span>
+<span class="n">recalls</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">recalls</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+<span class="n">precisions</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">precisions</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="n">recalls</span><span class="p">,</span> <span class="n">precisions</span><span class="p">,</span> <span class="n">where</span><span class="o">=</span><span class="s">'post'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">recalls</span><span class="p">,</span> <span class="n">precisions</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="s">'post'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">,</span> <span class="s">'AUC=</span><span class="si">%0.2</span><span class="s">f'</span> <span class="o">%</span> <span class="n">trapz</span><span class="p">(</span><span class="n">precisions</span><span class="p">,</span> <span class="n">recalls</span><span class="p">),</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">'Recall'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">'Precision'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">recalls</span><span class="p">,</span> <span class="n">precisions</span><span class="p">);</span>
+</code></pre></div>
+
+<p><img src="/image/2018-05-28/output_19_0.png" alt="png" /></p>
+
+</div>
+      
+      </div><!-- /.container -->
+      <footer>
+          <ul>
+              <li><a href="mailto:lorenzo.stamaria@gmail.com">email</a></li>
+              <li><a href="https://github.com/lstamaria">github.com/lstamaria</a></li>
+        </ul>
+      </footer>
+    </body>
+  </html>
