@@ -3,8 +3,8 @@ layout: post
 title: "Steps to solve a math problem"
 date: 2018-05-27
 ---
-
 It's fascinating how simple steps can go a long way. "IDEA" is a mnemonic device to remember the steps to solve a math problem. These are:
+
 
 * Identify the Problem
     - Read the problem
