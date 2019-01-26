@@ -1,12 +1,23 @@
 ---
 layout: default
-title: Home
 ---
-<div class="blurb">
-  <h1>Hi there, I'm Lorenzo!</h1>
-  <p>This site chronicles my path leading to Master of Science in Data Science at the Asian Institute of Management. <a href="/about">Read more about my life.</a></p>
 
-  <!--
-<p>This site chronicles my path to <em>lifelong learning</em>. Currently, my journey leads me to <del>my growing interest in data science</del> <ins><a href="https://aim.edu/programs/degree-programs/master-science-data-science">Master of Science in Data Science</a> at the <a href="https://aim.edu/"></a></ins>. <a href="/about">Read more about my life.</a></p>
-  -->
-</div><!-- /.blurb -->
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

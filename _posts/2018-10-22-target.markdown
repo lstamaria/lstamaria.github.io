@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Target"
+date:   2018-10-22 14:28:00 +0800
+categories: personal
+---
+Inspired by Prof. Ed's demo of web apps, I might opt to build an online account because of it.
+
+```python
+Some of the lectures last time:
+
+flask run -p 5000 -h 192.168.210.109
+
+sudo apt install nginx
+
+sudo vim /etc/hosts
+i, :wq
+
+cd /etc/nginx/
+
+ps aux | grep nginx
+
+ls | grep sites
+
+/var/www/html
+sudo vim index.html
+
+/etc/nginx/sites-available
+sudo vim default
+systemctl restart nginx
+
+location /flask {
+                rewrite /flask/(.*) /$1 break;
+                proxy_pass http://127.0.0.1:5000;
+        }
+
+
+from href="/pd" to href="pd"
+a
+
+tail access.log
+tail error.log
+
+vim ~/.bash_history
+```

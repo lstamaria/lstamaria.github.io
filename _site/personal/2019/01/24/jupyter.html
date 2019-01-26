@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jupyter</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/personal/2019/01/24/jupyter.html">
+  <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
+
+  
+	<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Your awesome title</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jupyter</h1>
+    <p class="post-meta"><time datetime="2019-01-24T22:18:00+08:00" itemprop="datePublished">Jan 24, 2019</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<h1 id="complexity-science">Complexity Science</h1>
+
+<h3 id="discrete-time-models-examples-codes-and-exercises">Discrete-Time Models Examples, Codes and Exercises</h3>
+
+<p>Main Reference: H. Sayama, Introduction to the Modeling and Analysis of Complex Systems</p>
+
+<h1 id="part-11-discrete-time-models-with-one-variables">PART 1.1 Discrete-time models with one variables</h1>
+
+<h3 id="example-1-consider-the-case-of-x_t--a-x_t-1-let-a11-implying-that-x-increases-by-10-in-each-time-step-simulate-the-evolution-of-x">Example 1. Consider the case of $x_t = a x_{t-1}$, let $a=1.1$ implying that $x$ increases by $10\%$ in each time step, simulate the evolution of $x$.</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#a = 1.1</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mf">5.1</span>
+
+<span class="k">def</span> <span class="nf">initialize</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mf">1.</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">observe</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">update</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">x</span>
+
+<span class="n">initialize</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">30</span><span class="p">):</span>
+    <span class="n">update</span><span class="p">()</span>
+    <span class="n">observe</span><span class="p">()</span> 
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1.0, 5.1, 26.009999999999998, 132.65099999999998, 676.5200999999998, 3450.252509999999, 17596.287800999995, 89741.06778509996, 457679.4457040098, 2334165.17309045, 11904242.382761294, 60711636.15208259, 309629344.3756212, 1579109656.315668, 8053459247.209907, 41072642160.77052, 209470475019.92966, 1068299422601.6412, 5448327055268.37, 27786467981868.688, 141710986707530.28, 722726032208404.4, 3685902764262862.0, 1.8798104097740596e+16, 9.587033089847704e+16, 4.889386875822329e+17, 2.493587306669388e+18, 1.2717295264013877e+19, 6.485820584647077e+19, 3.3077684981700094e+20, 1.6869619340667047e+21]
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">"font.family"</span><span class="p">]</span> <span class="o">=</span> <span class="s">"Times New Roman"</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">31</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">main_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+<span class="n">plot_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">result</span><span class="p">,</span> <span class="n">marker</span> <span class="o">=</span> <span class="s">'o'</span><span class="p">,</span> <span class="n">ms</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span> <span class="n">mew</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="n">mfc</span> <span class="o">=</span> <span class="s">"blue"</span><span class="p">,</span> <span class="n">mec</span> <span class="o">=</span> <span class="s">"black"</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s">"Exponential growth discrete-time model"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">r"time"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s">r"x"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">which</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">labelsize</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="/assets/2019-01-24/output_5_0.png" alt="png" /></p>
+
+<h3 id="exercise-1-consider-various-values-of-a-to-see-what-types-of-behaviors-are-possible-for-this-model-and-how-a-determines-the-resulting-behavior">Exercise 1. Consider various values of $a$ to see what types of behaviors are possible for this model and how $a$ determines the resulting behavior.</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mf">1.1</span>
+<span class="n">time_length</span><span class="o">=</span><span class="mi">30</span>
+
+<span class="k">def</span> <span class="nf">initialize</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">observe</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">update</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">x</span>
+
+<span class="n">initialize</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">time_length</span><span class="p">):</span>
+    <span class="n">update</span><span class="p">()</span>
+    <span class="n">observe</span><span class="p">()</span> 
+    
+<span class="n">x1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">time_length</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">main_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+<span class="n">plot_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">result</span><span class="p">,</span> <span class="n">marker</span> <span class="o">=</span> <span class="s">'o'</span><span class="p">,</span> <span class="n">ms</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span> <span class="n">mew</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="n">mfc</span> <span class="o">=</span> <span class="s">"blue"</span><span class="p">,</span> <span class="n">mec</span> <span class="o">=</span> <span class="s">"black"</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s">"Discrete-time model one variable"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">r"time"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s">r"x"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">which</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">labelsize</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="/assets/2019-01-24/output_7_0.png" alt="png" /></p>
+
+<h3 id="exercise-2-consider-the-following-equation-x_t--a-x_t-1--b--x_01">Exercise 2. Consider the following equation: $x_t = a x_{t-1} + b,  x_0=1$</h3>
+
+<p>Some real-world examples that can be modeled in this equation include fish population growth with constant removals due to fishing, growth of credit card balances with constant monthly payments (both with negative b) or repayment of loans. Change the values of a and b, and see if the system’s behaviors are the same as those of the simple exponential growth/decay model.</p>
+
+<p>For fish population growth:</p>
+
+<p>Excerpts from Murray chapter 2.6 (http://matriisi.ee.tut.fi/courses/MAT-35006/pIIexam/Murray_Ch2.pdf): Discrete models have been used in fishery management for some considerable time.
+They have often proven to be useful in evaluating various harvesting strategies with a view to optimising the economic yield and to maintaining it. Just a few of the relevant books on management strategies are those by Clark (1976b, 1985, 1990), Goh (1982), Getz and Haight (1989), Hilborn and Mangel (1997), the series of papers edited by Cohen (1987) and appropriate sections in the collection of articles edited by Levin (1994). The following model is applicable, in principle, to any renewable resource which is harvested; the detailed analysis applies to any population whose dynamics can be described by a discrete model.</p>
+
+<p>Let $b$ be the harvest taken from the population at time t, which generates the next population at t + 1. In general, the equation should be: $x_t = a F(x_{t-1}) + b$ The questions we can address here are: (i) What is the maximum sustained biological yield? (ii) What is the maximum economic yield? These questions can be answered more precisely in the suceeding topics.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mf">1.1</span>
+<span class="n">b</span> <span class="o">=</span> <span class="o">-.</span><span class="mi">9</span>
+<span class="n">time_length</span><span class="o">=</span><span class="mi">30</span>
+
+<span class="k">def</span> <span class="nf">initialize</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">observe</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">update</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">b</span>
+
+<span class="n">initialize</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">time_length</span><span class="p">):</span>
+    <span class="n">update</span><span class="p">()</span>
+    <span class="n">observe</span><span class="p">()</span> 
+    
+<span class="n">x1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">time_length</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">main_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+<span class="n">plot_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">result</span><span class="p">,</span> <span class="n">marker</span> <span class="o">=</span> <span class="s">'o'</span><span class="p">,</span> <span class="n">ms</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span> <span class="n">mew</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="n">mfc</span> <span class="o">=</span> <span class="s">"blue"</span><span class="p">,</span> <span class="n">mec</span> <span class="o">=</span> <span class="s">"black"</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s">"Discrete-time model with constant biased"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">r"time"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s">r"x"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">which</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">labelsize</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="/assets/2019-01-24/output_9_0.png" alt="png" /></p>
+
+<h3 id="exercise-3-loan-model">Exercise 3. Loan model.</h3>
+<p>An MSDS student borrowed 1 M pesos with 8 percent per annum interest (interest applied only to the remaining balance). Model how fast can the student pay up the loan with 30k, 50k, 75k monthly payment.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="p">(</span><span class="o">.</span><span class="mi">08</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span> 
+<span class="c">#Monthly interest</span>
+<span class="n">b</span> <span class="o">=</span> <span class="o">-.</span><span class="mo">05</span> 
+<span class="c">#50k per month</span>
+<span class="n">time_length</span><span class="o">=</span><span class="mi">60</span>
+<span class="c">#Number of Months</span>
+
+
+<span class="k">def</span> <span class="nf">initialize</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mf">1.5</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">observe</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">update</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">result</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">b</span>
+
+<span class="n">initialize</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">time_length</span><span class="p">):</span>
+    <span class="n">update</span><span class="p">()</span>
+    <span class="n">observe</span><span class="p">()</span> 
+    
+<span class="n">x1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">time_length</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">main_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+<span class="n">plot_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">result</span><span class="p">,</span> <span class="n">marker</span> <span class="o">=</span> <span class="s">'o'</span><span class="p">,</span> <span class="n">ms</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span> <span class="n">mew</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="n">mfc</span> <span class="o">=</span> <span class="s">"blue"</span><span class="p">,</span> <span class="n">mec</span> <span class="o">=</span> <span class="s">"black"</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s">"Loans Discrete-time model"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">r"time"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s">r"x"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">which</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">labelsize</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="/assets/2019-01-24/output_11_0.png" alt="png" /></p>
+
+<h1 id="part-12-discrete-time-models-with-multiple-variables-linear">PART 1.2 Discrete-time models with Multiple variables: Linear</h1>
+
+<p>Now we are making a first step to complex systems simulation. Let’s increase the number of variables from one to two. Consider the following difference equations:</p>
+
+<p>$x_t = 0.5x_{t-1} + y_{t-1}$</p>
+
+<p>$y_t = -0.5x_{t-1} + y_{t-1}$</p>
+
+<p>with initial conditions $x_0 = 1$ and $y_0 = 1$</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">time_length</span><span class="o">=</span><span class="mi">30</span>
+
+<span class="k">def</span> <span class="nf">initialize</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">xresult</span><span class="p">,</span> <span class="n">yresult</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mf">1.</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="mf">1.</span>
+    <span class="n">xresult</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span>
+    <span class="n">yresult</span> <span class="o">=</span> <span class="p">[</span><span class="n">y</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">observe</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">xresult</span><span class="p">,</span> <span class="n">yresult</span>
+    <span class="n">xresult</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+    <span class="n">yresult</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">update</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">xresult</span><span class="p">,</span> <span class="n">yresult</span>
+    <span class="n">nextx</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+    <span class="n">nexty</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.5</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+    <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="n">nextx</span><span class="p">,</span> <span class="n">nexty</span>
+
+<span class="n">initialize</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">time_length</span><span class="p">):</span>
+    <span class="n">update</span><span class="p">()</span>
+    <span class="n">observe</span><span class="p">()</span>
+    
+<span class="n">x1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">time_length</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">main_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+<span class="n">plot_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">xresult</span><span class="p">,</span> <span class="n">marker</span> <span class="o">=</span> <span class="s">'o'</span><span class="p">,</span> <span class="n">ms</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span> <span class="n">mew</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="n">mfc</span> <span class="o">=</span> <span class="s">"blue"</span><span class="p">,</span> <span class="n">mec</span> <span class="o">=</span> <span class="s">"blue"</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">yresult</span><span class="p">,</span> <span class="n">marker</span> <span class="o">=</span> <span class="s">'o'</span><span class="p">,</span> <span class="n">ms</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span> <span class="n">mew</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="n">mfc</span> <span class="o">=</span> <span class="s">"green"</span><span class="p">,</span> <span class="n">mec</span> <span class="o">=</span> <span class="s">"green"</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s">"Multiple variables Discrete-time model"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">r"time"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s">r"x"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">which</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">labelsize</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span>    
+
+</code></pre></div></div>
+
+<p><img src="/assets/2019-01-24/output_15_0.png" alt="png" /></p>
+
+<h3 id="plotting-in-x-y-phase-space--one-way-of-looking-at-the-periodicity-of-the-trajectory-of-the-system">Plotting in x-y phase space,  one way of looking at the periodicity of the trajectory of the system.</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">main_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+<span class="n">plot_canvas</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xresult</span><span class="p">,</span> <span class="n">yresult</span><span class="p">,</span> <span class="n">marker</span> <span class="o">=</span> <span class="s">'o'</span><span class="p">,</span> <span class="n">ms</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span> <span class="n">mew</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="n">mfc</span> <span class="o">=</span> <span class="s">"black"</span><span class="p">,</span> <span class="n">mec</span> <span class="o">=</span> <span class="s">"black"</span><span class="p">)</span>
+<span class="c">#plot_canvas.plot(x1, yresult, marker = 'o', ms = 15, mew = 2, mfc = "green", mec = "green")</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s">"x-y Phase Space plot "</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">r"x"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s">r"y"</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">plot_canvas</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">which</span> <span class="o">=</span> <span class="s">"both"</span><span class="p">,</span> <span class="n">labelsize</span> <span class="o">=</span> <span class="mi">15</span><span class="p">)</span>  
+</code></pre></div></div>
+
+<p><img src="/assets/2019-01-24/output_17_0.png" alt="png" /></p>
+
+<p>If you play with this simulation model for various coefficient values, you will soon notice
+that there are only certain kinds of behaviors possible in this system. Sometimes
+the curves show exponential growth or decay, or sometimes they show more smooth oscillatory
+behaviors. These two behaviors are often combined to show an exponentially
+growing oscillation, etc. But that’s about it. You don’t see any more complex behaviors
+coming out of this model. This is because the system is linear, i.e., the model equation
+is composed of a simple linear sum of first-order terms of state variables. So here is an
+important fact you should keep in mind:</p>
+
+<p>Linear dynamical systems can show only exponential growth/decay, periodic oscillation,
+stationary states (no change), or their hybrids (e.g., exponentially growing oscillation).</p>
+
+<h1 id="part-13-discrete-time-models-with-multiple-variables-nonlinear">PART 1.3 Discrete-time models with Multiple variables: Nonlinear</h1>
+
+<h3 id="exercise-4-implement-the-lotka-volterra-equation">Exercise 4: Implement the Lotka-Volterra Equation!</h3>
+
+<p>Arguably the most famous mathematical model of nonlinear dynamical systems, the Lotka-Volterra equation models the number of prey $x$ and predators $y$ as:</p>
+
+<p>\begin{equation}
+x_t=x_{t-1} + r_x (1 - \frac{x_{t-1}}{\kappa}) x_{t-1} - (1 - \frac{1}{b y_{t-1} +1})x_{t-1}
+\end{equation}</p>
+
+<p>\begin{equation}
+y_t=y_{t-1} - d_y y_{t-1} + c x_{t-1} y_{t-1}
+\end{equation}</p>
+
+<p>where:</p>
+
+<p>$\kappa$- prey’s carrying capacity, <br />
+$r_x$ - growth rate of prey,  <br />
+$r_y = c x_{t-1}$ - growth rate of predators because of prey,  <br />
+$d_y$ - death rate of predators,   <br />
+$d_x = 1 - \frac{1}{b y_{t-1} +1}$ - death rate of prey due to predators.</p>
+
+<h3 id="consider-the-case-when-r_xbd_yc1-kappa5-x_0-y_01">Consider the case when $r_x=b=d_y=c=1$, $\kappa=5$, $x_0 =y_0=1$:</h3>
+
+<h3 id="a-plot-x-y-vs-time">a) plot $x, y$ vs time</h3>
+
+<h3 id="b-plot-x-vs-y">b) plot $x$ vs $y$</h3>
+
+<h3 id="duplicate-the-results-below">Duplicate the results below</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 
+
+</code></pre></div></div>
+
+<p><img src="/assets/2019-01-24/output_23_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+<p><img src="/assets/2019-01-24/output_24_0.png" alt="png" /></p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Your awesome title</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Your awesome title</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jekyll"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jekyll</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jekyllrb"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">jekyllrb</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
