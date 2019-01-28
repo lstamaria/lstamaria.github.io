@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Lorenzo Sta. Maria"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  bio              : "MS Data Science 2019 @ AIM"
   location         : "Philippines"
   email            : lstamaria@aim.edu
   links:
