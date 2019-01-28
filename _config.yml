@@ -109,7 +109,7 @@ author:
   name             : "Lorenzo Sta. Maria"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MSDS 2019 | AIM"
-  location         : "Philippines"
+  location         : "Manila, Philippines"
   email            : lstamaria@aim.edu
   links:
     - label: "Email"
@@ -293,3 +293,14 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Other Pages
+include: ["_pages"]
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
