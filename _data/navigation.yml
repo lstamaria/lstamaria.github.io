@@ -10,6 +10,5 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "short cv"
+  - title: "brief bio"
     url: /about/
-    permalink: /about/
