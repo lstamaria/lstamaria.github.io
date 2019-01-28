@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Data"
+title                    : "On data science"
 title_separator          : "-"
 name                     : "Lorenzo Sta. Maria"
 description              : "To develop data science solutions that deliver meaningful and sustainable growth to businesses and societies"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Lorenzo Sta. Maria"
   avatar           : /assets/images/bio-photo.jpg
-  bio              : ""
+  bio              : "To develop data science solutions that deliver meaningful and sustainable growth to businesses and societies"
   location         : "Philippines"
   email            : lstamaria@aim.edu
   links:
