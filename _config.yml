@@ -83,7 +83,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : @lorenzostamaria_
 facebook:
   username               :
   app_id                 :
@@ -106,11 +106,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Lorenzo Sta. Maria"
+  avatar           : /assets/images/bio-photo.jpg"
+  bio              : "To develop data science solutions that "
+  location         : "Philippines"
+  email            : lstamaria@aim.edu
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
