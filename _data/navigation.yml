@@ -12,3 +12,4 @@ main:
   #   url: /sitemap/
   - title: "short cv"
     url: /about/
+    permalink: /about/
