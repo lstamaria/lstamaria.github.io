@@ -112,7 +112,7 @@ author:
   location         : "Manila, Philippines"
   email            : lstamaria@aim.edu
   links:
-    - label: "Email"
+    - label: "lstamaria@aim.edu"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "Website"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/lstamaria"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"

@@ -12,6 +12,6 @@ main:
   #   url: /sitemap/
   - title: "bio"
     url: /about/
-  - title: "cv"
-    url: /cv/
+  # - title: "cv"
+  #   url: /cv/
  
