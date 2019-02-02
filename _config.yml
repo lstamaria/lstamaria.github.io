@@ -295,7 +295,7 @@ defaults:
       related: true
 
 # Other Pages
-include: ["_pages"]
+#include: ["_pages"]
 # defaults:
 #   # _pages
 #   - scope:
