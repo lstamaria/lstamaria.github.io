@@ -10,8 +10,8 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: ""
+  - title: "bio"
     url: /about/
-  - title: ""
+  - title: "cv"
     url: /cv/
  
