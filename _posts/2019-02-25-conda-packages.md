@@ -1,4 +1,4 @@
-(Jupyter Notebook)[https://jupyter.org/] has been my frequently used tool when working. Together with (Conda)[https://anaconda.org/], they have made my life easier. I am listing down some of my frequently used packages in data science.
+[Jupyter Notebook]([https://jupyter.org/) has been my frequently used tool when working. Together with [Conda](https://anaconda.org/), they have made my life easier. I am listing down some of my frequently used packages in data science.
 
 ```
 conda update -n base conda
