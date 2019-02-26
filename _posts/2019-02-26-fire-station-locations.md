@@ -40,7 +40,7 @@ plt.title('San Francisco City Fire Stations', fontsize=20);
 ```
 
 
-![png](assets/images/20190226/output_3_0.png)
+![png](/assets/images/20190226/output_3_0.png)
 
 
 The figure above shows an empty map of San Francisco City fire stations. The succeeding sections added the fire stations are numbered points on the map.
@@ -84,5 +84,5 @@ for x, y, label in zip(gdf_stations_geom.geometry.x, gdf_stations_geom.geometry.
 ```
 
 
-![png](assets/images/20190226/output_8_0.png)
+![png](/assets/images/20190226/output_8_0.png)
 
