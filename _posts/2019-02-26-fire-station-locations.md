@@ -1,7 +1,5 @@
 
-Metropolitan city relies on fire stations to provide safety and order specially during fire incidents.San Francisco City provides dataset of fire stations. However, they lack a map to illustrate their locations. To achieve this, I used `geopandas` for visualization. I extracted the coordinates of fire stations from another dataset and placed them on the map to identify each fire station. To test this, I compared the visualization with Google Maps. It seems that the visualization is quite precise on the map.
-
-The succeeding sections below shows how I produced the visualization using xxx steps.
+Metropolitan city relies on fire stations to provide safety and order specially during fire incidents.San Francisco City provides dataset of fire stations. However, they lack a map to illustrate their locations. To achieve this, I used `geopandas` for visualization. I extracted the coordinates of fire stations from another dataset and placed them on the map to identify each fire station. To test this, I compared the visualization with Google Maps. It seems that the visualization is somewhat similar on the map except for 3 stations that are far away.
 
 
 ```python
@@ -45,7 +43,7 @@ plt.title('San Francisco City Fire Stations', fontsize=20);
 ![png](assets/images/20190226/output_3_0.png)
 
 
-The figure above shows an empty map of San Francisco City fire stations. I 
+The figure above shows an empty map of San Francisco City fire stations. The succeeding sections added the fire stations are numbered points on the map.
 
 
 ```python
