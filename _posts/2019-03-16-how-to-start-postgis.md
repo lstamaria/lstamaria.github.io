@@ -3,7 +3,7 @@
 
 To do this, we follow the guidelines step-by-step lifted from Geospatial Analysis class under Prof. Ed David. The following steps are:
 
-1. Create a directory where PostgreSQL would store its data files
+Step 1. Create a directory where PostgreSQL would store its data files
 
 ```
 export POSTGIS_DIR='/any/directory/you/like'
@@ -17,7 +17,7 @@ pg_ctl -D $POSTGIS_DIR -l $POSTGIS_DIR/logfile start
 createdb
 ```
 
-2. Start the db and create a password for your user (since a lot of psql clients requires a password)
+Step 2. Start the db and create a password for your user (since a lot of psql clients requires a password)
 
 ```
 psql
@@ -25,7 +25,7 @@ psql
 > ALTER USER username WITH PASSWORD 'any-password';
 ```
 
-3. Initialize the postgis plugin
+Step 3. Initialize the postgis plugin
 
 ```
 > CREATE EXTENSION postgis;
@@ -33,13 +33,13 @@ psql
 > \q
 ```
 
-4. Convert PBF to PostGIS data
+Step 4. Convert PBF to PostGIS data
 
 ```
 ogr2ogr -f "PostgreSQL" PG:"dbname=username user=username port=5432 host=127.0.0.1" "/location/of/philippines-latest.osm.pbf"
 ```
 
-5. Convert Shapefiles to PostGIS data
+Step 5. Convert Shapefiles to PostGIS data
 
 ```
 psql
@@ -51,15 +51,10 @@ psql
 shp2pgsql -I -s 4326 /location/of/gadm36_PHL_2.shp gadm.ph | psql -h 127.0.0.1 -d edavid -U edavid --port 5432
 ```
 
-6. To just start the PostGIS server:
+Step 6. To just start the PostGIS server:
 
 ```
 export POSTGIS_DIR='/directory/of/database/you/set/up'
 
 pg_ctl -D $POSTGIS_DIR -l $POSTGIS_DIR/logfile start
-```
-
-
-```python
-
 ```
