@@ -3,8 +3,6 @@ permalink: /cv/
 layout: single
 ---
 
-## Education
-
 ### Master of Science in Data Science
 - Asian Institute of Management, Makati, Philippines
 - Date of Graduation: 2019
