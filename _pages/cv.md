@@ -52,35 +52,35 @@ layout: single
 
 ### On Quality Monitoring
 - Technical Committee Member, Commission on Higher Education, 2012-2018
-- Conducted quality inspection visits and presented results directly to stakeholders
+	- Conducted quality inspection visits and presented results directly to stakeholders
 
 ### On Managerial Leadership
 - Department Chairperson, Adamson University, 2012-2015
-- Managed a  team of 12 faculty members to surpass targets (student population, accreditation)
+	- Managed a  team of 12 faculty members to surpass targets (student population, accreditation)
 
 ### On Project Management
 - Outcomes-Based Education (OBE) Implementation Lead, Adamson University, 2012-2014
-- Directed a team of 7 managers  and implemented a continuous quality improvement framework
+	- Directed a team of 7 managers  and implemented a continuous quality improvement framework
 
 ### On Supervisory and Teach/Train
 - Assistant Professor III, Adamson University, 2006-2018
-- Devised activities that match students’ learning style
+	- Devised activities that match students’ learning style
 
 
 ## Co-Curricular Activities
 
 ### As Learning Facilitator 
 - Asian Institute of Management, 2019 
-- Assisted reinforcement learning on Programming  and Mathematics to MSDS 2020 students
+	- Assisted reinforcement learning on Programming  and Mathematics to MSDS 2020 students
 
 ### As Resource Speaker
 - FEU Institute of Technology, 2019
 - Adamson University, 2019
-- Explained to a mixed audience the impact of data science to business and society
+	- Explained to a mixed audience the impact of data science to business and society
 
 ### As National President
 - Institute of Computer Engineers of the Philippines, 2012-2014
-- Organized the 1st National Assembly and the 1st National Conference
+	- Organized the 1st National Assembly and the 1st National Conference
 
 ## Other Information
 - Term 1 Dean's Lister, Asian Institute of Management, April 2018
