@@ -3,7 +3,7 @@ permalink: /cv/
 layout: single
 ---
 
-# Lorenzo Sta. Maria Jr.
+Lorenzo Sta. Maria Jr.
 
 ## Education
 
