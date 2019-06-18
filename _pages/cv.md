@@ -25,10 +25,10 @@ Date of Graduation: April 2003
 - Converted project documents into LaTeX format
 
 **Deployed Web-Based Visualizations/Applications**
-- 2007-2009 Priority Development Assistance Fund Network Using Gephi (http://tiny.cc/jx316y)
-- 2018 Fire Incidents in San Francisco City Using Dask and Folium (http://tiny.cc/f3316y)
-- “The Big One” Earthquake Statistics Using Tableau (http://tiny.cc/oi416y)
-- Personal Website Using Jekyll (https://lstamaria.github.io/)
+- ![2007-2009 Priority Development Assistance Fund Network Using Gephi](http://tiny.cc/jx316y)
+- ![2018 Fire Incidents in San Francisco City Using Dask and Folium](http://tiny.cc/f3316y)
+- ![“The Big One” Earthquake Statistics Using Tableau](http://tiny.cc/oi416y)
+- ![Personal Website Using Jekyll](https://lstamaria.github.io/)
 
 **Predictive Models**
 - Fast Food Category Prediction Using Logistic Regression
@@ -46,18 +46,23 @@ Date of Graduation: April 2003
 ## Transferable Work Experience
 **On Quality Monitoring**, Technical Committee Member, Commission on Higher Education, 2012-2018
 - Conducted quality inspection visits and presented results directly to stakeholders
+
 **On Managerial Leadership**, Department Chairperson, Adamson University, 2012-2015
 - Managed a  team of 12 faculty members to surpass targets (student population, accreditation)
+
 **On Project Management**, Outcomes-Based Education (OBE) Implementation Lead, Adamson University, 2012-2014
 - Directed a team of 7 managers  and implemented a continuous quality improvement framework
+
 **On Supervisory and Teach/Train**, Assistant Professor III, Adamson University, 2006-2018
 - Devised activities that match students’ learning style
 
 ## Co-Curricular Activities
 **Asian Institute of Management**, Facilitator, MSDS 2020 
 - Assisted reinforcement learning on Programming  and Mathematics to MSDS 2020 students
+
 **FEU Institute of Technology and Adamson University**, Resource Speaker 
 - Explained to a mixed audience the impact of data science to business and society
+
 **Institute of Computer Engineers of the Philippines**, National President
 - Organized the 1st National Assembly and the 1st National Conference
 
