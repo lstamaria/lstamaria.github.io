@@ -4,15 +4,15 @@ layout: single
 ---
 
 ## Education
-**Asian Institute of Management**, Makati, Philippines
-Master of Science in Data Science, 2019
-Date of Graduation: June 2019
-**Pamantasan ng  Lungsod ng Maynila**, Manila, Philippines
-Master of Engineering in Computer Engineering
-Date of Graduation: May 2007
-**Adamson University**
-Bachelor of Science in Computer Engineering (Cum Laude)
-Date of Graduation: April 2003
+
+**Master of Science in Data Science**
+Asian Institute of Management, Makati, Philippines, 2019
+
+**Master of Engineering in Computer Engineering**
+Pamantasan ng  Lungsod ng Maynila, Manila, Philippines, 2007
+
+**Bachelor of Science in Computer Engineering (Cum Laude)**
+Adamson University, Manila, Philippines, 2003
 
 ## Completed Data Science Projects
 
@@ -25,10 +25,10 @@ Date of Graduation: April 2003
 - Converted project documents into LaTeX format
 
 **Deployed Web-Based Visualizations/Applications**
-- ![2007-2009 Priority Development Assistance Fund Network Using Gephi](http://tiny.cc/jx316y)
-- ![2018 Fire Incidents in San Francisco City Using Dask and Folium](http://tiny.cc/f3316y)
-- ![“The Big One” Earthquake Statistics Using Tableau](http://tiny.cc/oi416y)
-- ![Personal Website Using Jekyll](https://lstamaria.github.io/)
+- [2007-2009 Priority Development Assistance Fund Network Using Gephi](http://tiny.cc/jx316y)
+- [2018 Fire Incidents in San Francisco City Using Dask and Folium](http://tiny.cc/f3316y)
+- [“The Big One” Earthquake Statistics Using Tableau](http://tiny.cc/oi416y)
+- [Personal Website Using Jekyll](https://lstamaria.github.io/)
 
 **Predictive Models**
 - Fast Food Category Prediction Using Logistic Regression
