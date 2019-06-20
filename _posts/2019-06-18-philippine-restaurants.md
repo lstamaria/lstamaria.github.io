@@ -9,7 +9,7 @@ The figure below shows the map of the Philippines with different shades of red t
 Out of 9,485 restaurants all over the Philippines, not surprisingly, Metropolitan Manila (Metro Manila) holds the most number of restaurants with 3,047. This is followed by Cebu with 641 and Davao del Sur with 479. This makes sense because Metro Manila is the most densed location in the Philippines. More people, more food places to go.
 
 
-I used the SQL statement below to extract data from OSM database.
+I used the SQL statement below to extract data from the OSM Philippines database.
 
 ```python
 pd.read_sql('''
