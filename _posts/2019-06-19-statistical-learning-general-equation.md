@@ -5,9 +5,9 @@ A general equation of statistical learning involves four elements.  These are:
 - Function (f): a systematic information that predictor provides to response. It is fixed but unknown. 
 - Error ($\epsilon$): element that refers to random error independent of predictor.
 
-![](assets/image/20190620/response_predictor.png)
+![](/assets/image/20190620/response_predictor.png)
 
-In equation form:
+<!-- In equation form:
 
 \begin{equation}\label{relXY}
 Y = f(X) + \epsilon
@@ -19,7 +19,7 @@ where
 - $X$ is predictor
 - $f$ is function 
 - $\epsilon$ is error
-
+ -->
 ## Reference
 
 James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning (Vol. 103). https://doi.org/10.1007/978-1-4614-7138-7
