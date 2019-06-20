@@ -1,4 +1,3 @@
-
 A general equation of statistical learning involves four elements.  These are:
 
 - Response (Y): what want to predict quantitatively. It is also called as a target feature.
