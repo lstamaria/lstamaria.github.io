@@ -1,4 +1,6 @@
-A general equation of statistical learning involves four elements (Witten et al., 2013).  
+Statistical learning is a set of approaches for estimating $f$, a systematic information that a predictor provides to a response (Witten et al., 2013).
+
+Statistical learning can be represented by a general equation composed of the following:
 
 - Response ($Y$): what want to predict quantitatively. Also called as a target feature.
 - Predictor ($X$): what we use to predict response. Also called as a descriptive feature.
