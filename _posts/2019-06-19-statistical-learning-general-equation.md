@@ -1,13 +1,13 @@
-A general equation of statistical learning involves four elements.  These are:
+A general equation of statistical learning involves four elements (Witten et al., 2013).  
 
 - Response (Y): what want to predict quantitatively. It is also called as a target feature.
 - Predictor (X): what we use to estimate a response. It is also called as a descriptive feature.
 - Function (f): a systematic information that predictor provides to response. It is fixed but unknown. 
 - Error ($\epsilon$): element that refers to random error independent of predictor.
 
-![](/assets/image/20190620/response_predictor.png)
+![](/assets/image/20190619/response_predictor.png)
 
-<!-- In equation form:
+In equation form:
 
 \begin{equation}\label{relXY}
 Y = f(X) + \epsilon
@@ -19,17 +19,18 @@ where
 - $X$ is predictor
 - $f$ is function 
 - $\epsilon$ is error
- -->
+
+
 ## Reference
 
 James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning (Vol. 103). https://doi.org/10.1007/978-1-4614-7138-7
 
-## Appendix
+<!-- ## Appendix
 
 ### Source Code
+ -->
 
-
-```python
+<!-- ```python
 # Import supporting packages
 
 import pandas as pd
@@ -111,4 +112,4 @@ ax.set_ylabel('Y')
 fig.tight_layout();
 fig.savefig('asset/response_predictor.png');
 plt.close(fig);
-```
+``` -->
