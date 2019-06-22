@@ -91,7 +91,7 @@ layout: single
 ### On Industry Partnership and Leadership
 - President, Institute of Computer Engineers of the Philippines, 2012-2014
 	- Established collaborative projects and events with industry partners
-	- Drafted constitution and bylaws
+	- Drafted the constitution and bylaws
 
 ## Other Information
 - Proficient in Python (10/10), HTML & CSS (9/10), Javascript (8/10), and SQL (7/10)
