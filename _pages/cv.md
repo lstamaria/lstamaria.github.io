@@ -8,7 +8,7 @@ layout: single
 
 ## Education
 
-### Master of Science in Data Science
+### Master of Science in Data Science (Term 1 Dean’s Lister)
 - Asian Institute of Management, Makati, Philippines
 - Date of Graduation: 2019
 
@@ -24,36 +24,42 @@ layout: single
 ## Completed Data Science Projects
 
 ### Predictive Data Analytics of Applicant Recruitment (Capstone Project)
-- Conducted rigorous feedback between business understanding and data understanding to draw business value (CRISP-DM model)
+- Applied CRISP-DM framework to generate business value together with the client
+- Presented preliminary and final results to stakeholders
 - Built and managed git repository for collaborative project workflow
-- Performed exploratory data analysis on multiple datasets with visualization using Python
-- Devised a geospatial approach to compute distance of the applicant from the client
-- Built predictive models with accuracy above PCC, sensitivity analysis, and optimal threshold
-- Converted project documents into LaTeX format
+- Performed exploratory data analysis with visualization using Python
+- Applied feature engineering to create new features of the dataset
+- Devised a geospatial approach to compute distance of the applicant from client’s location
+- Built predictive models with accuracy above PCC
+- Applied sensitivity analysis to predictive models
+- Determined optimal threshold of predictive models
+- Generated feature importance, permutation importance, and SHAP importance to extend model usability
+- Documented the project using LaTeX
+
 
 ### Deployed Web-Based Visualizations/Applications
-- [2007-2009 Priority Development Assistance Fund Network Using Gephi](http://tiny.cc/jx316y)
-- [2018 Fire Incidents in San Francisco City Using Dask and Folium](http://tiny.cc/f3316y)
+- [Network Analysis of 2007-2009 Priority Development Assistance Fund Using Gephi](http://tiny.cc/jx316y)
+- [Geospatial Analysis of 2018 Fire Incidents in San Francisco City Using Dask and Folium](http://tiny.cc/f3316y)
 - [“The Big One” Earthquake Statistics Using Tableau](http://tiny.cc/oi416y)
 - [Personal Website Using Jekyll](https://lstamaria.github.io/)
 
 ### Predictive Models
-- Fast Food Category Prediction Using Logistic Regression
-- Big Data Approach to Cataract Surgery Cost Prediction Using Dask and Linear Regression
+- Fast Food Meal Category Prediction Using ML Classifiers
+- Big Data Approach of Cataract Surgery Cost Prediction Using Dask and Linear Regression
 - Interplay of Local Economy and School Data Using kNN, Ridge, and Random Forests
 - Airbnb Price Prediction Based on Images Using Convolutional Neural Networks
-- Instacart Recommender Systems Using Frequent Itemset Mining
-- Value Added by Selected Industries and Causality by Other Economic Indicators to the US Gross Domestic Product
+- Instacart Recommender System Using Frequent Itemset Mining
 - Relationship of Operating Statistics and Total Revenues of Alaska Airlines Using Granger Causality Test and Linear Regression
 
 ### Analyses
-- Total Renewable Water Resources in Southeast Asia Using Moran’s I
-- Web-Scraped Yelp Reviews Using BeautifulSoup and k-Means Clustering
+- Geospatial Analysis of Total Renewable Water Resources in Southeast Asia Using Moran’s I
+- Clustering Analysis of Yelp Reviews Using BeautifulSoup and k-Means
+
 
 
 ## Transferable Work Experience
 
-### On Quality Monitoring
+### On Curriculum Design and Quality Monitoring
 - Technical Committee Member, Commission on Higher Education, 2012-2018
 	- Conducted quality inspection visits and presented results directly to stakeholders
 
@@ -72,21 +78,24 @@ layout: single
 
 ## Co-Curricular Activities
 
-### As Learning Facilitator 
-- Asian Institute of Management, 2019 
+### On Coordination and Teach/Train 
+- Facilitator, Asian Institute of Management, 2019 
 	- Assisted reinforcement learning on Programming  and Mathematics to MSDS 2020 students
 
-### As Resource Speaker
+### On Public Speaking
 - FEU Institute of Technology, 2019
 - Adamson University, 2019
+- National Accounting Summit, 2019
 	- Explained to a mixed audience the impact of data science to business and society
 
-### As National President
-- Institute of Computer Engineers of the Philippines, 2012-2014
-	- Organized the 1st National Assembly and the 1st National Conference
+### On Industry Partnership and Leadership
+- President, Institute of Computer Engineers of the Philippines, 2012-2014
+	- Established collaborative projects and events with industry partners
+	- Drafted constitution and bylaws
 
 ## Other Information
-- Term 1 Dean's Lister, Asian Institute of Management, April 2018
-- Licensure Exam for Teachers (LET) Passer, April 2007
-- College Cum Laude, High School Valedictorian
-- Interests: working directly with others, big-picture approach, data applications, geospatial analysis, network science
+- Proficient in Python (10/10), HTML & CSS (9/10), Javascript (8/10), and SQL (7/10)
+- Cisco Certified Academy Instructor, 2004-2005
+- Licensure Exam for Teachers (LET) Passer, 2007
+- High School Valedictorian 
+- Interests: working directly with others, big-picture approach
