@@ -1,99 +1,30 @@
-Statistical learning is a set of approaches for estimating $f$, a systematic information that a predictor provides to a response (Witten et al., 2013).
 
-Statistical learning can be represented by a general equation composed of the following:
 
-- Response ($Y$): what want to predict quantitatively. Also called as a target feature.
-- Predictor ($X$): what we use to predict response. Also called as a descriptive feature.
-- Function ($f$): a systematic information that predictor provides to response. It is fixed but unknown. 
-- Error ($\epsilon$): element that refers to random error independent of predictor.
+
+A general equation of statistical learning involves four elements (James, et al., 2013).  These are:
+
+- Response (Y): what want to predict quantitatively. It is also called as a target feature.
+- Predictor (X): what we use to estimate a response. It is also called as a descriptive feature.
+- Function (f): a systematic information that predictor provides to response. It is fixed but unknown. 
+- Error ($\epsilon$): term that refers to random error independent of predictor.
 
 ![png](/assets/images/20190619/response_predictor.png)
 
 In equation form:
 
-\begin{equation}\label{relXY}
+\begin{equation}\label{eq:statlearning}
 Y = f(X) + \epsilon
 \end{equation}
 
 where
 
 - $Y$ is response
-- $X$ is predictor
+- $X$ is a set of predictors
 - $f$ is function 
-- $\epsilon$ is error
+- $\epsilon$ is error term
 
+Equation \ref{eq:statlearning} shows the elements of statistical learning.
 
-
-
-<!-- ## Appendix
-
-### Source Code
- -->
-
-<!-- ```python
-# Import supporting packages
-
-import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.datasets import make_regression
-from numpy.polynomial.polynomial import polyfit
-```
-
-
-```python
-# Generate data points
-
-sample_size = 100
-dataset = make_regression(sample_size, 1, noise=20, random_state=42)
-dataset = pd.DataFrame({'X':dataset[0].reshape(1, sample_size)[0], 'Y':dataset[1]})
-dataset.head(3)
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>X</th>
-      <th>Y</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0.931280</td>
-      <td>62.687202</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>0.087047</td>
-      <td>-23.763981</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>-1.057711</td>
-      <td>-25.686766</td>
-    </tr>
-  </tbody>
-</table>
-</div>
--->
 
 I used the Python code below to produce the graph.
 
