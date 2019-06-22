@@ -65,11 +65,11 @@ layout: single
 
 ### On Managerial Leadership
 - Department Chairperson, Adamson University, 2012-2015
-	- Managed a  team of 12 faculty members to surpass targets (student population, accreditation)
+	- Managed a  team of 12 members to surpass targets (student population, accreditation)
 
 ### On Project Management
 - Outcomes-Based Education (OBE) Implementation Lead, Adamson University, 2012-2014
-	- Directed a team of 7 managers  and implemented a continuous quality improvement framework
+	- Directed a team of 6 managers  and implemented a continuous quality improvement framework
 
 ### On Supervisory and Teach/Train
 - Assistant Professor III, Adamson University, 2006-2018
@@ -80,7 +80,7 @@ layout: single
 
 ### On Coordination and Teach/Train 
 - Facilitator, Asian Institute of Management, 2019 
-	- Assisted reinforcement learning on Programming  and Mathematics to MSDS 2020 students
+	- Assisted reinforcement learning on Programming, Mathematics, and Data Mining & Wrangling to MSDS 2020 students
 
 ### On Public Speaking
 - FEU Institute of Technology, 2019
