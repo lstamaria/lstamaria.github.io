@@ -12,7 +12,7 @@ A general equation of statistical learning involves four elements (James, et al.
 
 In equation form:
 
-\begin{equation}\label{eq:statlearning}
+\begin{equation}\label{eq_statlearning}
 Y = f(X) + \epsilon
 \end{equation}
 
@@ -23,7 +23,7 @@ where
 - $f$ is function 
 - $\epsilon$ is error term
 
-Equation \ref{eq:statlearning} shows the elements of statistical learning.
+Equation \ref{eq_statlearning} shows the elements of statistical learning.
 
 
 I used the Python code below to produce the graph.

@@ -1,7 +1,7 @@
 
 If predictor $X$ is given but actual response $Y$ is missing, we can predict $Y$ using an estimate of $f$ with the error term $\epsilon$ averaging to zero.
 
-\begin{equation}\label{eq:prediction}
+\begin{equation}\label{eq_prediction}
 \hat{Y} = \hat{f}(X)
 \end{equation}
 
@@ -10,7 +10,7 @@ where
 - $\hat{f}$ is an estimate of $f$. Often treated as a *black box*.
 - $X$ is a set of predictors
 
-Equation  \ref{eq:prediction} shows the elements of performing a prediction.
+Equation  \ref{eq_prediction} shows the elements of performing a prediction.
 
 ## Reference
 
