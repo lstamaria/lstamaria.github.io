@@ -26,8 +26,8 @@ layout: single
 ### Predictive Data Analytics of Applicant Recruitment (Capstone Project)
 - Applied CRISP-DM framework to generate business value together with the client
 - Presented preliminary and final results to stakeholders
-- Built and managed git repository for collaborative project workflow
-- Performed exploratory data analysis with visualization using Python
+- Built and managed git repository for collaborative workflow
+- Performed exploratory data analysis with visualization
 - Applied feature engineering to create new features of the dataset
 - Devised a geospatial approach to compute distance of the applicant from client’s location
 - Built predictive models with accuracy above PCC
