@@ -23,7 +23,7 @@ where
 - $f$ is function 
 - $\epsilon$ is error term
 
-Equation \ref{eq_statlearning} shows the elements of statistical learning.
+The equation above shows the elements of statistical learning.
 
 
 I used the Python code below to produce the graph.
