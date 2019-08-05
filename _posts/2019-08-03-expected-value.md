@@ -1,4 +1,4 @@
-![png](/assets/images/ISLR/ISLR_02_01.png)
+![png](/assets/images/ISLR/ISLR_02_03.png)
 
 ## Reference
 
