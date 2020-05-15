@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "data science snippets"
+title                    : "on learning"
 title_separator          : "-"
 name                     : "Lorenzo Sta. Maria"
 description              : ""
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Lorenzo Sta. Maria"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "MSDS 2019 | AIM"
+  bio              : "R&D | ML/AI"
   location         : "Manila, Philippines"
   email            : lstamaria@aim.edu
   links:
@@ -120,7 +120,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/enzopops"
+      url: "https://twitter.com/lorenzostat"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
