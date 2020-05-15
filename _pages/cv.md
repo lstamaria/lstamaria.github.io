@@ -21,9 +21,9 @@ layout: single
 - Date of Graduation: 2003
 
 
-## Completed Data Science Projects
+## As a Specialist
 
-### Predictive Data Analytics of Applicant Recruitment (Capstone Project)
+### On Data Science Projects
 - Applied CRISP-DM framework to generate business value together with the client
 - Presented preliminary and final results to stakeholders
 - Built and managed git repository for collaborative workflow
@@ -34,8 +34,6 @@ layout: single
 - Applied sensitivity analysis to predictive models
 - Determined optimal threshold of predictive models
 - Generated feature importance, permutation importance, and SHAP importance to extend model usability
-- Documented the project using LaTeX
-
 
 ### Deployed Web-Based Visualizations/Applications
 - [Network Analysis of 2007-2009 Priority Development Assistance Fund Using Gephi](http://tiny.cc/jx316y)
@@ -43,37 +41,22 @@ layout: single
 - [“The Big One” Earthquake Statistics Using Tableau](http://tiny.cc/oi416y)
 - [Personal Website Using Jekyll](https://lstamaria.github.io/)
 
-### Predictive Models
-- Fast Food Meal Category Prediction Using ML Classifiers
-- Big Data Approach of Cataract Surgery Cost Prediction Using Dask and Linear Regression
-- Interplay of Local Economy and School Data Using kNN, Ridge, and Random Forests
-- Airbnb Price Prediction Based on Images Using Convolutional Neural Networks
-- Instacart Recommender System Using Frequent Itemset Mining
-- Relationship of Operating Statistics and Total Revenues of Alaska Airlines Using Granger Causality Test and Linear Regression
 
-### Analyses
-- Geospatial Analysis of Total Renewable Water Resources in Southeast Asia Using Moran’s I
-- Clustering Analysis of Yelp Reviews Using BeautifulSoup and k-Means
+## As an Educator
 
-
-
-## Transferable Work Experience
-
-### On Curriculum Design and Quality Monitoring
+### Curriculum Design and Quality Monitoring
 - Technical Committee Member, Commission on Higher Education, 2012-2018
 	- Conducted quality inspection visits and presented results directly to stakeholders
 
-### On Managerial Leadership
+### Managerial Leadership
 - Department Chairperson, Adamson University, 2012-2015
 	- Managed a  team of 12 members to surpass targets (student population, accreditation)
-
-### On Project Management
 - Outcomes-Based Education (OBE) Implementation Lead, Adamson University, 2012-2014
 	- Directed a team of 6 managers  and implemented a continuous quality improvement framework
 
-### On Supervisory and Teach/Train
+### Supervisory and Teach/Train
 - Assistant Professor III, Adamson University, 2006-2018
-	- Devised activities that match students’ learning style
+	- Tracked activities that match students’ learning style
 
 
 ## Co-Curricular Activities
@@ -89,13 +72,15 @@ layout: single
 	- Explained to a mixed audience the impact of data science to business and society
 
 ### On Industry Partnership and Leadership
+- Secretary, Computer Engineering Certification Board, 2020-ongoing
+	- Authors and contributes drafts and policies for national certification of computer engineers in the Philippines
 - President, Institute of Computer Engineers of the Philippines, 2012-2014
 	- Established collaborative projects and events with industry partners
 	- Drafted the constitution and bylaws
 
 ## Other Information
-- Proficient in Python (10/10), HTML & CSS (9/10), Javascript (8/10), and SQL (7/10)
-- Cisco Certified Academy Instructor, 2004-2005
-- Licensure Exam for Teachers (LET) Passer, 2007
-- High School Valedictorian 
-- Interests: working directly with others, big-picture approach
+- Cisco Certified Academy Instructor, 2004
+- Licensed High School Teacher, 2007
+- Cum Laude, 2003
+- High School Valedictorian, 1998
+- Highly motivated in big-picture thinking and working directly with others 
