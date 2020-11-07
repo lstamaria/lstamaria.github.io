@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "on test & learn"
+title                    : "test & learn"
 title_separator          : "-"
 name                     : "Lorenzo Sta. Maria"
 description              : ""
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Lorenzo Sta. Maria"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "ML/AI | R&D"
+  bio              : "ML/AI"
   location         : "Manila, Philippines"
   email            : lorenzo.stamaria@gmail.com
   links:
