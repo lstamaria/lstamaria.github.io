@@ -3,10 +3,13 @@ permalink: /cv/
 layout: single
 ---
 
-<!-- ** Lorenzo Sta. Maria Jr. ** -->
-# Lorenzo Sta. Maria Jr.
+# 
 
-## Education
+
+<!-- ** Lorenzo Sta. Maria Jr. **
+# Lorenzo Sta. Maria Jr. -->
+
+<!-- ## Education
 
 ### Master of Science in Data Science (Term 1 Dean’s Lister)
 - Asian Institute of Management, Makati, Philippines
@@ -83,4 +86,4 @@ layout: single
 - Licensed High School Teacher, 2007
 - Cum Laude, 2003
 - High School Valedictorian, 1998
-- Highly motivated in big-picture thinking and working directly with others 
+- Highly motivated in big-picture thinking and working directly with others  -->

@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "on learning"
+title                    : "on test & learn"
 title_separator          : "-"
 name                     : "Lorenzo Sta. Maria"
 description              : ""
@@ -108,11 +108,11 @@ analytics:
 author:
   name             : "Lorenzo Sta. Maria"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "R&D | ML/AI"
+  bio              : "ML/AI | R&D"
   location         : "Manila, Philippines"
-  email            : lstamaria@aim.edu
+  email            : lorenzo.stamaria@gmail.com
   links:
-    - label: "lstamaria@aim.edu"
+    - label: "lorenzo.stamaria@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "Website"
@@ -120,13 +120,13 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/lorenzostat"
+      #url: "https://twitter.com/lorenzostat"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/lstamaria"
+      #url: "https://github.com/lstamaria"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
