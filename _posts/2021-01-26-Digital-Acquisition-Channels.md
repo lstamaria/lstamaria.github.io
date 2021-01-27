@@ -1,3 +1,5 @@
+tag: customer
+---
 <!--# -->
 
 COVID-19 has changed everyone including businesses. How you get new customers is no longer done via face-to-face. Now, customers use digital channels to get to know you and your products. You can use these digital channels to convert visitors to customers. This is known as digital customer acquisition.
@@ -16,4 +18,3 @@ Some of the channels for digital customer acquisition are the following:
 Reference:
 [Digital Marketing Lexicon: Acquisition](https://acs-web.com/digital-marketing-lexicon/acquisition/#:~:text=Acquisition%20refers%20to%20the%20channels,how%20your%20visits%20are%20acquired.&text=Email%20is%20when%20someone%20gets,such%20as%20Facebook%20or%20Twitter.)
 
-tag: customer
