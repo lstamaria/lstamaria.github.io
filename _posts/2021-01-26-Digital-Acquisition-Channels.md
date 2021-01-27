@@ -15,3 +15,5 @@ Some of the channels for digital customer acquisition are the following:
 
 Reference:
 [Digital Marketing Lexicon: Acquisition](https://acs-web.com/digital-marketing-lexicon/acquisition/#:~:text=Acquisition%20refers%20to%20the%20channels,how%20your%20visits%20are%20acquired.&text=Email%20is%20when%20someone%20gets,such%20as%20Facebook%20or%20Twitter.)
+
+tag: customer
