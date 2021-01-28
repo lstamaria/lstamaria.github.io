@@ -1,6 +1,6 @@
----
+<!-- ---
 category: customer
----
+--- -->
 <!--# -->
 
 COVID-19 has changed everyone including businesses. How you get new customers is no longer done via face-to-face. Now, customers use digital channels to get to know you and your products. You can use these digital channels to convert visitors to customers. This is known as digital customer acquisition.
