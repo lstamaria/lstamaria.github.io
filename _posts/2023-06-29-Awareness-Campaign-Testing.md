@@ -4,9 +4,7 @@ category: customer
 <!--# -->
 
 ## Abstract
-- This study aims to study the application of digital marketing analytics to a non-profit organization. 
-- 
-
+- This study aims to explore the application of digital marketing analytics to a non-profit organization. 
 
 <!--## Index Terms
 
@@ -19,8 +17,8 @@ category: customer
 ## Appendix B-->
 
 ## Acknowledgments
-- Marie Luvett Goh, PhD for providing digital platform access and marketing content
-- Roben Juanatas, PhD for granting approval of this study
+- Marie Luvett Goh, DT for providing digital platform access and marketing content.
+- Roben Juanatas, DT for granting approval of this study.
 
 ## References
 - [1](link here)
