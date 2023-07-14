@@ -26,8 +26,5 @@ A/B testing framework, hypothesis testing, marketing analytics, digital channels
 - Roben Juanatas, DT for granting approval of this study.
 
 ## References
-- [About post testing in Meta Business Suite](https://www.facebook.com/business/help/942567712892076?id=203539221057259)
-- [What Can You Test in Post Tests in Creator Studio](https://www.facebook.com/business/help/322006176094921)
-- [How to Design an AI Marketing Strategy](https://hbr.org/2021/07/how-to-design-an-ai-marketing-strategy)
-- [Why You Aren’t Getting More from Your Marketing AI](https://hbr.org/2021/07/why-you-arent-getting-more-from-your-marketing-ai?ab=seriesnav-spotlight)
-- []()
+- [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158)
+
