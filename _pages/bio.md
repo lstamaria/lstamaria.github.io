@@ -10,7 +10,9 @@ layout: single
 
 <!--WHAT STORY/NARRATIVE DO WE WANT TO SHARE TO TARGET AUDIENCE?-->
 
-Lorenzo's domain resides at the intersection of AI/ML, customer experience, and digital strategy. He works as AI/ML Manager at Globe Telecom on models and strategic insights including user-based recommendation systems, online product recommendations, and mobile app growth experiments. Currently, he is working on geospatial clustering of hotspots for network prioritization.
+Lorenzo's domain resides at the intersection of AI/ML, CX, and digital strategy. He has technical experience working at Globe Telecom in developing user-based recommender engines, deploying online product rightsizing, and framing digital marketing growth experiments. 
+
+Currently, he is exploring geospatial analysis of hotspots to support network strategy.
 
 Prior to joining the industry, he specialized in computer engineering teaching and management for 12 years and served as a consultant in the Commission on Higher Education (CHED). 
 
