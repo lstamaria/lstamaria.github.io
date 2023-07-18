@@ -8,10 +8,11 @@ layout: single
 
 <!--Lorenzo's expertise resides at the intersection of AI/ML, digital CX, and business strategy. Currently, he works as AI/ML Manager at Globe Telecom focusing on strategic insights and models for consumer sales, network, and customer experience. Prior to joining the corporate, he specialized in teaching and learning management of computer engineering for 12 years and devoted his expertise as a consultant in the Commission on Higher Education (CHED). He is an Asian Institute of Management (AIM) graduate with a degree in Master of Science in Data Science. A high school valedictorian and university cum laude, he believes that learning is a lifelong journey. He likes nonfiction books, coffee shops, and Star Wars.-->
 
+<!--WHAT STORY/NARRATIVE DO WE WANT TO SHARE TO TARGET AUDIENCE?-->
 
-Lorenzo's expertise resides at the intersection of AI/ML, customer experience, and digital strategy. Currently, he works as AI/ML Manager at Globe Telecom on strategic insights and models such as development of user-based recommendation systems, deployment of online product recommendations, and mobile app growth experiments.
+Lorenzo's domain resides at the intersection of AI/ML, customer experience, and digital strategy. He works as AI/ML Manager at Globe Telecom on models and strategic insights including user-based recommendation systems, online product recommendations, and mobile app growth experiments. Currently, he is working on geospatial clustering of hotspots for network prioritization.
 
-Prior to joining the industry, he specialized in computer engineering teaching and learning management for 12 years and devoted his expertise as a consultant in the Commission on Higher Education (CHED). 
+Prior to joining the industry, he specialized in computer engineering teaching and management for 12 years and served as a consultant in the Commission on Higher Education (CHED). 
 
 He is an Asian Institute of Management (AIM) graduate with a degree in Master of Science in Data Science. A high school valedictorian and university cum laude, he believes that learning is a lifelong journey. 
 
