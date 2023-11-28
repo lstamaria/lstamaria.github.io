@@ -2,3 +2,5 @@ _posts/backup/
 assets/backup/
 assets/images/backup/
 notes/
+.DS_Store/
+_includes/.DS_Store/
