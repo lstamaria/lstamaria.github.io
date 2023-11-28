@@ -1,5 +1,5 @@
 ---
-category: processes & tools #SEM, MCS, Project Management, Microfoundations, Strategic TM
+category: Project Management #SEM, MCS, Project Management, Microfoundations, Strategic TM
 ---
 <!-- # Project Management Framework-->
 
