@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "customer + ai"
+title                    : "toward successful ai projects" # Structural Equation Modeling with Monte Carlo Simulation of Success AI Projects: Microfoundations Approach to Strategic Technology Management"
 title_separator          : "-"
 name                     : "Lorenzo Sta. Maria"
 description              : ""
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Lorenzo Sta. Maria"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data scientist"
+  bio              : "Data Scientist"
   location         : "Manila, Philippines"
   email            : lorenzo.stamaria@gmail.com
   links:
